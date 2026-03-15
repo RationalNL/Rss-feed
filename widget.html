@@ -103,7 +103,11 @@ fetch(FEED + "?t=" + Date.now())
 
   const parser = new DOMParser();
   const xml = parser.parseFromString(str,"text/xml");
-  const items = xml.querySelectorAll("item");
+  const items = Array.from(xml.querySelectorAll("item")).sort((a, b) => {
+  const dateA = new Date(a.querySelector("pubDate").textContent);
+  const dateB = new Date(b.querySelector("pubDate").textContent);
+  return dateB - dateA;
+});
 
   const container = document.getElementById("feed");
   container.innerHTML = "";
