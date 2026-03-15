@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Notion Test Feed</title>
+    <link>https://example.com/</link>
+    <description>Test feed</description>
+
+    <item>
+      <title>Eerste artikel</title>
+      <link>https://example.com/artikel</link>
+      <description>Test item</description>
+      <pubDate>Sun, 15 Mar 2026 20:00:00 GMT</pubDate>
+      <guid>https://example.com/artikel</guid>
+    </item>
+
+  </channel>
+</rss>
