@@ -1,36 +1,37 @@
-<?xml version="1.0" encoding="UTF-8" ?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" >
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
 	<channel>
 		<title>Hydrogen</title>
-		<link>http://192.168.20.100/api/query.php?user=FreshRSS&amp;t=6SBQs20TRvjhfrqYWl5wkx&amp;f=html</link>
+		<link>https://rationalnl.github.io/Rss-feed/notion.xml</link>
 		<description>RSS feed of Hydrogen</description>
-		<pubDate>Sun, 15 Mar 2026 22:39:33 +0000</pubDate>
-		<lastBuildDate>Sun, 15 Mar 2026 22:39:33 GMT</lastBuildDate>
-		<atom:link href="http://192.168.20.100/api/query.php?user=FreshRSS&amp;t=6SBQs20TRvjhfrqYWl5wkx&amp;f=rss" rel="self" type="application/rss+xml" />
+		<pubDate>Sun, 15 Mar 2026 22:46:23 +0000</pubDate>
+		<lastBuildDate>Sun, 15 Mar 2026 22:46:23 GMT</lastBuildDate>
+		<ns0:link href="https://rationalnl.github.io/Rss-feed/notion.xml" rel="self" type="application/rss+xml" />
 				<item>
 			<title>Air Liquide takes final investment decision on 200MW green hydrogen plant in the Netherlands - Hydrogen Insight</title>
 			<link>https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZXlhY21NYmJxYjJfTlFPcmt6SkFsMm9YbjNUSmVxQS1NcVY1ampHLTd1bFNON2tUc2dBTHlDMWIzMV9MOE4tN19vUHFtdlZiNmM5c2lGRHBLMnNVb21SVksyS2htVUR3SERwbEdiQnJlT2h2NGpDODdRazJhdDFvdnd5UWVQWHFLcFdzQjcwbTYyZnJxOUhvWER2MzB3anBkSnQ2Y2o3VkZ6bXU5OWQ5YjhSQ2pOblVZMlVub01NcGRhd2xnc21PMHpvOW9saV9pTnBMQ1dIM0NYOXBLbHFxVQ?oc=5</link>
-						<description><![CDATA[<a href="https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZXlhY21NYmJxYjJfTlFPcmt6SkFsMm9YbjNUSmVxQS1NcVY1ampHLTd1bFNON2tUc2dBTHlDMWIzMV9MOE4tN19vUHFtdlZiNmM5c2lGRHBLMnNVb21SVksyS2htVUR3SERwbEdiQnJlT2h2NGpDODdRazJhdDFvdnd5UWVQWHFLcFdzQjcwbTYyZnJxOUhvWER2MzB3anBkSnQ2Y2o3VkZ6bXU5OWQ5YjhSQ2pOblVZMlVub01NcGRhd2xnc21PMHpvOW9saV9pTnBMQ1dIM0NYOXBLbHFxVQ?oc=5">Air Liquide takes final investment decision on 200MW green hydrogen plant in the Netherlands</a>  Hydrogen Insight]]></description>
+						<description>Air Liquide takes final investment decision on 200MW green hydrogen plant in the Netherlands Hydrogen Insight</description>
 			<pubDate>Thu, 24 Jul 2025 07:00:00 +0000</pubDate>
 			<guid isPermaLink="false">1773611365741697</guid>
 		</item>
 		<item>
 			<title>Hydrogen mandates | Not a single EU country has met the deadline to fully transpose RED III, says European Commission - Hydrogen Insight</title>
 			<link>https://news.google.com/rss/articles/CBMi-AFBVV95cUxOWjBKMXc0czJwdlV6YktweEVlTU9zZ3dRemNRVHRPWDJVSEdiWHFSUjB3LTNqTlQtdUxrcGpqcXRJaTNRV0RqRWJ6aklkQWxnVnhRZnRRSTBmT0p1VlpYUHpDNEI4U3YxNEUtbnBEbmNzN1hLM2FNUTQ5Y1dmUTZlTENfeTFDWmwwOGNMQlNYak9jbEQxYlNvREM5eUxoQXJRRWY0V1lfZDNuM0VHQVhpZy1RZlh0ZlhoT1lyNUs1UlVvOERSUGd2YmQyenJpY2lIaEFHalBVN3pSNmVTZ3ZyMU1lWjE5X0d4WEtkOGJDS1E1cFVZTFp6Zw?oc=5</link>
-						<description><![CDATA[<a href="https://news.google.com/rss/articles/CBMi-AFBVV95cUxOWjBKMXc0czJwdlV6YktweEVlTU9zZ3dRemNRVHRPWDJVSEdiWHFSUjB3LTNqTlQtdUxrcGpqcXRJaTNRV0RqRWJ6aklkQWxnVnhRZnRRSTBmT0p1VlpYUHpDNEI4U3YxNEUtbnBEbmNzN1hLM2FNUTQ5Y1dmUTZlTENfeTFDWmwwOGNMQlNYak9jbEQxYlNvREM5eUxoQXJRRWY0V1lfZDNuM0VHQVhpZy1RZlh0ZlhoT1lyNUs1UlVvOERSUGd2YmQyenJpY2lIaEFHalBVN3pSNmVTZ3ZyMU1lWjE5X0d4WEtkOGJDS1E1cFVZTFp6Zw?oc=5">Hydrogen mandates | Not a single EU country has met the deadline to fully transpose RED III, says European Commission</a>  Hydrogen Insight]]></description>
+						<description>Hydrogen mandates | Not a single EU country has met the deadline to fully transpose RED III, says European Commission Hydrogen Insight</description>
 			<pubDate>Mon, 02 Jun 2025 07:00:00 +0000</pubDate>
 			<guid isPermaLink="false">1773611365741693</guid>
 		</item>
 		<item>
 			<title>European-made green hydrogen would be cheaper in EU than any imports by 2050, says European Commission report - Hydrogen Insight</title>
 			<link>https://news.google.com/rss/articles/CBMi9gFBVV95cUxOMjh5cmZkSDAwaVBJRU9zcTJzZExRNEF5V0h2NExreWdxQzhIUmRZdzFwdzFIejBVbXBBN2hqQ1lZZXJIVmFkSUJBSVZ6MW1wWkNDcDlXMXF1aUFWYm1QZEZyMU1NN01CMlN1NUZJOTJYQzZNTVVSTGpGdHRFMlJhdTdRaW5aTXFKWm1DOEh1cHVzMEg4WlpacGtoUWs4YUt6RHhaV05KSkJXMDRRWEUzMVdMZENQVUttWlJaeXNsSXdwV05TMG10bG5WZU5HemNScF9aRzFTdXdDbDE0R1JrXzR3cUNMWURKTDJnVnZGY0NCMjJ5c3c?oc=5</link>
-						<description><![CDATA[<a href="https://news.google.com/rss/articles/CBMi9gFBVV95cUxOMjh5cmZkSDAwaVBJRU9zcTJzZExRNEF5V0h2NExreWdxQzhIUmRZdzFwdzFIejBVbXBBN2hqQ1lZZXJIVmFkSUJBSVZ6MW1wWkNDcDlXMXF1aUFWYm1QZEZyMU1NN01CMlN1NUZJOTJYQzZNTVVSTGpGdHRFMlJhdTdRaW5aTXFKWm1DOEh1cHVzMEg4WlpacGtoUWs4YUt6RHhaV05KSkJXMDRRWEUzMVdMZENQVUttWlJaeXNsSXdwV05TMG10bG5WZU5HemNScF9aRzFTdXdDbDE0R1JrXzR3cUNMWURKTDJnVnZGY0NCMjJ5c3c?oc=5">European-made green hydrogen would be cheaper in EU than any imports by 2050, says European Commission report</a>  Hydrogen Insight]]></description>
+						<description>European-made green hydrogen would be cheaper in EU than any imports by 2050, says European Commission report Hydrogen Insight</description>
 			<pubDate>Wed, 09 Aug 2023 07:00:00 +0000</pubDate>
 			<guid isPermaLink="false">1773611365741632</guid>
 		</item>
 		<item>
 			<title>Shell 'received €150m of subsidies for green hydrogen project that was ineligible for support': report - Hydrogen Insight</title>
 			<link>https://news.google.com/rss/articles/CBMi6AFBVV95cUxOakY0VlhQNDZwTjVZTFNRRklSMno2MmlCbEF6QkRPOXBnSkxPdld0bm5zTGlnUE9Fek5CWVBvamJId3oxVmtZNU9QN0RuRm8yb0lrcmkxcFlvV0ZFLU1DWjN5b0ZtTzhXVmxSNUFrZFZPdmJOOXhJWVN1VU5PZ05SSkttdmZVRXVySUlOWUV0NVdObVJzMXdJd1lwRDY3SV9ZTHNBZFFBWGVUaU9UcGN3MkdkVE10MnlGdlVteERZNjc2cTQ3eTFVRVpHdmtGSFk1T1JFRE5pRXFBcnp1RTQtZEVBdU9hNkxQ?oc=5</link>
-						<description><![CDATA[<a href="https://news.google.com/rss/articles/CBMi6AFBVV95cUxOakY0VlhQNDZwTjVZTFNRRklSMno2MmlCbEF6QkRPOXBnSkxPdld0bm5zTGlnUE9Fek5CWVBvamJId3oxVmtZNU9QN0RuRm8yb0lrcmkxcFlvV0ZFLU1DWjN5b0ZtTzhXVmxSNUFrZFZPdmJOOXhJWVN1VU5PZ05SSkttdmZVRXVySUlOWUV0NVdObVJzMXdJd1lwRDY3SV9ZTHNBZFFBWGVUaU9UcGN3MkdkVE10MnlGdlVteERZNjc2cTQ3eTFVRVpHdmtGSFk1T1JFRE5pRXFBcnp1RTQtZEVBdU9hNkxQ?oc=5">Shell 'received €150m of subsidies for green hydrogen project that was ineligible for support': report</a>  Hydrogen Insight]]></description>
+						<description>Shell 'received €150m of subsidies for green hydrogen project that was ineligible for support': report Hydrogen Insight</description>
 			<pubDate>Fri, 19 May 2023 07:00:00 +0000</pubDate>
 			<guid isPermaLink="false">1773611365741626</guid>
 		</item>
@@ -51,34 +52,7 @@
 			<category>Report</category>
 			<category>Social Content</category>
 			<category>Subject Matter</category>
-			<description><![CDATA[<div data-elementor-type="wp-post" data-elementor-id="15167" data-elementor-post-type="post" data-sanitized-class="elementor elementor-15167">
-						<section data-id="9b1bd78" data-element_type="section" data-e-type="section" data-sanitized-class="elementor-section elementor-top-section elementor-element elementor-element-9b1bd78 elementor-section-boxed elementor-section-height-default elementor-section-height-default">
-						<div data-sanitized-class="elementor-container elementor-column-gap-default">
-					<div data-id="e93c76e" data-element_type="column" data-e-type="column" data-sanitized-class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e93c76e">
-			<div data-sanitized-class="elementor-widget-wrap elementor-element-populated">
-						<div data-id="de82070" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default" data-sanitized-class="elementor-element elementor-element-de82070 elementor-widget elementor-widget-text-editor">
-				<div data-sanitized-class="elementor-widget-container">
-									<p><span data-sanitized-class="break-words tvm-parent-container"><span dir="ltr">Across regions and applications, several flagship hydrogen projects have moved beyond commitment into final-stage construction – some now more than 90% complete.</span></span></p>
-<p>These projects represent what it takes to deliver hydrogen at scale:</p>
-<p><img role="img" draggable="false" src="https://s.w.org/images/core/emoji/17.0.2/svg/2714.svg" alt="✔" data-sanitized-class="emoji"> bankable demand<br><img role="img" draggable="false" src="https://s.w.org/images/core/emoji/17.0.2/svg/2714.svg" alt="✔" data-sanitized-class="emoji"> enabling policy and infrastructure<br><img role="img" draggable="false" src="https://s.w.org/images/core/emoji/17.0.2/svg/2714.svg" alt="✔" data-sanitized-class="emoji"> experienced developers<br><img role="img" draggable="false" src="https://s.w.org/images/core/emoji/17.0.2/svg/2714.svg" alt="✔" data-sanitized-class="emoji"> disciplined execution</p>
-<p>Here are six iconic projects now entering the final stretch – Beaumont New Ammonia, Lingen Green Hydrogen, ACES Delta, Holland Hydrogen 1, NEOM Green Hydrogen, Boden Renewable Steel Plant.</p>
-<p><span data-sanitized-class="break-words
-          tvm-parent-container"><span dir="ltr"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/27a1.png" alt="➡" data-sanitized-class="wp-smiley"> <a href="https://hydrogencouncil.com/wp-content/uploads/2026/01/Building-at-Scale-project-carousel.pdf">Click here</a> to see hydrogen moving from ambition to steel in the ground.</span></span></p>								</div>
-				</div>
-					</div>
-		</div>
-					</div>
-		</section>
-				<section data-id="134067c" data-element_type="section" data-e-type="section" data-sanitized-class="elementor-section elementor-top-section elementor-element elementor-element-134067c elementor-section-boxed elementor-section-height-default elementor-section-height-default">
-						<div data-sanitized-class="elementor-container elementor-column-gap-default">
-					<div data-id="84ad3a4" data-element_type="column" data-e-type="column" data-sanitized-class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-84ad3a4">
-			<div data-sanitized-class="elementor-widget-wrap">
-							</div>
-		</div>
-					</div>
-		</section>
-				</div>
-		<p>The post <a href="https://hydrogencouncil.com/en/projects-building-at-scale/">Projects building at scale</a> appeared first on <a href="https://hydrogencouncil.com/en">Hydrogen Council</a>.</p>]]></description>
+			<description>Across regions and applications, several flagship hydrogen projects have moved beyond commitment into final-stage construction – some now more than 90% complete. These projects represent what it takes to deliver hydrogen at scale: bankable demand enabling policy and infrastructure experienced developers disciplined execution Here are six iconic projects now entering the final stretch – Beaumont New Ammonia, Lingen Green Hydrogen, ACES Delta, Holland Hydrogen 1, NEOM Green Hydrogen, Boden Renewable Steel Plant. Click here to see hydrogen moving from ambition to steel in the ground. The post Projects building at scale appeared first on Hydrogen Council .</description>
 			<pubDate>Thu, 15 Jan 2026 15:33:44 +0000</pubDate>
 			<guid isPermaLink="false">1773610541928355</guid>
 		</item>
@@ -88,66 +62,7 @@
 						<dc:creator>Vanina Morrison</dc:creator>
 			<category>Media Release</category>
 			<category>Newsroom</category>
-			<description><![CDATA[<div data-elementor-type="wp-post" data-elementor-id="15022" data-elementor-post-type="post" data-sanitized-class="elementor elementor-15022">
-						<section data-id="4dae290b" data-element_type="section" data-e-type="section" data-sanitized-class="elementor-section elementor-top-section elementor-element elementor-element-4dae290b elementor-section-boxed elementor-section-height-default elementor-section-height-default">
-						<div data-sanitized-class="elementor-container elementor-column-gap-default">
-					<div data-id="26ca12e4" data-element_type="column" data-e-type="column" data-sanitized-class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-26ca12e4">
-			<div data-sanitized-class="elementor-widget-wrap elementor-element-populated">
-						<div data-id="30abaa43" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default" data-sanitized-class="elementor-element elementor-element-30abaa43 elementor-widget elementor-widget-text-editor">
-				<div data-sanitized-class="elementor-widget-container">
-									<p><strong>BRUSSELS, November 26, 2025</strong><i><span data-contrast="auto"> – </span></i>More than 200 CEOs and senior executives from the world’s leading businesses in hydrogen are gathering next week in Seoul, South Korea for the <a href="https://hydrogencouncil.com/en/">Hydrogen Council</a>’s Global CEO Summit, to align on action needed to accelerate hydrogen deployment and unlock commercial-scale demand by 2030.</p>
-<p>Co-hosted by Hyundai Motor Group Vice Chair Jaehoon Chang, Co-Chair of the Hydrogen Council, the Summit will be joined by Korean political leadership – such as Vice Minister of Climate, Energy and Environment and the Governor of Jeju, government officials from France, Germany, Switzerland, The Netherlands, Saudi Arabia, Australia and Indonesia, and top representatives from international organizations such as the International Organization for Standardization (ISO). In addition, a delegation of Hydrogen Council CEOs will participate in the World Hydrogen Expo and a high-level pre-meeting with Korea’s Minister of Climate, Energy and Environment, Sung-hwan Kim.</p>
-<p>With USD 110 billion in committed investment across more than 500 projects past financial investment decision (FID), in construction or operation globally – a ten-fold increase since 2020 – the technology is proven, projects are being built, and the industry is ready to scale. Against this backdrop, discussion at the CEO Summit will focus on shaping the next chapter of hydrogen build-out through action on demand, regulations, infrastructure and standards.</p>
-<p>The CEO Summit will make history as the world’s first major international business event to use 100% hydrogen-powered transportation. Attendees will ride exclusively in Hyundai NEXO vehicles and fuel cell buses, providing a real-world demonstration of hydrogen mobility.</p>
-<p>“As Co-Chair of the Hydrogen Council, we are honored to host the Global CEO Summit 2025 and proud to welcome global leaders to South Korea where we are delighted to showcase the strength and progress of Korea’s hydrogen industry,”<strong> said Jaehoon Chang, Vice-Chair of Hyundai Motor Group.</strong> “This Summit not only highlights the industry’s dedication to hydrogen technology but also reinforces our collective commitment to turn vision into action. As demand becomes our next big test, public-private collaboration will be essential to realize hydrogen’s full potential in the next phase of scale-up.”</p>
-<p><strong>Ivana Jemelkova, CEO of the Hydrogen Council, said: </strong>“In just five years, the global clean hydrogen sector has scaled at remarkable pace, with investment growing over 50% year-over-year. As the world’s largest and only CEO-led business initiative on hydrogen, the Hydrogen Council brings together top global leaders to work together, and with governments, to unlock the next stage of growth.”</p>
-<p></p>
-<p></p>
-<p></p>								</div>
-				</div>
-				<div data-id="d8f9f58" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default" data-sanitized-class="elementor-element elementor-element-d8f9f58 elementor-widget-divider--view-line elementor-widget elementor-widget-divider">
-				<div data-sanitized-class="elementor-widget-container">
-							<div data-sanitized-class="elementor-divider">
-			<span data-sanitized-class="elementor-divider-separator">
-						</span>
-		</div>
-						</div>
-				</div>
-				<div data-id="93c0577" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default" data-sanitized-class="elementor-element elementor-element-93c0577 elementor-widget elementor-widget-text-editor">
-				<div data-sanitized-class="elementor-widget-container">
-									<p><strong>About The Hydrogen Council</strong></p>
-<p>The Hydrogen Council is a global CEO-led initiative with a united vision and long-term ambition for hydrogen to accelerate the energy transition. It brings together some 140 companies from 20+ countries across the Americas, Europe, Africa, the Middle East and Asia Pacific. Spanning the entire value chain, and including large multinationals, innovative startups as well as investors, the Council’s membership represents some $9 trillion in market capitalization, 7.1 million in FTEs and some $6.4 trillion in revenues.</p>
-<p>The Council is committed to unlocking the potential of hydrogen for decarbonization, energy security, industrial competitiveness, and technological innovation as drivers for sustainable growth, creating quality jobs and delivering social value. Using its global reach to advance collaboration between industry, governments, investors, and civil society, the Council works to accelerate the deployment of hydrogen ecosystems around the world. It also supports the development of international safety and sustainability standards, paving the way for the deployment of reliable hydrogen solutions at scale.</p>
-<p>To find out more, visit <a href="http://www.hydrogencouncil.com/">www.hydrogencouncil.com</a> and follow us on <a href="https://www.linkedin.com/company/hydrogencouncil/">LinkedIn</a>. </p>
-<p><strong>Media Enquiries</strong></p>
-<p>Joanna Damerell, Communications Manager, Hydrogen Council</p>
-<p><a href="mailto:Joanna.damerell@hydrogencouncil.com">Joanna.damerell@hydrogencouncil.com</a></p>
-<p></p>
-<p></p>
-<p></p>								</div>
-				</div>
-					</div>
-		</div>
-					</div>
-		</section>
-				<section data-id="8793fde" data-element_type="section" data-e-type="section" data-sanitized-class="elementor-section elementor-top-section elementor-element elementor-element-8793fde elementor-section-boxed elementor-section-height-default elementor-section-height-default">
-						<div data-sanitized-class="elementor-container elementor-column-gap-default">
-					<div data-id="be0182a" data-element_type="column" data-e-type="column" data-sanitized-class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-be0182a">
-			<div data-sanitized-class="elementor-widget-wrap">
-							</div>
-		</div>
-					</div>
-		</section>
-				<section data-id="f544e94" data-element_type="section" data-e-type="section" data-sanitized-class="elementor-section elementor-top-section elementor-element elementor-element-f544e94 elementor-section-boxed elementor-section-height-default elementor-section-height-default">
-						<div data-sanitized-class="elementor-container elementor-column-gap-default">
-					<div data-id="fcd7858" data-element_type="column" data-e-type="column" data-sanitized-class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-fcd7858">
-			<div data-sanitized-class="elementor-widget-wrap">
-							</div>
-		</div>
-					</div>
-		</section>
-				</div>
-		<p>The post <a href="https://hydrogencouncil.com/en/200-global-hydrogen-leaders-convene-in-south-korea-to-shape-the-next-chapter-of-hydrogen-buildout/">200+ Global hydrogen leaders convene in South Korea to shape the next chapter of hydrogen buildout</a> appeared first on <a href="https://hydrogencouncil.com/en">Hydrogen Council</a>.</p>]]></description>
+			<description>BRUSSELS, November 26, 2025 – More than 200 CEOs and senior executives from the world’s leading businesses in hydrogen are gathering next week in Seoul, South Korea for the Hydrogen Council ’s Global CEO Summit, to align on action needed to accelerate hydrogen deployment and unlock commercial-scale demand by 2030. Co-hosted by Hyundai Motor Group Vice Chair Jaehoon Chang, Co-Chair of the Hydrogen Council, the Summit will be joined by Korean political leadership – such as Vice Minister of Climate, Energy and Environment and the Governor of Jeju, government officials from France, Germany, Switzerland, The Netherlands, Saudi Arabia, Australia and Indonesia, and top representatives from international organizations such as the International Organization for Standardization (ISO). In addition, a delegation of Hydrogen Council CEOs will participate in the World Hydrogen Expo and a high-level pre-meeting with Korea’s Minister of Climate, Energy and Environment, Sung-hwan Kim. With USD 110 billion in committed investment across more than 500 projects past financial investment decision (FID), in construction or operation globally – a ten-fold increase since 2020 – the technology is proven, projects are being built, and the industry is ready to scale. Against this backdrop, discussion at the CEO Summit will focus on shaping the next chapter of hydrogen build-out through action on demand, regulations, infrastructure and standards. The CEO Summit will make history as the world’s first major international business event to use 100% hydrogen-powered transportation. Attendees will ride exclusively in Hyundai NEXO vehicles and fuel cell buses, providing a real-world demonstration of hydrogen mobility. “As Co-Chair of the Hydrogen Council, we are honored to host the Global CEO Summit 2025 and proud to welcome global leaders to South Korea where we are delighted to showcase the strength and progress of Korea’s hydrogen industry,” said Jaehoon Chang, Vice-Chair of Hyundai Motor Group. “This Summit not only highlights the industry’s dedication to hydrogen technology but also reinforces our collective commitment to turn vision into action. As demand becomes our next big test, public-private collaboration will be essential to realize hydrogen’s full potential in the next phase of scale-up.” Ivana Jemelkova, CEO of the Hydrogen Council, said: “In just five years, the global clean hydrogen sector has scaled at remarkable pace, with investment growing over 50% year-over-year. As the world’s largest and only CEO-led business initiative on hydrogen, the Hydrogen Council brings together top global leaders to work together, and with governments, to unlock the next stage of growth.” About The Hydrogen Council The Hydrogen Council is a global CEO-led initiative with a united vision and long-term ambition for hydrogen to accelerate the energy transition. It brings together some 140 companies from 20+ countries across the Americas, Europe, Africa, the Middle East and Asia Pacific. Spanning the entire value chain, and including large multinationals, innovative startups as well as investors, the Council’s membership represents some $9 trillion in market capitalization, 7.1 million in FTEs and some $6.4 trillion in revenues. The Council is committed to unlocking the potential of hydrogen for decarbonization, energy security, industrial competitiveness, and technological innovation as drivers for sustainable growth, creating quality jobs and delivering social value. Using its global reach to advance collaboration between industry, governments, investors, and civil society, the Council works to accelerate the deployment of hydrogen ecosystems around the world. It also supports the development of international safety and sustainability standards, paving the way for the deployment of reliable hydrogen solutions at scale. To find out more, visit www.hydrogencouncil.com and follow us on LinkedIn . Media Enquiries Joanna Damerell, Communications Manager, Hydrogen Council Joanna.damerell@hydrogencouncil.com The post 200+ Global hydrogen leaders convene in South Korea to shape the next chapter of hydrogen buildout appeared first on Hydrogen Council .</description>
 			<pubDate>Wed, 26 Nov 2025 11:54:20 +0000</pubDate>
 			<guid isPermaLink="false">1773610541928352</guid>
 		</item>
@@ -156,8 +71,7 @@
 			<link>https://hydrogeneurope.eu/european-commission-port-maritime-strategies-must-go-further/</link>
 						<dc:creator>Peter Collins</dc:creator>
 			<category>HE News</category>
-			<description><![CDATA[<p><span data-sanitized-class="excerpt-hellip"> […]</span></p>
-<p>The post <a href="https://hydrogeneurope.eu/european-commission-port-maritime-strategies-must-go-further/">European Commission Port &amp; Maritime Strategies must go further</a> appeared first on <a href="https://hydrogeneurope.eu/">Hydrogen Europe</a>.</p>]]></description>
+			<description>[…] The post European Commission Port &amp; Maritime Strategies must go further appeared first on Hydrogen Europe .</description>
 			<pubDate>Thu, 05 Mar 2026 15:48:52 +0000</pubDate>
 			<guid isPermaLink="false">1773610508659827</guid>
 		</item>
@@ -166,214 +80,16 @@
 			<link>https://hydrogen-central.com/the-commission-approves-a-spanish-state-aid-scheme-worth-440-million-euros-to-support-renewable-hydrogen-production/</link>
 						<dc:creator>itaizul0011</dc:creator>
 			<category>Hydrogen Economy</category>
-			<description><![CDATA[<p>The Commission approves a Spanish state aid scheme worth 440 million euros to support renewable hydrogen production</p>
-
-
-
-<p>The European Commission has approved, under EU state aid rules, a Spanish state aid scheme worth €440 million to support renewable hydrogen production. This will be implemented through the European <a href="https://translate.google.com/website?sl=auto&amp;tl=en&amp;hl=en&amp;client=webapp&amp;u=https://energy.ec.europa.eu/topics/eus-energy-system/hydrogen_en?prefLang%3Des%26etrans%3Des">Hydrogen Bank ‘s “</a> <a href="https://translate.google.com/website?sl=auto&amp;tl=en&amp;hl=en&amp;client=webapp&amp;u=https://climate.ec.europa.eu/document/download/b0316108-0e2b-402d-8e16-bb46ac813332_en?filename%3Dpolicy_funding_innovation_concept_paper_aaas_en.pdf">auctions-as-a-service”</a> mechanism for the auction that closed in February 2026. The scheme will contribute to the <a href="https://translate.google.com/website?sl=auto&amp;tl=en&amp;hl=en&amp;client=webapp&amp;u=https://commission.europa.eu/document/download/b600cc41-3fce-4d6d-946d-1a11c93e50fa_en?filename%3DDecision%2520on%2520the%2520establishment%2520of%2520a%2520Commissioners%2527%2520Project%2520Group%2520on%2520Clean%2520Industrial%2520Deal.pdf">Clean Industry Pact</a> ‘s objectives of accelerating the decarbonization of EU industry while strengthening its competitiveness.<a href="https://translate.google.com/website?sl=auto&amp;tl=en&amp;hl=en&amp;client=webapp&amp;u=https://energy.ec.europa.eu/topics/eus-energy-system/hydrogen_en?prefLang%3Des%26etrans%3Des"></a> <a href="https://translate.google.com/website?sl=auto&amp;tl=en&amp;hl=en&amp;client=webapp&amp;u=https://commission.europa.eu/document/download/b600cc41-3fce-4d6d-946d-1a11c93e50fa_en?filename%3DDecision%2520on%2520the%2520establishment%2520of%2520a%2520Commissioners%2527%2520Project%2520Group%2520on%2520Clean%2520Industrial%2520Deal.pdf"></a></p>
-
-
-
-<p>Spain estimates that the approved scheme will support the construction of up to 382 MW of electrolysis capacity. It should also incentivize the production of up to 243,800 tons of renewable hydrogen, which will prevent up to 1,790,000 tons of CO2 emissions. The scheme will help Spain achieve its national target of installing 12 GW of electrolyzer capacity by 2030, as well as the targets for the share of non-biological renewable fuels consumed in transport and industry set out in the <a href="https://translate.google.com/website?sl=auto&amp;tl=en&amp;hl=en&amp;client=webapp&amp;u=https://energy.ec.europa.eu/topics/renewable-energy/renewable-energy-directive-targets-and-rules/renewable-energy-directive_en?prefLang%3Des%26etrans%3Des">Renewable Energy Directive</a> . Under the scheme, aid will take the form of <strong>direct subsidies</strong> per kilogram of renewable hydrogen produced, and Spain can grant the aid within the next twelve months. Once granted, beneficiaries can opt for payments over a period of ten years.</p>
-
-
-
-<p>The Commission assessed the scheme in accordance with EU State aid rules, specifically <a href="https://translate.google.com/website?sl=auto&amp;tl=en&amp;hl=en&amp;client=webapp&amp;u=https://eur-lex.europa.eu/legal-content/ES/ALL/?uri%3DCELEX%253A12008E107">Article 107(3)(c)</a> of the Treaty on the Functioning of the European Union, and the 2022 <a href="https://translate.google.com/website?sl=auto&amp;tl=en&amp;hl=en&amp;client=webapp&amp;u=https://eur-lex.europa.eu/legal-content/ES/TXT/?uri%3DCELEX%253A52022XC0218%252803%2529">Guidelines on State aid for climate, environmental protection and energy. The Commission considered the scheme</a> <strong>necessary</strong> and <strong>appropriate</strong> to facilitate the production of renewable hydrogen. Furthermore, the Commission found that the scheme has an <strong>incentive effect</strong> and a <strong>limited impact on competition and trade</strong> within the EU. Finally, the aid will have <strong>positive effects</strong> , particularly on the environment, which will outweigh any potential negative effects in terms of distorting competition. For these reasons, the Commission has approved the Spanish aid scheme in accordance with the relevant EU rules.</p>
-
-
-
-<p>The non-confidential version of the relevant decision will be published under case number SA.121244 in the <a href="https://translate.google.com/website?sl=auto&amp;tl=en&amp;hl=en&amp;client=webapp&amp;u=https://competition-cases.ec.europa.eu/search?caseInstrument%3DSA%26sortField%3DcaseLastDecisionDate%26sortOrder%3DDESC">State Aid Register</a> on the Commission’s Competition <a href="https://translate.google.com/website?sl=auto&amp;tl=en&amp;hl=en&amp;client=webapp&amp;u=https://competition-policy.ec.europa.eu/index_en?prefLang%3Des">website</a> , once any potential confidentiality issues have been resolved.</p>
-
-
-
-<p><strong>READ</strong> the latest news shaping the hydrogen market at <a href="https://hydrogen-central.com/">Hydrogen Central</a></p>
-
-
-
-<p>The Commission approves a Spanish state aid scheme worth 440 million euros to support renewable hydrogen production,<a href="https://spain-representation-ec-europa-eu.translate.goog/noticias-eventos/noticias-0/la-comision-aprueba-un-regimen-espanol-de-ayudas-estatales-por-valor-de-440-millones-de-euros-para-2026-03-12_es?prefLang=en&amp;_x_tr_sl=auto&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"> source</a></p>
-<p>The post <a href="https://hydrogen-central.com/the-commission-approves-a-spanish-state-aid-scheme-worth-440-million-euros-to-support-renewable-hydrogen-production/">The Commission approves a Spanish state aid scheme worth 440 million euros to support renewable hydrogen production</a> appeared first on <a href="https://hydrogen-central.com/">Hydrogen Central</a>.</p>]]></description>
+			<description>The Commission approves a Spanish state aid scheme worth 440 million euros to support renewable hydrogen production The European Commission has approved, under EU state aid rules, a Spanish state aid scheme worth €440 million to support renewable hydrogen production. This will be implemented through the European Hydrogen Bank ‘s “ auctions-as-a-service” mechanism for the auction that closed in February 2026. The scheme will contribute to the Clean Industry Pact ‘s objectives of accelerating the decarbonization of EU industry while strengthening its competitiveness. Spain estimates that the approved scheme will support the construction of up to 382 MW of electrolysis capacity. It should also incentivize the production of up to 243,800 tons of renewable hydrogen, which will prevent up to 1,790,000 tons of CO2 emissions. The scheme will help Spain achieve its national target of installing 12 GW of electrolyzer capacity by 2030, as well as the targets for the share of non-biological renewable fuels consumed in transport and industry set out in the Renewable Energy Directive . Under the scheme, aid will take the form of direct subsidies per kilogram of renewable hydrogen produced, and Spain can grant the aid within the next twelve months. Once granted, beneficiaries can opt for payments over a period of ten years. The Commission assessed the scheme in accordance with EU State aid rules, specifically Article 107(3)(c) of the Treaty on the Functioning of the European Union, and the 2022 Guidelines on State aid for climate, environmental protection and energy. The Commission considered the scheme necessary and appropriate to facilitate the production of renewable hydrogen. Furthermore, the Commission found that the scheme has an incentive effect and a limited impact on competition and trade within the EU. Finally, the aid will have positive effects , particularly on the environment, which will outweigh any potential negative effects in terms of distorting competition. For these reasons, the Commission has approved the Spanish aid scheme in accordance with the relevant EU rules. The non-confidential version of the relevant decision will be published under case number SA.121244 in the State Aid Register on the Commission’s Competition website , once any potential confidentiality issues have been resolved. READ the latest news shaping the hydrogen market at Hydrogen Central The Commission approves a Spanish state aid scheme worth 440 million euros to support renewable hydrogen production, source The post The Commission approves a Spanish state aid scheme worth 440 million euros to support renewable hydrogen production appeared first on Hydrogen Central .</description>
 			<pubDate>Fri, 13 Mar 2026 17:47:22 +0000</pubDate>
 			<guid isPermaLink="false">1773610431518979</guid>
 		</item>
 		<item>
-			<title>World Hydrogen Summit announces 2026 programme focused on climate, energy and national security</title>
+			<title>World Hydrogen Summit announces 2026 programme focused on climate, energy and national security</title>
 			<link>https://hydrogen-central.com/world-hydrogen-summit-announces-2026-programme-focused-on-climate-energy-and-national-security/</link>
 						<dc:creator>itaizul0011</dc:creator>
 			<category>Events</category>
-			<description><![CDATA[<p>World Hydrogen Summit announces 2026 programme focused on climate, energy and national security</p>
-
-
-
-<p>The most influential hydrogen event globally, the World Hydrogen Summit, is set to return to Rotterdam from 19–21 May 2026, bringing together thousands of attendees to explore the theme <em>‘Climate, Energy and National Security: Stimulating Hydrogen Demand to Meet Global Priorities’</em>.</p>
-
-
-
-<p>Recognised globally as the premier platform for hydrogen policy, projects and investment, the Summit has become a cornerstone event for shaping the future of clean energy systems.</p>
-
-
-
-<p>Event director, Chris Hugall, has confirmed the initial speaker lineup for its upcoming edition which will bring together senior policymakers, global CEOs and industry leaders to address one of the most critical challenges facing the hydrogen sector today: accelerating demand at scale.</p>
-
-
-
-<p>Now in its seventh year, the event is taking place at a pivotal moment for the global hydrogen market, providing a platform for high-level discussion on how mandates, offtake incentives and industrial policy is accelerating demand across key sectors including steel, shipping, aviation, power generation, mobility, refining and fertilisers.</p>
-
-
-
-<p>The 2026 Summit will feature contributions from leading executives and decision-makers shaping the global hydrogen economy including:</p>
-
-
-
-<ul data-sanitized-class="wp-block-list">
-<li>H.E. Salim Al Aufi, Minister of Energy and Minerals, Sultanate of Oman</li>
-
-
-
-<li>Paro Konar, Director General for Major Decarbonisation Projects, Department for Energy Security &amp; Net Zero, Government of United Kingdom</li>
-
-
-
-<li>Dr Andrew Kerr, Director General for Net Zero, Government of Scotland</li>
-
-
-
-<li>Carola Schouten, Mayor, City of Rotterdam</li>
-
-
-
-<li>Boudewijn Siemons, Chief Executive Officer, Port of Rotterdam</li>
-
-
-
-<li>Ivana Jemelkova, CEO, Hydrogen Council</li>
-
-
-
-<li>Andrew Beard, President of Hydrogen, Shell</li>
-
-
-
-<li>Frank Yu, Senior Vice President, Head of Hydrogen Product Line, Envision Energy</li>
-
-
-
-<li>Alexander Tancock, CEO, InterContinental Energy</li>
-
-
-
-<li>Maribel Rodríguez Olmo, Hydrogen Business Director, Repsol</li>
-
-
-
-<li>Dr. David Burns, Vice President Clean Energy, Linde</li>
-
-
-
-<li>Jason Mortimer, Senior Vice President, Global Commercial, Electric Hydrogen</li>
-
-
-
-<li>Shena Britzen, Head of Hydrogen Program, Rheinmetall AG</li>
-
-
-
-<li>Vibeke Rasmussen, SVP Product Management and Certification, Yara Clean Ammonia</li>
-</ul>
-
-
-
-<p>Speakers will share perspectives on project development, market activation, offtake structures and the policy frameworks required to enable long-term investment in clean hydrogen.</p>
-
-
-
-<p><strong>Carola Schouten,</strong> Mayor of Rotterdam said: </p>
-
-
-
-<blockquote data-sanitized-class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p>We are pleased to once again welcome the World Hydrogen Summit to Rotterdam. </p>
-</blockquote>
-
-
-
-<p>As a global energy and industrial hub, the city provides a natural platform for bringing together industry leaders, policymakers and innovators from around the world.</p>
-
-
-
-<p>For Rotterdam, hydrogen is essential to protecting jobs, supporting our industrial communities and ensuring a reliable energy system in a rapidly changing world. By building this ecosystem, we are creating a sustainable future not only for our own city, but for our neighbours across the continent who rely on Rotterdam as their vital energy link.</p>
-
-
-
-<p>Hosting the World Hydrogen Summit reflects the city’s commitment to practical solutions that deliver both climate progress and long-term stability.”</p>
-
-
-
-<p><strong>Boudewijn Siemons,</strong> Chief Executive Officer, Port of Rotterdam, added </p>
-
-
-
-<blockquote data-sanitized-class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p>The transition to a CO2 -neutral energy system is not a choice between climate and prosperity — it is the path towards a thriving, secure and sustainable future. </p>
-</blockquote>
-
-
-
-<p>”By placing hydrogen at the heart of this global conversation, the Summit inspires, showcases real progress, and encourages collaboration, helping to accelerate the development of a resilient, competitive, and secure hydrogen economy.”</p>
-
-
-
-<p>While hydrogen supply continues to expand globally, uncertain demand remains a key constraint. This year’s programme has been designed to address the fundamental questions facing the market: where hydrogen demand is emerging, and how are these sectors leading early deployment.</p>
-
-
-
-<p>The 2026 conference will feature dedicated sessions focused on lead markets already deploying hydrogen today. These sessions will examine sector-specific challenges, current project activity and how public and private stakeholders are working together to unlock demand.</p>
-
-
-
-<p>Following industry feedback, the World Hydrogen Summit has been reformatted to encourage deeper engagement and more focused discussion.</p>
-
-
-
-<p>World Hydrogen Summit Event Director, <strong>Chris Hugall</strong> explained:</p>
-
-
-
-<blockquote data-sanitized-class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p>The conference is taking  place closer to the exhibition floor in a more intimate setting, the Summit will feature shorter, interview-style sessions designed to foster candid, data-driven conversations with industry leaders and policymakers.</p>
-</blockquote>
-
-
-
-<p>“The updated format aims to provide delegates with clearer insights into current market dynamics and the next steps for companies and governments advancing hydrogen deployment.</p>
-
-
-
-<p>“This new format will create space for more meaningful dialogue, informed debate and shared insight at a critical moment for the industry.”</p>
-
-
-
-<p>The exhibition floor will provide unparalleled opportunities for networking, partnership development and commercial engagement, which will include Carbon Capture, Utilisation and Storage (CCUS) and Energy Storage zones for the first time. This reflects the growing need for integrated hydrogen, carbon management solutions and energy storage to deliver secure energy supplies, meet climate targets and strengthen industrial competitiveness.</p>
-
-
-
-<p>The exhibition is supported by three dedicated tech stages hosting expert-led sessions, technology showcases and case studies from successful projects driving market breakthroughs despite macroeconomic challenges.</p>
-
-
-
-<p>Approximately 10,000 people and more than 550 exhibitors attended the 2025 edition of World Hydrogen Summit last May, which also hosted senior government representatives and ministers from dozens of countries including the Netherlands, Germany, Oman, Norway, Belgium, China and India.</p>
-
-
-
-<p>More speakers and further details of the programme will be announced in the coming months.</p>
-
-
-
-<p><strong>READ</strong> the latest news shaping the hydrogen market at <a href="https://hydrogen-central.com/">Hydrogen Central</a></p>
-
-
-
-<p>World Hydrogen Summit announces 2026 programme focused on climate, energy and national security</p>
-<p>The post <a href="https://hydrogen-central.com/world-hydrogen-summit-announces-2026-programme-focused-on-climate-energy-and-national-security/">World Hydrogen Summit announces 2026 programme focused on climate, energy and national security</a> appeared first on <a href="https://hydrogen-central.com/">Hydrogen Central</a>.</p>]]></description>
+			<description>World Hydrogen Summit announces 2026 programme focused on climate, energy and national security The most influential hydrogen event globally, the World Hydrogen Summit, is set to return to Rotterdam from 19–21 May 2026, bringing together thousands of attendees to explore the theme ‘Climate, Energy and National Security: Stimulating Hydrogen Demand to Meet Global Priorities’ . Recognised globally as the premier platform for hydrogen policy, projects and investment, the Summit has become a cornerstone event for shaping the future of clean energy systems. Event director, Chris Hugall, has confirmed the initial speaker lineup for its upcoming edition which will bring together senior policymakers, global CEOs and industry leaders to address one of the most critical challenges facing the hydrogen sector today: accelerating demand at scale. Now in its seventh year, the event is taking place at a pivotal moment for the global hydrogen market, providing a platform for high-level discussion on how mandates, offtake incentives and industrial policy is accelerating demand across key sectors including steel, shipping, aviation, power generation, mobility, refining and fertilisers. The 2026 Summit will feature contributions from leading executives and decision-makers shaping the global hydrogen economy including: H.E. Salim Al Aufi, Minister of Energy and Minerals, Sultanate of Oman Paro Konar, Director General for Major Decarbonisation Projects, Department for Energy Security &amp; Net Zero, Government of United Kingdom Dr Andrew Kerr, Director General for Net Zero, Government of Scotland Carola Schouten, Mayor, City of Rotterdam Boudewijn Siemons, Chief Executive Officer, Port of Rotterdam Ivana Jemelkova, CEO, Hydrogen Council Andrew Beard, President of Hydrogen, Shell Frank Yu, Senior Vice President, Head of Hydrogen Product Line, Envision Energy Alexander Tancock, CEO, InterContinental Energy Maribel Rodríguez Olmo, Hydrogen Business Director, Repsol Dr. David Burns, Vice President Clean Energy, Linde Jason Mortimer, Senior Vice President, Global Commercial, Electric Hydrogen Shena Britzen, Head of Hydrogen Program, Rheinmetall AG Vibeke Rasmussen, SVP Product Management and Certification, Yara Clean Ammonia Speakers will share perspectives on project development, market activation, offtake structures and the policy frameworks required to enable long-term investment in clean hydrogen. Carola Schouten, Mayor of Rotterdam said: We are pleased to once again welcome the World Hydrogen Summit to Rotterdam. As a global energy and industrial hub, the city provides a natural platform for bringing together industry leaders, policymakers and innovators from around the world. For Rotterdam, hydrogen is essential to protecting jobs, supporting our industrial communities and ensuring a reliable energy system in a rapidly changing world. By building this ecosystem, we are creating a sustainable future not only for our own city, but for our neighbours across the continent who rely on Rotterdam as their vital energy link. Hosting the World Hydrogen Summit reflects the city’s commitment to practical solutions that deliver both climate progress and long-term stability.” Boudewijn Siemons, Chief Executive Officer, Port of Rotterdam, added The transition to a CO2 -neutral energy system is not a choice between climate and prosperity — it is the path towards a thriving, secure and sustainable future. ”By placing hydrogen at the heart of this global conversation, the Summit inspires, showcases real progress, and encourages collaboration, helping to accelerate the development of a resilient, competitive, and secure hydrogen economy.” While hydrogen supply continues to expand globally, uncertain demand remains a key constraint. This year’s programme has been designed to address the fundamental questions facing the market: where hydrogen demand is emerging, and how are these sectors leading early deployment. The 2026 conference will feature dedicated sessions focused on lead markets already deploying hydrogen today. These sessions will examine sector-specific challenges, current project activity and how public and private stakeholders are working together to unlock demand. Following industry feedback, the World Hydrogen Summit has been reformatted to encourage deeper engagement and more focused discussion. World Hydrogen Summit Event Director, Chris Hugall explained: The conference is taking place closer to the exhibition floor in a more intimate setting, the Summit will feature shorter, interview-style sessions designed to foster candid, data-driven conversations with industry leaders and policymakers. “The updated format aims to provide delegates with clearer insights into current market dynamics and the next steps for companies and governments advancing hydrogen deployment. “This new format will create space for more meaningful dialogue, informed debate and shared insight at a critical moment for the industry.” The exhibition floor will provide unparalleled opportunities for networking, partnership development and commercial engagement, which will include Carbon Capture, Utilisation and Storage (CCUS) and Energy Storage zones for the first time. This reflects the growing need for integrated hydrogen, carbon management solutions and energy storage to deliver secure energy supplies, meet climate targets and strengthen industrial competitiveness. The exhibition is supported by three dedicated tech stages hosting expert-led sessions, technology showcases and case studies from successful projects driving market breakthroughs despite macroeconomic challenges. Approximately 10,000 people and more than 550 exhibitors attended the 2025 edition of World Hydrogen Summit last May, which also hosted senior government representatives and ministers from dozens of countries including the Netherlands, Germany, Oman, Norway, Belgium, China and India. More speakers and further details of the programme will be announced in the coming months. READ the latest news shaping the hydrogen market at Hydrogen Central World Hydrogen Summit announces 2026 programme focused on climate, energy and national security The post World Hydrogen Summit announces 2026 programme focused on climate, energy and national security appeared first on Hydrogen Central .</description>
 			<pubDate>Fri, 13 Mar 2026 17:45:54 +0000</pubDate>
 			<guid isPermaLink="false">1773610431518978</guid>
 		</item>
