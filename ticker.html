@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>RSS Ticker</title>
 
 <style>
 :root{
   color-scheme: light dark;
+
   --bg:#ffffff;
   --text:#37352f;
-  --muted:rgba(55,53,47,0.75);
-  --separator:rgba(55,53,47,0.35);
+  --muted:rgba(55,53,47,0.68);
+  --subtle:rgba(55,53,47,0.46);
+  --separator:rgba(55,53,47,0.28);
+  --border:rgba(55,53,47,0.08);
+  --hover:rgba(55,53,47,0.06);
+  --fade-solid:#ffffff;
 }
 
 @media (prefers-color-scheme: dark){
@@ -19,33 +24,83 @@
     --bg:#191919;
     --text:rgba(255,255,255,0.92);
     --muted:rgba(255,255,255,0.72);
-    --separator:rgba(255,255,255,0.35);
+    --subtle:rgba(255,255,255,0.48);
+    --separator:rgba(255,255,255,0.26);
+    --border:rgba(255,255,255,0.08);
+    --hover:rgba(255,255,255,0.08);
+    --fade-solid:#191919;
   }
 }
 
-html,body{
+html, body{
   margin:0;
   padding:0;
+  width:100%;
+  height:100%;
   background:var(--bg);
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;
   overflow:hidden;
 }
 
+.shell{
+  box-sizing:border-box;
+  width:100%;
+  height:100vh;
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  background:var(--bg);
+  padding:10px 14px 10px 14px;
+  gap:10px;
+}
+
+/* ticker row */
 .ticker-wrap{
+  position:relative;
   width:100%;
   height:28px;
   display:flex;
   align-items:center;
   overflow:hidden;
   white-space:nowrap;
-  background:var(--bg);
+  flex:0 0 auto;
+  border-bottom:1px solid var(--border);
+  padding-bottom:8px;
+}
+
+.ticker-wrap::before,
+.ticker-wrap::after{
+  content:"";
+  position:absolute;
+  top:0;
+  width:28px;
+  height:100%;
+  z-index:2;
+  pointer-events:none;
+}
+
+.ticker-wrap::before{
+  left:0;
+  background:linear-gradient(to right, var(--fade-solid), transparent);
+}
+
+.ticker-wrap::after{
+  right:0;
+  background:linear-gradient(to left, var(--fade-solid), transparent);
 }
 
 .ticker-track{
   display:flex;
   align-items:center;
   min-width:max-content;
-  animation:ticker-scroll 120s linear infinite;
+  animation:ticker-scroll 160s linear infinite;
+  will-change:transform;
+}
+
+.ticker-wrap:hover .ticker-track{
+  animation-play-state:paused;
 }
 
 .ticker-item{
@@ -55,10 +110,19 @@ html,body{
 }
 
 .ticker-link{
+  display:inline-flex;
+  align-items:center;
   color:var(--text);
   text-decoration:none;
   font-size:13px;
-  padding:0 4px;
+  line-height:1.2;
+  padding:2px 5px;
+  border-radius:6px;
+  transition:background-color 120ms ease;
+}
+
+.ticker-link:hover{
+  background:var(--hover);
 }
 
 .prefix{
@@ -67,35 +131,177 @@ html,body{
 }
 
 .headline{
-  font-weight:600;
   color:var(--text);
+  font-weight:600;
+}
+
+.source{
+  color:var(--subtle);
+  font-weight:400;
 }
 
 .separator{
-  padding:0 14px;
+  padding:0 12px;
   font-size:12px;
   color:var(--separator);
   user-select:none;
 }
 
+/* teaser area to use the Notion min-height gracefully */
+.teaser{
+  flex:1 1 auto;
+  min-height:0;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  gap:8px;
+  overflow:hidden;
+}
+
+.teaser-kicker{
+  font-size:11px;
+  font-weight:600;
+  letter-spacing:0.04em;
+  text-transform:uppercase;
+  color:var(--subtle);
+}
+
+.teaser-title{
+  font-size:15px;
+  line-height:1.32;
+  font-weight:600;
+  color:var(--text);
+  margin:0;
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+
+.teaser-meta{
+  font-size:12px;
+  line-height:1.3;
+  color:var(--muted);
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px;
+}
+
+.teaser-summary{
+  font-size:13px;
+  line-height:1.45;
+  color:var(--muted);
+  margin:0;
+  display:-webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+
+.teaser-link{
+  text-decoration:none;
+  color:inherit;
+  display:block;
+  border-radius:8px;
+  padding:2px 4px;
+  margin:0 -4px;
+  transition:background-color 120ms ease;
+}
+
+.teaser-link:hover{
+  background:var(--hover);
+}
+
+.loading,
+.error{
+  font-size:13px;
+  color:var(--muted);
+}
+
 @keyframes ticker-scroll{
-  from{transform:translateX(0);}
-  to{transform:translateX(-50%);}
+  from{ transform:translateX(0); }
+  to{ transform:translateX(-50%); }
+}
+
+@media (max-width: 900px){
+  .shell{
+    padding:8px 10px;
+    gap:8px;
+  }
+
+  .ticker-wrap{
+    height:26px;
+    padding-bottom:6px;
+  }
+
+  .ticker-link{
+    font-size:12px;
+  }
+
+  .separator{
+    padding:0 10px;
+  }
+
+  .teaser-title{
+    font-size:14px;
+  }
+
+  .teaser-summary{
+    font-size:12px;
+    -webkit-line-clamp:2;
+  }
+
+  .ticker-track{
+    animation-duration:145s;
+  }
+}
+
+@media (max-width: 600px){
+  .shell{
+    padding:8px 8px;
+  }
+
+  .teaser{
+    gap:6px;
+  }
+
+  .teaser-kicker{
+    font-size:10px;
+  }
+
+  .teaser-title{
+    font-size:13px;
+    -webkit-line-clamp:2;
+  }
+
+  .teaser-summary{
+    font-size:12px;
+    -webkit-line-clamp:2;
+  }
+
+  .ticker-track{
+    animation-duration:130s;
+  }
 }
 </style>
 </head>
 
 <body>
+<div class="shell">
+  <div class="ticker-wrap">
+    <div id="ticker" class="loading">Loading…</div>
+  </div>
 
-<div class="ticker-wrap">
-  <div id="ticker">Loading…</div>
+  <div id="teaser" class="teaser">
+    <div class="loading">Loading latest article…</div>
+  </div>
 </div>
 
 <script>
-const FEED="./notion.xml";
+const FEED = "./notion.xml";
 
 function escapeHtml(str){
-  return str
+  return (str || "")
     .replace(/&/g,"&amp;")
     .replace(/</g,"&lt;")
     .replace(/>/g,"&gt;")
@@ -115,24 +321,34 @@ function formatDateTime(date){
 }
 
 function splitTitleAndSource(fullTitle){
-  const parts = fullTitle.split(" - ");
+  const parts = (fullTitle || "").split(" - ");
   if (parts.length >= 2){
     const source = parts.pop();
     const title = parts.join(" - ");
     return { title, source };
   }
-  return { title: fullTitle, source: "" };
+  return { title: fullTitle || "Untitled", source: "" };
+}
+
+function stripHtml(html){
+  if (!html) return "";
+  const div = document.createElement("div");
+  div.innerHTML = html;
+  return (div.textContent || div.innerText || "")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function parseRSS(xmlText){
   const parser = new DOMParser();
-  const xml = parser.parseFromString(xmlText,"text/xml");
+  const xml = parser.parseFromString(xmlText, "text/xml");
 
   return Array.from(xml.querySelectorAll("item"))
     .map(item => {
-      const fullTitle = item.querySelector("title")?.textContent.trim() || "Untitled";
-      const link = item.querySelector("link")?.textContent.trim() || "#";
+      const fullTitle = item.querySelector("title")?.textContent?.trim() || "Untitled";
+      const link = item.querySelector("link")?.textContent?.trim() || "#";
       const pubDateRaw = item.querySelector("pubDate")?.textContent || "";
+      const descriptionRaw = item.querySelector("description")?.textContent || "";
       const pubDate = new Date(pubDateRaw);
       const split = splitTitleAndSource(fullTitle);
 
@@ -140,7 +356,8 @@ function parseRSS(xmlText){
         title: split.title,
         source: split.source,
         link,
-        pubDate
+        pubDate,
+        description: stripHtml(descriptionRaw)
       };
     })
     .sort((a,b) => b.pubDate - a.pubDate);
@@ -153,7 +370,7 @@ function buildTicker(items){
     return `
       <span class="ticker-item">
         <a class="ticker-link" href="${escapeHtml(i.link)}" target="_blank" rel="noopener noreferrer">
-          <span class="prefix">${escapeHtml(prefix)} - </span><span class="headline">${escapeHtml(i.title)}</span><span class="prefix">${sourceText}</span>
+          <span class="prefix">${escapeHtml(prefix)} - </span><span class="headline">${escapeHtml(i.title)}</span><span class="source">${sourceText}</span>
         </a>
         <span class="separator">•</span>
       </span>
@@ -161,23 +378,57 @@ function buildTicker(items){
   }).join("");
 }
 
+function renderTeaser(item){
+  const teaser = document.getElementById("teaser");
+  const dateText = formatDateTime(item.pubDate);
+  const sourceText = item.source ? item.source : "Source";
+  const summary = item.description || "Open the article to read more.";
+
+  teaser.innerHTML = `
+    <a class="teaser-link" href="${escapeHtml(item.link)}" target="_blank" rel="noopener noreferrer">
+      <div class="teaser-kicker">Latest</div>
+      <h2 class="teaser-title">${escapeHtml(item.title)}</h2>
+      <div class="teaser-meta">
+        <span>${escapeHtml(dateText)}</span>
+        <span>·</span>
+        <span>${escapeHtml(sourceText)}</span>
+      </div>
+      <p class="teaser-summary">${escapeHtml(summary)}</p>
+    </a>
+  `;
+}
+
 async function loadTicker(){
-  const container=document.getElementById("ticker");
+  const ticker = document.getElementById("ticker");
+  const teaser = document.getElementById("teaser");
 
   try{
     const response = await fetch(FEED + "?t=" + Date.now(), { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
     const xml = await response.text();
     const items = parseRSS(xml);
 
-    container.className="ticker-track";
-    container.innerHTML = buildTicker(items) + buildTicker(items);
-  }catch(e){
-    container.textContent = "Could not load feed.";
+    if (!items.length){
+      ticker.className = "error";
+      ticker.textContent = "No items found.";
+      teaser.innerHTML = `<div class="error">No article data found.</div>`;
+      return;
+    }
+
+    ticker.className = "ticker-track";
+    ticker.innerHTML = buildTicker(items) + buildTicker(items);
+
+    renderTeaser(items[0]);
+  } catch (e){
+    ticker.className = "error";
+    ticker.textContent = "Could not load feed.";
+    teaser.innerHTML = `<div class="error">Could not load latest article.</div>`;
+    console.error(e);
   }
 }
 
 loadTicker();
 </script>
-
 </body>
 </html>
