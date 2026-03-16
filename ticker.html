@@ -503,10 +503,19 @@ const resizeObserver = new ResizeObserver(() => {
   renderTeasers();
 });
 
-loadTicker().then(() => {
+async function refreshAll() {
+  await loadTicker();
   const teaserContainer = document.getElementById("teasers");
   resizeObserver.observe(teaserContainer);
-});
+}
+
+/* initial load */
+refreshAll();
+
+/* force refresh every 5 minutes */
+setInterval(() => {
+  refreshAll();
+}, 5 * 60 * 1000);
 </script>
 </body>
 </html>
