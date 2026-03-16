@@ -6,139 +6,177 @@
 <title>RSS Ticker</title>
 
 <style>
-
 :root{
   color-scheme: light dark;
   --bg:#ffffff;
   --text:#37352f;
-  --muted:rgba(55,53,47,0.35);
+  --muted:rgba(55,53,47,0.75);
+  --separator:rgba(55,53,47,0.35);
 }
 
 @media (prefers-color-scheme: dark){
-:root{
-  --bg:#191919;
-  --text:rgba(255,255,255,0.9);
-  --muted:rgba(255,255,255,0.35);
-}
+  :root{
+    --bg:#191919;
+    --text:rgba(255,255,255,0.92);
+    --muted:rgba(255,255,255,0.72);
+    --separator:rgba(255,255,255,0.35);
+  }
 }
 
 html,body{
-margin:0;
-padding:0;
-background:var(--bg);
-font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
-overflow:hidden;
+  margin:0;
+  padding:0;
+  background:var(--bg);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  overflow:hidden;
 }
 
 .ticker-wrap{
-width:100%;
-height:28px;
-display:flex;
-align-items:center;
-overflow:hidden;
-white-space:nowrap;
+  width:100%;
+  height:28px;
+  display:flex;
+  align-items:center;
+  overflow:hidden;
+  white-space:nowrap;
+  background:var(--bg);
 }
 
 .ticker-track{
-display:flex;
-align-items:center;
-min-width:max-content;
-animation:ticker-scroll 120s linear infinite;
+  display:flex;
+  align-items:center;
+  min-width:max-content;
+  animation:ticker-scroll 120s linear infinite;
 }
 
 .ticker-item{
-display:flex;
-align-items:center;
-flex:0 0 auto;
+  display:flex;
+  align-items:center;
+  flex:0 0 auto;
 }
 
 .ticker-link{
-font-weight:600;
-font-size:13px;
-color:var(--text);
-text-decoration:none;
-padding:0 4px;
+  color:var(--text);
+  text-decoration:none;
+  font-size:13px;
+  padding:0 4px;
+}
+
+.prefix{
+  color:var(--muted);
+  font-weight:400;
+}
+
+.headline{
+  font-weight:600;
+  color:var(--text);
 }
 
 .separator{
-padding:0 14px;
-font-size:12px;
-color:var(--muted);
+  padding:0 14px;
+  font-size:12px;
+  color:var(--separator);
+  user-select:none;
 }
 
 @keyframes ticker-scroll{
-from{transform:translateX(0);}
-to{transform:translateX(-50%);}
+  from{transform:translateX(0);}
+  to{transform:translateX(-50%);}
 }
-
 </style>
 </head>
 
 <body>
 
 <div class="ticker-wrap">
-<div id="ticker">Loading…</div>
+  <div id="ticker">Loading…</div>
 </div>
 
 <script>
-
 const FEED="./notion.xml";
 
 function escapeHtml(str){
-return str
-.replace(/&/g,"&amp;")
-.replace(/</g,"&lt;")
-.replace(/>/g,"&gt;")
-.replace(/"/g,"&quot;")
-.replace(/'/g,"&#039;");
+  return str
+    .replace(/&/g,"&amp;")
+    .replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;")
+    .replace(/"/g,"&quot;")
+    .replace(/'/g,"&#039;");
+}
+
+function formatDateTime(date){
+  if (!(date instanceof Date) || isNaN(date)) return "";
+  return date.toLocaleString("en-GB", {
+    day: "numeric",
+    month: "long",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false
+  }).replace(",", "");
+}
+
+function splitTitleAndSource(fullTitle){
+  const parts = fullTitle.split(" - ");
+  if (parts.length >= 2){
+    const source = parts.pop();
+    const title = parts.join(" - ");
+    return { title, source };
+  }
+  return { title: fullTitle, source: "" };
 }
 
 function parseRSS(xmlText){
+  const parser = new DOMParser();
+  const xml = parser.parseFromString(xmlText,"text/xml");
 
-const parser=new DOMParser();
-const xml=parser.parseFromString(xmlText,"text/xml");
+  return Array.from(xml.querySelectorAll("item"))
+    .map(item => {
+      const fullTitle = item.querySelector("title")?.textContent.trim() || "Untitled";
+      const link = item.querySelector("link")?.textContent.trim() || "#";
+      const pubDateRaw = item.querySelector("pubDate")?.textContent || "";
+      const pubDate = new Date(pubDateRaw);
+      const split = splitTitleAndSource(fullTitle);
 
-return Array.from(xml.querySelectorAll("item"))
-.map(item=>({
-
-title:item.querySelector("title")?.textContent.trim() || "Untitled",
-link:item.querySelector("link")?.textContent.trim() || "#",
-date:new Date(item.querySelector("pubDate")?.textContent)
-
-}))
-.sort((a,b)=>b.date-a.date);
-
+      return {
+        title: split.title,
+        source: split.source,
+        link,
+        pubDate
+      };
+    })
+    .sort((a,b) => b.pubDate - a.pubDate);
 }
 
 function buildTicker(items){
-
-return items.map(i=>`
-<span class="ticker-item">
-<a class="ticker-link" href="${escapeHtml(i.link)}" target="_blank">
-${escapeHtml(i.title)}
-</a>
-<span class="separator">•</span>
-</span>
-`).join("");
-
+  return items.map(i => {
+    const prefix = formatDateTime(i.pubDate);
+    const sourceText = i.source ? ` - ${escapeHtml(i.source)}` : "";
+    return `
+      <span class="ticker-item">
+        <a class="ticker-link" href="${escapeHtml(i.link)}" target="_blank" rel="noopener noreferrer">
+          <span class="prefix">${escapeHtml(prefix)} - </span><span class="headline">${escapeHtml(i.title)}</span><span class="prefix">${sourceText}</span>
+        </a>
+        <span class="separator">•</span>
+      </span>
+    `;
+  }).join("");
 }
 
 async function loadTicker(){
+  const container=document.getElementById("ticker");
 
-const container=document.getElementById("ticker");
+  try{
+    const response = await fetch(FEED + "?t=" + Date.now(), { cache: "no-store" });
+    const xml = await response.text();
+    const items = parseRSS(xml);
 
-const response=await fetch(FEED+"?t="+Date.now());
-const xml=await response.text();
-
-const items=parseRSS(xml);
-
-container.className="ticker-track";
-container.innerHTML=buildTicker(items)+buildTicker(items);
-
+    container.className="ticker-track";
+    container.innerHTML = buildTicker(items) + buildTicker(items);
+  }catch(e){
+    container.textContent = "Could not load feed.";
+  }
 }
 
 loadTicker();
-
 </script>
 
 </body>
