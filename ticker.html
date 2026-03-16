@@ -19,7 +19,6 @@
 
   /* matched to Notion-style blue background */
   --ticker-bg: rgba(46,170,220,0.2);
-  --ticker-fade-solid: rgba(46,170,220,0.2);
 }
 
 @media (prefers-color-scheme: dark){
@@ -33,7 +32,6 @@
     --hover:rgba(255,255,255,0.08);
 
     --ticker-bg:rgba(46,170,220,0.25);
-    --ticker-fade-solid:rgba(46,170,220,0.25);
   }
 }
 
@@ -77,28 +75,6 @@ html, body{
 
   padding:3px 12px;
   margin-bottom:6px;
-}
-
-/* fade only the text edges, not the bar itself */
-.ticker-wrap::before,
-.ticker-wrap::after{
-  content:"";
-  position:absolute;
-  top:0;
-  width:28px;
-  height:100%;
-  z-index:2;
-  pointer-events:none;
-}
-
-.ticker-wrap::before{
-  left:0;
-  background:linear-gradient(to right, var(--ticker-fade-solid), transparent);
-}
-
-.ticker-wrap::after{
-  right:0;
-  background:linear-gradient(to left, var(--ticker-fade-solid), transparent);
 }
 
 .ticker-track{
