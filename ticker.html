@@ -56,7 +56,7 @@ html, body{
   gap:10px;
 }
 
-/* ticker row */
+/* ticker */
 .ticker-wrap{
   position:relative;
   width:100%;
@@ -147,55 +147,29 @@ html, body{
   user-select:none;
 }
 
-/* teaser area to use the Notion min-height gracefully */
-.teaser{
+/* teaser strip */
+.teaser-strip{
   flex:1 1 auto;
   min-height:0;
+  width:100%;
+  display:grid;
+  gap:0;
+  align-items:stretch;
+  overflow:hidden;
+}
+
+.teaser-card{
+  min-width:0;
+  padding:2px 14px 2px 14px;
+  border-left:1px solid var(--border);
   display:flex;
   flex-direction:column;
   justify-content:center;
-  gap:8px;
-  overflow:hidden;
 }
 
-.teaser-kicker{
-  font-size:11px;
-  font-weight:600;
-  letter-spacing:0.04em;
-  text-transform:uppercase;
-  color:var(--subtle);
-}
-
-.teaser-title{
-  font-size:15px;
-  line-height:1.32;
-  font-weight:600;
-  color:var(--text);
-  margin:0;
-  display:-webkit-box;
-  -webkit-line-clamp:2;
-  -webkit-box-orient:vertical;
-  overflow:hidden;
-}
-
-.teaser-meta{
-  font-size:12px;
-  line-height:1.3;
-  color:var(--muted);
-  display:flex;
-  flex-wrap:wrap;
-  gap:6px;
-}
-
-.teaser-summary{
-  font-size:13px;
-  line-height:1.45;
-  color:var(--muted);
-  margin:0;
-  display:-webkit-box;
-  -webkit-line-clamp:3;
-  -webkit-box-orient:vertical;
-  overflow:hidden;
+.teaser-card:first-child{
+  border-left:none;
+  padding-left:0;
 }
 
 .teaser-link{
@@ -203,13 +177,40 @@ html, body{
   color:inherit;
   display:block;
   border-radius:8px;
-  padding:2px 4px;
-  margin:0 -4px;
+  padding:4px 6px;
+  margin:0 -6px;
   transition:background-color 120ms ease;
+  min-width:0;
 }
 
 .teaser-link:hover{
   background:var(--hover);
+}
+
+.teaser-title{
+  margin:0 0 6px 0;
+  font-size:14px;
+  line-height:1.35;
+  font-weight:600;
+  color:var(--text);
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+
+.teaser-meta{
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px;
+  font-size:12px;
+  line-height:1.3;
+  color:var(--muted);
+  min-width:0;
+}
+
+.teaser-source{
+  color:var(--subtle);
 }
 
 .loading,
@@ -242,13 +243,12 @@ html, body{
     padding:0 10px;
   }
 
-  .teaser-title{
-    font-size:14px;
+  .teaser-card{
+    padding:2px 10px;
   }
 
-  .teaser-summary{
-    font-size:12px;
-    -webkit-line-clamp:2;
+  .teaser-title{
+    font-size:13px;
   }
 
   .ticker-track{
@@ -261,22 +261,17 @@ html, body{
     padding:8px 8px;
   }
 
-  .teaser{
-    gap:6px;
-  }
-
-  .teaser-kicker{
-    font-size:10px;
+  .teaser-card{
+    padding:2px 8px;
   }
 
   .teaser-title{
-    font-size:13px;
+    font-size:12px;
     -webkit-line-clamp:2;
   }
 
-  .teaser-summary{
-    font-size:12px;
-    -webkit-line-clamp:2;
+  .teaser-meta{
+    font-size:11px;
   }
 
   .ticker-track{
@@ -292,13 +287,14 @@ html, body{
     <div id="ticker" class="loading">Loading…</div>
   </div>
 
-  <div id="teaser" class="teaser">
-    <div class="loading">Loading latest article…</div>
+  <div id="teasers" class="teaser-strip">
+    <div class="loading">Loading latest articles…</div>
   </div>
 </div>
 
 <script>
 const FEED = "./notion.xml";
+let ALL_ITEMS = [];
 
 function escapeHtml(str){
   return (str || "")
@@ -330,15 +326,6 @@ function splitTitleAndSource(fullTitle){
   return { title: fullTitle || "Untitled", source: "" };
 }
 
-function stripHtml(html){
-  if (!html) return "";
-  const div = document.createElement("div");
-  div.innerHTML = html;
-  return (div.textContent || div.innerText || "")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
 function parseRSS(xmlText){
   const parser = new DOMParser();
   const xml = parser.parseFromString(xmlText, "text/xml");
@@ -348,7 +335,6 @@ function parseRSS(xmlText){
       const fullTitle = item.querySelector("title")?.textContent?.trim() || "Untitled";
       const link = item.querySelector("link")?.textContent?.trim() || "#";
       const pubDateRaw = item.querySelector("pubDate")?.textContent || "";
-      const descriptionRaw = item.querySelector("description")?.textContent || "";
       const pubDate = new Date(pubDateRaw);
       const split = splitTitleAndSource(fullTitle);
 
@@ -356,8 +342,7 @@ function parseRSS(xmlText){
         title: split.title,
         source: split.source,
         link,
-        pubDate,
-        description: stripHtml(descriptionRaw)
+        pubDate
       };
     })
     .sort((a,b) => b.pubDate - a.pubDate);
@@ -378,29 +363,46 @@ function buildTicker(items){
   }).join("");
 }
 
-function renderTeaser(item){
-  const teaser = document.getElementById("teaser");
-  const dateText = formatDateTime(item.pubDate);
-  const sourceText = item.source ? item.source : "Source";
-  const summary = item.description || "Open the article to read more.";
+function getCardMinWidth(width){
+  if (width <= 520) return 99999;   // effectively hide teasers on very small widths
+  if (width <= 800) return 240;
+  if (width <= 1200) return 260;
+  return 290;
+}
 
-  teaser.innerHTML = `
-    <a class="teaser-link" href="${escapeHtml(item.link)}" target="_blank" rel="noopener noreferrer">
-      <div class="teaser-kicker">Latest</div>
-      <h2 class="teaser-title">${escapeHtml(item.title)}</h2>
-      <div class="teaser-meta">
-        <span>${escapeHtml(dateText)}</span>
-        <span>·</span>
-        <span>${escapeHtml(sourceText)}</span>
-      </div>
-      <p class="teaser-summary">${escapeHtml(summary)}</p>
-    </a>
-  `;
+function renderTeasers(){
+  const container = document.getElementById("teasers");
+  if (!ALL_ITEMS.length) return;
+
+  const width = container.clientWidth;
+  const minWidth = getCardMinWidth(width);
+
+  if (minWidth > width){
+    container.style.gridTemplateColumns = "1fr";
+    container.innerHTML = "";
+    return;
+  }
+
+  const count = Math.max(1, Math.min(ALL_ITEMS.length, Math.floor(width / minWidth)));
+  const visibleItems = ALL_ITEMS.slice(0, count);
+
+  container.style.gridTemplateColumns = `repeat(${count}, minmax(0, 1fr))`;
+  container.innerHTML = visibleItems.map(item => `
+    <div class="teaser-card">
+      <a class="teaser-link" href="${escapeHtml(item.link)}" target="_blank" rel="noopener noreferrer">
+        <h3 class="teaser-title">${escapeHtml(item.title)}</h3>
+        <div class="teaser-meta">
+          <span>${escapeHtml(formatDateTime(item.pubDate))}</span>
+          ${item.source ? `<span>·</span><span class="teaser-source">${escapeHtml(item.source)}</span>` : ""}
+        </div>
+      </a>
+    </div>
+  `).join("");
 }
 
 async function loadTicker(){
   const ticker = document.getElementById("ticker");
-  const teaser = document.getElementById("teaser");
+  const teasers = document.getElementById("teasers");
 
   try{
     const response = await fetch(FEED + "?t=" + Date.now(), { cache: "no-store" });
@@ -412,23 +414,32 @@ async function loadTicker(){
     if (!items.length){
       ticker.className = "error";
       ticker.textContent = "No items found.";
-      teaser.innerHTML = `<div class="error">No article data found.</div>`;
+      teasers.innerHTML = `<div class="error">No article data found.</div>`;
       return;
     }
+
+    ALL_ITEMS = items;
 
     ticker.className = "ticker-track";
     ticker.innerHTML = buildTicker(items) + buildTicker(items);
 
-    renderTeaser(items[0]);
+    renderTeasers();
   } catch (e){
     ticker.className = "error";
     ticker.textContent = "Could not load feed.";
-    teaser.innerHTML = `<div class="error">Could not load latest article.</div>`;
+    teasers.innerHTML = `<div class="error">Could not load latest articles.</div>`;
     console.error(e);
   }
 }
 
-loadTicker();
+const resizeObserver = new ResizeObserver(() => {
+  renderTeasers();
+});
+
+loadTicker().then(() => {
+  const teaserContainer = document.getElementById("teasers");
+  resizeObserver.observe(teaserContainer);
+});
 </script>
 </body>
 </html>
