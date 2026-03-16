@@ -1,13 +1,29 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
 	<channel>
 		<title>Hydrogen</title>
 		<link>https://rationalnl.github.io/Rss-feed/notion.xml</link>
 		<description>RSS feed of Hydrogen</description>
-		<pubDate>Mon, 16 Mar 2026 08:00:01 +0000</pubDate>
-		<lastBuildDate>Mon, 16 Mar 2026 08:00:01 GMT</lastBuildDate>
+		<pubDate>Mon, 16 Mar 2026 08:30:01 +0000</pubDate>
+		<lastBuildDate>Mon, 16 Mar 2026 08:30:01 GMT</lastBuildDate>
 		<ns0:link href="https://rationalnl.github.io/Rss-feed/notion.xml" rel="self" type="application/rss+xml" />
 				<item>
+			<title>Waterstofleiding cruciale schakel in industriële energietransitie Rotterdamse haven - Industrielinqs</title>
+			<link>https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYWRYV3FrRXN1b2lYaHNxcVpOQVBZWkVVTHQ5MHFIUnRjaDRlV2NKTGJFUVFxdUF1c0lHdnhzUWJvaUFJT1RVOWlrb1ZyTi1aR2VCaXZJNlBXVG1sTFNOQ2M3MUpZRUFjWVp0eEExN0pjVDJyckNqN08zd1paQjJyWWxjVEtfeV9BWURmaVNjTW1PV3Vwazc2SkIxUlFDWnYtMjF3Yms2QThzcU5qbE02Ulg3amVFZHVremVZQkhGZE5iNHhxOUR6M3BPU2ZlVmhQRHlPdQ?oc=5</link>
+						<description>Waterstofleiding cruciale schakel in industriële energietransitie Rotterdamse haven Industrielinqs</description>
+			<pubDate>Mon, 16 Mar 2026 08:11:54 +0000</pubDate>
+			<guid isPermaLink="false">1773648905333546</guid>
+		</item>
+		<item>
+			<title>Why the EU’s Industrial Accelerator Act has left hydrogen wanting more</title>
+			<link>https://www.h2-view.com/story/why-the-eus-industrial-accelerator-act-has-left-hydrogen-wanting-more/2138421.article/?utm_source=gw&amp;utm_medium=rss_feed&amp;utm_campaign=rss</link>
+						<dc:creator>Charlie Currie</dc:creator>
+			<category>AEM Electrolysers/Europe/Hydrogen Production/PEM Electrolysers/Power/Steel/Steelmaking</category>
+			<description>The European Commission’s Industrial Accelerator Act (IAA), unveiled in March, was expected to strengthen Europe’s clean-tech manufacturing while accelerating decarbonisation. Instead, its release has been met with an unusual mix of industry silence and calls for stronger support from the hydrogen sector. The unveiled proposal IAA had been watered down following 11 th -hour amendments, leaving the industry calling for an array of changes from the European Parliament and Council. This is a paid article, to read the article in full you can sign in if you are subscribed or subscribe today .</description>
+			<pubDate>Mon, 16 Mar 2026 08:00:12 +0000</pubDate>
+			<guid isPermaLink="false">1773648905333545</guid>
+		</item>
+		<item>
 			<title>Gasunie's Port of Rotterdam hydrogen pipeline in 'final stages' - Quantum Commodity Intelligence</title>
 			<link>https://news.google.com/rss/articles/CBMiswFBVV95cUxOU2I5WjVWVExEdDVtbEZlQ0tacVAzblhJMnBuc2hmekh0VzhGaWt6ZFVvSnVfRWpPUU9pM2hGNkp0ZHJfRzM4OTRITjZRS1N0ckNzMmpMSmNwVk9LWW5OMEhscjJmSVdEV0d4dXN6RG9CWWhaYmRvc21SMlVSYWt4RjBVTVVSeEwxOTJvdzBaWUhVeFhtQ0V0NDk0a21JYjBxTnk5clQ5RXNnaTFRUUxVeEQ0UQ?oc=5</link>
 						<description>Gasunie's Port of Rotterdam hydrogen pipeline in 'final stages' Quantum Commodity Intelligence</description>
@@ -62,20 +78,6 @@
 						<description>Air Liquide takes final investment decision on Dutch hydrogen project Enlit World</description>
 			<pubDate>Fri, 25 Jul 2025 07:00:00 +0000</pubDate>
 			<guid isPermaLink="false">1773632702784092</guid>
-		</item>
-		<item>
-			<title>Uniper narrows Dutch hydrogen investment amid political turmoil - H2 View</title>
-			<link>https://news.google.com/rss/articles/CBMirgFBVV95cUxNQ2pkcFZQODYzVklQVG1GVVpzOHRJc1BQNC11SkhQekVIVk8zMHRLVzRJM19TMDlxOUwtZ2tWMHdXX2FtMHBrV0NTV2dwQ3dnd2JiN19rRUVfamRrRGVVbXZNbFJYS19XNzNJbExjMHFBSVY4SUozT3gzdzQwbGh0LWJqWHNmdjRqQmd5U0dQUVNPRXlkclYxOGFuVWV6d25fWVVzQ0hiM28xSnlHU0E?oc=5</link>
-						<description>Uniper narrows Dutch hydrogen investment amid political turmoil H2 View</description>
-			<pubDate>Mon, 09 Jun 2025 07:00:00 +0000</pubDate>
-			<guid isPermaLink="false">1773632702784091</guid>
-		</item>
-		<item>
-			<title>Uniper shelves Dutch project to produce low-carbon hydrogen from biomass - Hydrogen Insight</title>
-			<link>https://news.google.com/rss/articles/CBMixgFBVV95cUxOOThkRWNsb3VjbUdiYXBWX1lzWHJyUnN0aDdGb09xUnZIdDBkdXRranBzZW9LU09OTWhCTHNKTEJZWUVBc2RoSllQTGVtU1o0bUhydW9pSnAtLTcwVGxweTg3X0RvZW5uekxZTnhZSWFTcjZaS0FfbkI5bnliMWl1Ny1CV285VUIwQjBZdDVXM3ZhOC1vVWs4MUlTVzVzRmFjRmlBaWhTY1VPWnVfaGZiOTFIRmtiTW9helR3UElDa2YtZVk5Umc?oc=5</link>
-						<description>Uniper shelves Dutch project to produce low-carbon hydrogen from biomass Hydrogen Insight</description>
-			<pubDate>Mon, 26 May 2025 07:00:00 +0000</pubDate>
-			<guid isPermaLink="false">1773632702784090</guid>
 		</item>
 
 	</channel>
