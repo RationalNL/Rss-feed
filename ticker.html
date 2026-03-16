@@ -156,7 +156,7 @@ html, body{
   align-items:stretch;
   justify-content:flex-start;
   overflow:hidden;
-  gap:0; /* wordt dynamisch door JS gezet */
+  gap:0;
 }
 
 .teaser-card{
@@ -220,14 +220,12 @@ html, body{
   color:var(--subtle);
 }
 
-/* visible cards use width measured in JS */
 .teaser-card .teaser-link{
   width:var(--card-width, auto);
   max-width:var(--card-max-width, 420px);
   box-sizing:border-box;
 }
 
-/* hidden measurement area */
 .measure-strip{
   position:absolute;
   left:-99999px;
@@ -314,7 +312,6 @@ html, body{
   </div>
 </div>
 
-<!-- hidden measurer -->
 <div id="measure-strip" class="measure-strip"></div>
 
 <script>
@@ -389,15 +386,15 @@ function buildTicker(items){
 }
 
 function getCardMaxWidth(width){
-  if (width <= 700) return 220;
-  if (width <= 1100) return 260;
-  return 300;
+  if (width <= 700) return 330;
+  if (width <= 1100) return 390;
+  return 450;
 }
 
 function getMinGap(width){
-  if (width <= 700) return 18;
-  if (width <= 1100) return 24;
-  return 30;
+  if (width <= 700) return 27;
+  if (width <= 1100) return 36;
+  return 45;
 }
 
 function createCardHtml(item, withDivider = false){
@@ -476,7 +473,7 @@ function renderTeasers(){
   }
 
   container.style.gap = `${gap}px`;
-  container.style.setProperty("--divider-offset", `${Math.max(8, gap / 2)}px`);
+  container.style.setProperty("--divider-offset", `${Math.max(10, gap / 2)}px`);
   container.style.setProperty("--card-max-width", `${getCardMaxWidth(width)}px`);
 
   container.innerHTML = visibleItems.map((item, index) =>
