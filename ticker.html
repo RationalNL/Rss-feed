@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RSS Ticker</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #ffffff;
+      --text: #37352f;
+      --muted: rgba(55, 53, 47, 0.45);
+      --hover: rgba(55, 53, 47, 0.06);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #191919;
+        --text: rgba(255, 255, 255, 0.9);
+        --muted: rgba(255, 255, 255, 0.4);
+        --hover: rgba(255, 255, 255, 0.08);
+      }
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Helvetica,
+        Arial,
+        sans-serif;
+      overflow: hidden;
+    }
+
+    .ticker-wrap {
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      background: var(--bg);
+      box-sizing: border-box;
+      padding: 6px 0;
+    }
+
+    .ticker-track {
+      display: inline-flex;
+      align-items: center;
+      gap: 0;
+      min-width: max-content;
+      will-change: transform;
+      animation: ticker-scroll 90s linear infinite;
+    }
+
+    .ticker-wrap:hover .ticker-track {
+      animation-play-state: paused;
+    }
+
+    .ticker-item {
+      display: inline-flex;
+      align-items: center;
+      flex: 0 0 auto;
+      min-width: max-content;
+    }
+
+    .ticker-link {
+      color: var(--text);
+      text-decoration: none;
+      font-size: 13px;
+      line-height: 1.2;
+      padding: 0 4px;
+    }
+
+    .ticker-link:hover {
+      background: var(--hover);
+      border-radius: 4px;
+    }
+
+    .separator {
+      color: var(--muted);
+      font-size: 12px;
+      padding: 0 10px;
+      user-select: none;
+    }
+
+    .loading,
+    .error {
+      padding: 6px 10px;
+      font-size: 13px;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+
+    @keyframes ticker-scroll {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(-50%);
+      }
+    }
+
+    @media (max-width: 640px) {
+      .ticker-link {
+        font-size: 12px;
+      }
+
+      .separator {
+        padding: 0 8px;
+      }
+
+      .ticker-track {
+        animation-duration: 70s;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="ticker-wrap">
+    <div id="ticker" class="loading">Loading…</div>
+  </div>
+
+  <script>
+    const FEED = "./notion.xml";
+
+    function escapeHtml(str) {
+      return str
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function parseRSSItems(xmlText) {
+      const parser = new DOMParser();
+      const xml = parser.parseFromString(xmlText, "text/xml");
+
+      return Array.from(xml.querySelectorAll("item"))
+        .map(item => ({
+          title: item.querySelector("title")?.textContent?.trim() || "Untitled",
+          link: item.querySelector("link")?.textContent?.trim() || "#",
+          pubDate: item.querySelector("pubDate")?.textContent?.trim() || ""
+        }))
+        .sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+    }
+
+    function buildTickerItems(items) {
+      return items.map(item => `
+        <span class="ticker-item">
+          <a class="ticker-link" href="${escapeHtml(item.link)}" target="_blank" rel="noopener noreferrer">
+            ${escapeHtml(item.title)}
+          </a>
+          <span class="separator">•</span>
+        </span>
+      `).join("");
+    }
+
+    async function loadTicker() {
+      const container = document.getElementById("ticker");
+
+      try {
+        const response = await fetch(FEED + "?t=" + Date.now(), { cache: "no-store" });
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`);
+        }
+
+        const xmlText = await response.text();
+        const items = parseRSSItems(xmlText);
+
+        if (!items.length) {
+          container.className = "error";
+          container.textContent = "No items found.";
+          return;
+        }
+
+        const tickerHtml = buildTickerItems(items);
+        container.className = "ticker-track";
+        container.innerHTML = tickerHtml + tickerHtml;
+      } catch (error) {
+        container.className = "error";
+        container.textContent = "Could not load feed.";
+        console.error(error);
+      }
+    }
+
+    loadTicker();
+  </script>
+</body>
+</html>
