@@ -16,7 +16,10 @@
   --separator:rgba(55,53,47,0.28);
   --border:rgba(55,53,47,0.08);
   --hover:rgba(55,53,47,0.06);
-  --fade-solid:#ffffff;
+
+  /* matched to Notion-style blue background */
+  --ticker-bg: rgb(211, 229, 239);
+  --ticker-fade-solid: rgb(211, 229, 239);
 }
 
 @media (prefers-color-scheme: dark){
@@ -28,7 +31,9 @@
     --separator:rgba(255,255,255,0.26);
     --border:rgba(255,255,255,0.08);
     --hover:rgba(255,255,255,0.08);
-    --fade-solid:#191919;
+
+    --ticker-bg: rgb(40, 69, 108);
+    --ticker-fade-solid: rgb(40, 69, 108);
   }
 }
 
@@ -67,19 +72,20 @@ html, body{
   white-space:nowrap;
   flex:0 0 auto;
 
-  background:rgba(46,170,220,0.2);
+  background:var(--ticker-bg);
   border-radius:6px;
 
   padding:4px 10px;
   margin-bottom:6px;
 }
 
+/* fade only the text edges, not the bar itself */
 .ticker-wrap::before,
 .ticker-wrap::after{
   content:"";
   position:absolute;
   top:0;
-  width:24px;
+  width:28px;
   height:100%;
   z-index:2;
   pointer-events:none;
@@ -87,12 +93,12 @@ html, body{
 
 .ticker-wrap::before{
   left:0;
-  background:linear-gradient(to right, var(--fade-solid), transparent);
+  background:linear-gradient(to right, var(--ticker-fade-solid), transparent);
 }
 
 .ticker-wrap::after{
   right:0;
-  background:linear-gradient(to left, var(--fade-solid), transparent);
+  background:linear-gradient(to left, var(--ticker-fade-solid), transparent);
 }
 
 .ticker-track{
@@ -118,7 +124,7 @@ html, body{
   align-items:center;
   color:var(--text);
   text-decoration:none;
-  font-size:13px;
+  font-size:12.5px;
   line-height:1.2;
   padding:2px 5px;
   border-radius:6px;
@@ -264,8 +270,7 @@ html, body{
   }
 
   .ticker-wrap{
-    height:26px;
-    padding-bottom:6px;
+    height:34px;
   }
 
   .ticker-link{
