@@ -17,8 +17,9 @@
   --border:rgba(55,53,47,0.08);
   --hover:rgba(55,53,47,0.06);
 
-  /* exact Notion-style blue background */
-  --ticker-bg:rgba(46,170,220,0.20);
+  /* matched to Notion-style blue background */
+  --ticker-bg: rgb(211, 229, 239);
+  --ticker-fade-solid: rgb(211, 229, 239);
 }
 
 @media (prefers-color-scheme: dark){
@@ -71,15 +72,13 @@ html, body{
   flex:0 0 auto;
 
   background:var(--ticker-bg);
-
-  /* square edges like native Notion block */
   border-radius:0;
 
   padding:4px 10px;
   margin-bottom:6px;
 }
 
-/* fade only the text edges */
+/* fade only the text edges, not the bar itself */
 .ticker-wrap::before,
 .ticker-wrap::after{
   content:"";
@@ -93,12 +92,12 @@ html, body{
 
 .ticker-wrap::before{
   left:0;
-  background:linear-gradient(to right, var(--ticker-bg), transparent);
+  background:linear-gradient(to right, var(--ticker-fade-solid), transparent);
 }
 
 .ticker-wrap::after{
   right:0;
-  background:linear-gradient(to left, var(--ticker-bg), transparent);
+  background:linear-gradient(to left, var(--ticker-fade-solid), transparent);
 }
 
 .ticker-track{
@@ -157,20 +156,380 @@ html, body{
   user-select:none;
 }
 
+/* teaser strip */
+.teaser-strip{
+  flex:1 1 auto;
+  min-height:0;
+  width:100%;
+  display:flex;
+  align-items:stretch;
+  justify-content:flex-start;
+  overflow:hidden;
+  gap:0;
+}
+
+.teaser-card{
+  flex:0 0 auto;
+  min-width:0;
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  padding-top:2px;
+}
+
+.teaser-card.with-divider::before{
+  content:"";
+  position:absolute;
+  left:calc(-1 * var(--divider-offset, 12px));
+  top:50%;
+  transform:translateY(-50%);
+  width:1px;
+  height:24px;
+  background:var(--border);
+}
+
+.teaser-link{
+  text-decoration:none;
+  color:inherit;
+  display:block;
+  border-radius:8px;
+  padding:4px 6px;
+  margin:0 -6px;
+  transition:background-color 120ms ease;
+  min-width:0;
+}
+
+.teaser-link:hover{
+  background:var(--hover);
+}
+
+.teaser-title{
+  margin:0 0 6px 0;
+  font-size:14px;
+  line-height:1.35;
+  font-weight:600;
+  color:var(--text);
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+
+.teaser-meta{
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px;
+  font-size:12px;
+  line-height:1.3;
+  color:var(--muted);
+  min-width:0;
+}
+
+.teaser-source{
+  color:var(--subtle);
+}
+
+.teaser-card .teaser-link{
+  width:var(--card-width, auto);
+  max-width:var(--card-max-width, 420px);
+  box-sizing:border-box;
+}
+
+.measure-strip{
+  position:absolute;
+  left:-99999px;
+  top:-99999px;
+  visibility:hidden;
+  pointer-events:none;
+  display:flex;
+  gap:0;
+  overflow:hidden;
+}
+
+.measure-strip .teaser-card{
+  flex:0 0 auto;
+}
+
+.loading,
+.error{
+  font-size:13px;
+  color:var(--muted);
+}
+
 @keyframes ticker-scroll{
   from{ transform:translateX(0); }
   to{ transform:translateX(-50%); }
+}
+
+@media (max-width: 900px){
+  .shell{
+    padding:8px 10px;
+    gap:8px;
+  }
+
+  .ticker-wrap{
+    height:34px;
+  }
+
+  .ticker-link{
+    font-size:12px;
+  }
+
+  .separator{
+    padding:0 10px;
+  }
+
+  .teaser-title{
+    font-size:13px;
+  }
+
+  .ticker-track{
+    animation-duration:145s;
+  }
+}
+
+@media (max-width: 600px){
+  .shell{
+    padding:8px 8px;
+  }
+
+  .teaser-title{
+    font-size:12px;
+    -webkit-line-clamp:2;
+  }
+
+  .teaser-meta{
+    font-size:11px;
+  }
+
+  .ticker-track{
+    animation-duration:130s;
+  }
 }
 </style>
 </head>
 
 <body>
-
 <div class="shell">
   <div class="ticker-wrap">
     <div id="ticker" class="loading">Loading…</div>
   </div>
+
+  <div id="teasers" class="teaser-strip">
+    <div class="loading">Loading latest articles…</div>
+  </div>
 </div>
 
+<div id="measure-strip" class="measure-strip"></div>
+
+<script>
+const FEED = "./notion.xml";
+let ALL_ITEMS = [];
+
+function escapeHtml(str){
+  return (str || "")
+    .replace(/&/g,"&amp;")
+    .replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;")
+    .replace(/"/g,"&quot;")
+    .replace(/'/g,"&#039;");
+}
+
+function formatDateTime(date){
+  if (!(date instanceof Date) || isNaN(date)) return "";
+  return date.toLocaleString("en-GB", {
+    day: "numeric",
+    month: "long",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false
+  }).replace(",", "");
+}
+
+function splitTitleAndSource(fullTitle){
+  const parts = (fullTitle || "").split(" - ");
+  if (parts.length >= 2){
+    const source = parts.pop();
+    const title = parts.join(" - ");
+    return { title, source };
+  }
+  return { title: fullTitle || "Untitled", source: "" };
+}
+
+function parseRSS(xmlText){
+  const parser = new DOMParser();
+  const xml = parser.parseFromString(xmlText, "text/xml");
+
+  return Array.from(xml.querySelectorAll("item"))
+    .map(item => {
+      const fullTitle = item.querySelector("title")?.textContent?.trim() || "Untitled";
+      const link = item.querySelector("link")?.textContent?.trim() || "#";
+      const pubDateRaw = item.querySelector("pubDate")?.textContent || "";
+      const pubDate = new Date(pubDateRaw);
+      const split = splitTitleAndSource(fullTitle);
+
+      return {
+        title: split.title,
+        source: split.source,
+        link,
+        pubDate
+      };
+    })
+    .sort((a,b) => b.pubDate - a.pubDate);
+}
+
+function buildTicker(items){
+  return items.map(i => {
+    const prefix = formatDateTime(i.pubDate);
+    const sourceText = i.source ? ` - ${escapeHtml(i.source)}` : "";
+    return `
+      <span class="ticker-item">
+        <a class="ticker-link" href="${escapeHtml(i.link)}" target="_blank" rel="noopener noreferrer">
+          <span class="prefix">${escapeHtml(prefix)} - </span><span class="headline">${escapeHtml(i.title)}</span><span class="source">${sourceText}</span>
+        </a>
+        <span class="separator">•</span>
+      </span>
+    `;
+  }).join("");
+}
+
+function getCardMaxWidth(width){
+  if (width <= 700) return 280;
+  if (width <= 1100) return 330;
+  return 380;
+}
+
+function getMinGap(width){
+  if (width <= 700) return 18;
+  if (width <= 1100) return 24;
+  return 30;
+}
+
+function createCardHtml(item, withDivider = false){
+  return `
+    <div class="teaser-card ${withDivider ? "with-divider" : ""}">
+      <a class="teaser-link" href="${escapeHtml(item.link)}" target="_blank" rel="noopener noreferrer">
+        <h3 class="teaser-title">${escapeHtml(item.title)}</h3>
+        <div class="teaser-meta">
+          <span>${escapeHtml(formatDateTime(item.pubDate))}</span>
+          ${item.source ? `<span>·</span><span class="teaser-source">${escapeHtml(item.source)}</span>` : ""}
+        </div>
+      </a>
+    </div>
+  `;
+}
+
+function measureCards(items, containerWidth){
+  const measureStrip = document.getElementById("measure-strip");
+  const maxWidth = getCardMaxWidth(containerWidth);
+
+  measureStrip.style.setProperty("--card-max-width", `${maxWidth}px`);
+  measureStrip.innerHTML = items.map(item => createCardHtml(item)).join("");
+
+  const cards = Array.from(measureStrip.querySelectorAll(".teaser-card"));
+  return cards.map(card => {
+    const link = card.querySelector(".teaser-link");
+    return Math.ceil(link.getBoundingClientRect().width);
+  });
+}
+
+function renderTeasers(){
+  const container = document.getElementById("teasers");
+  if (!ALL_ITEMS.length) return;
+
+  const width = container.clientWidth;
+  const minGap = getMinGap(width);
+
+  if (width <= 520){
+    container.innerHTML = "";
+    container.style.gap = "0px";
+    return;
+  }
+
+  const candidateItems = ALL_ITEMS.slice(0, 10);
+  const measuredWidths = measureCards(candidateItems, width);
+
+  let used = 0;
+  let count = 0;
+
+  for (let i = 0; i < measuredWidths.length; i++){
+    const nextWidth = measuredWidths[i];
+    const nextUsed = used + nextWidth + (count > 0 ? minGap : 0);
+
+    if (nextUsed <= width){
+      used = nextUsed;
+      count++;
+    } else {
+      break;
+    }
+  }
+
+  if (count === 0){
+    container.innerHTML = "";
+    container.style.gap = "0px";
+    return;
+  }
+
+  const visibleItems = candidateItems.slice(0, count);
+  const visibleWidths = measuredWidths.slice(0, count);
+
+  let gap = minGap;
+  if (count > 1){
+    const totalCardsWidth = visibleWidths.reduce((a,b) => a + b, 0);
+    const leftover = Math.max(0, width - totalCardsWidth);
+    gap = leftover / (count - 1);
+  }
+
+  container.style.gap = `${gap}px`;
+  container.style.setProperty("--divider-offset", `${Math.max(10, gap / 2)}px`);
+  container.style.setProperty("--card-max-width", `${getCardMaxWidth(width)}px`);
+
+  container.innerHTML = visibleItems.map((item, index) =>
+    createCardHtml(item, index > 0)
+  ).join("");
+}
+
+async function loadTicker(){
+  const ticker = document.getElementById("ticker");
+  const teasers = document.getElementById("teasers");
+
+  try{
+    const response = await fetch(FEED + "?t=" + Date.now(), { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+    const xml = await response.text();
+    const items = parseRSS(xml);
+
+    if (!items.length){
+      ticker.className = "error";
+      ticker.textContent = "No items found.";
+      teasers.innerHTML = `<div class="error">No article data found.</div>`;
+      return;
+    }
+
+    ALL_ITEMS = items;
+
+    ticker.className = "ticker-track";
+    ticker.innerHTML = buildTicker(items) + buildTicker(items);
+
+    renderTeasers();
+  } catch (e){
+    ticker.className = "error";
+    ticker.textContent = "Could not load feed.";
+    teasers.innerHTML = `<div class="error">Could not load latest articles.</div>`;
+    console.error(e);
+  }
+}
+
+const resizeObserver = new ResizeObserver(() => {
+  renderTeasers();
+});
+
+loadTicker().then(() => {
+  const teaserContainer = document.getElementById("teasers");
+  resizeObserver.observe(teaserContainer);
+});
+</script>
 </body>
 </html>
