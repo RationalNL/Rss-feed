@@ -66,7 +66,8 @@ html, body{
   height:32px;
   display:flex;
   align-items:center;
-  overflow:hidden;
+  overflow-x:auto;
+  overflow-y:hidden;
   white-space:nowrap;
   flex:0 0 auto;
 
@@ -75,18 +76,25 @@ html, body{
 
   padding:3px 12px;
   margin-bottom:6px;
+
+  cursor:grab;
+  scrollbar-width:none;
+  -ms-overflow-style:none;
+}
+
+.ticker-wrap::-webkit-scrollbar{
+  display:none;
+}
+
+.ticker-wrap.dragging{
+  cursor:grabbing;
 }
 
 .ticker-track{
   display:flex;
   align-items:center;
   min-width:max-content;
-  animation:ticker-scroll 160s linear infinite;
-  will-change:transform;
-}
-
-.ticker-wrap:hover .ticker-track{
-  animation-play-state:paused;
+  will-change:scroll-position;
 }
 
 .ticker-item{
@@ -234,11 +242,6 @@ html, body{
   color:var(--muted);
 }
 
-@keyframes ticker-scroll{
-  from{ transform:translateX(0); }
-  to{ transform:translateX(-50%); }
-}
-
 @media (max-width: 900px){
   .shell{
     padding:8px 10px;
@@ -260,10 +263,6 @@ html, body{
   .teaser-title{
     font-size:13px;
   }
-
-  .ticker-track{
-    animation-duration:145s;
-  }
 }
 
 @media (max-width: 600px){
@@ -279,17 +278,13 @@ html, body{
   .teaser-meta{
     font-size:11px;
   }
-
-  .ticker-track{
-    animation-duration:130s;
-  }
 }
 </style>
 </head>
 
 <body>
 <div class="shell">
-  <div class="ticker-wrap">
+  <div class="ticker-wrap" id="tickerWrap">
     <div id="ticker" class="loading">Loading…</div>
   </div>
 
@@ -303,6 +298,15 @@ html, body{
 <script>
 const FEED = "./notion.xml";
 let ALL_ITEMS = [];
+
+/* ticker auto-scroll + drag state */
+let tickerAnimationFrame = null;
+let tickerHalfWidth = 0;
+let isTickerHovered = false;
+let isTickerDragging = false;
+let tickerDragStartX = 0;
+let tickerDragStartScrollLeft = 0;
+const tickerSpeedPxPerFrame = 0.35;
 
 function escapeHtml(str){
   return (str || "")
@@ -467,6 +471,93 @@ function renderTeasers(){
   ).join("");
 }
 
+function stopTickerAutoScroll(){
+  if (tickerAnimationFrame){
+    cancelAnimationFrame(tickerAnimationFrame);
+    tickerAnimationFrame = null;
+  }
+}
+
+function setupTickerInteraction(){
+  const tickerWrap = document.getElementById("tickerWrap");
+  const ticker = document.getElementById("ticker");
+
+  stopTickerAutoScroll();
+
+  if (!ticker || ticker.classList.contains("loading") || ticker.classList.contains("error")){
+    return;
+  }
+
+  requestAnimationFrame(() => {
+    tickerHalfWidth = ticker.scrollWidth / 2;
+    tickerWrap.scrollLeft = 0;
+  });
+
+  const autoScroll = () => {
+    if (!isTickerHovered && !isTickerDragging && tickerHalfWidth > 0){
+      tickerWrap.scrollLeft += tickerSpeedPxPerFrame;
+
+      if (tickerWrap.scrollLeft >= tickerHalfWidth){
+        tickerWrap.scrollLeft -= tickerHalfWidth;
+      }
+    }
+    tickerAnimationFrame = requestAnimationFrame(autoScroll);
+  };
+
+  tickerAnimationFrame = requestAnimationFrame(autoScroll);
+}
+
+function attachTickerEvents(){
+  const tickerWrap = document.getElementById("tickerWrap");
+
+  tickerWrap.addEventListener("mouseenter", () => {
+    isTickerHovered = true;
+  });
+
+  tickerWrap.addEventListener("mouseleave", () => {
+    isTickerHovered = false;
+    isTickerDragging = false;
+    tickerWrap.classList.remove("dragging");
+  });
+
+  tickerWrap.addEventListener("mousedown", (e) => {
+    isTickerDragging = true;
+    isTickerHovered = true;
+    tickerDragStartX = e.clientX;
+    tickerDragStartScrollLeft = tickerWrap.scrollLeft;
+    tickerWrap.classList.add("dragging");
+  });
+
+  window.addEventListener("mousemove", (e) => {
+    if (!isTickerDragging) return;
+
+    const deltaX = e.clientX - tickerDragStartX;
+    tickerWrap.scrollLeft = tickerDragStartScrollLeft - deltaX;
+
+    if (tickerHalfWidth > 0){
+      while (tickerWrap.scrollLeft < 0){
+        tickerWrap.scrollLeft += tickerHalfWidth;
+        tickerDragStartScrollLeft += tickerHalfWidth;
+      }
+
+      while (tickerWrap.scrollLeft >= tickerHalfWidth){
+        tickerWrap.scrollLeft -= tickerHalfWidth;
+        tickerDragStartScrollLeft -= tickerHalfWidth;
+      }
+    }
+  });
+
+  window.addEventListener("mouseup", () => {
+    if (!isTickerDragging) return;
+    isTickerDragging = false;
+    tickerWrap.classList.remove("dragging");
+  });
+
+  tickerWrap.addEventListener("dragstart", (e) => {
+    e.preventDefault();
+  });
+}
+
 async function loadTicker(){
   const ticker = document.getElementById("ticker");
   const teasers = document.getElementById("teasers");
@@ -491,6 +582,7 @@ async function loadTicker(){
     ticker.innerHTML = buildTicker(items) + buildTicker(items);
 
     renderTeasers();
+    setupTickerInteraction();
   } catch (e){
     ticker.className = "error";
     ticker.textContent = "Could not load feed.";
@@ -501,6 +593,7 @@ async function loadTicker(){
 
 const resizeObserver = new ResizeObserver(() => {
   renderTeasers();
+  setupTickerInteraction();
 });
 
 async function refreshAll() {
@@ -508,6 +601,9 @@ async function refreshAll() {
   const teaserContainer = document.getElementById("teasers");
   resizeObserver.observe(teaserContainer);
 }
+
+/* initial setup */
+attachTickerEvents();
 
 /* initial load */
 refreshAll();
