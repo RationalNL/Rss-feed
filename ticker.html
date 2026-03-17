@@ -17,7 +17,6 @@
   --border:rgba(55,53,47,0.08);
   --hover:rgba(55,53,47,0.06);
 
-  /* matched to Notion-style blue background */
   --ticker-bg: rgba(46,170,220,0.1);
 }
 
@@ -306,6 +305,7 @@ let isTickerHovered = false;
 let isTickerDragging = false;
 let tickerDragStartX = 0;
 let tickerDragStartScrollLeft = 0;
+let currentTickerScroll = 0;
 const tickerSpeedPxPerFrame = 0.35;
 
 function escapeHtml(str){
@@ -490,17 +490,21 @@ function setupTickerInteraction(){
 
   requestAnimationFrame(() => {
     tickerHalfWidth = ticker.scrollWidth / 2;
+    currentTickerScroll = 0;
     tickerWrap.scrollLeft = 0;
   });
 
   const autoScroll = () => {
     if (!isTickerHovered && !isTickerDragging && tickerHalfWidth > 0){
-      tickerWrap.scrollLeft += tickerSpeedPxPerFrame;
+      currentTickerScroll += tickerSpeedPxPerFrame;
 
-      if (tickerWrap.scrollLeft >= tickerHalfWidth){
-        tickerWrap.scrollLeft -= tickerHalfWidth;
+      if (currentTickerScroll >= tickerHalfWidth){
+        currentTickerScroll -= tickerHalfWidth;
       }
+
+      tickerWrap.scrollLeft = currentTickerScroll;
     }
+
     tickerAnimationFrame = requestAnimationFrame(autoScroll);
   };
 
@@ -524,7 +528,7 @@ function attachTickerEvents(){
     isTickerDragging = true;
     isTickerHovered = true;
     tickerDragStartX = e.clientX;
-    tickerDragStartScrollLeft = tickerWrap.scrollLeft;
+    tickerDragStartScrollLeft = currentTickerScroll;
     tickerWrap.classList.add("dragging");
   });
 
@@ -532,19 +536,21 @@ function attachTickerEvents(){
     if (!isTickerDragging) return;
 
     const deltaX = e.clientX - tickerDragStartX;
-    tickerWrap.scrollLeft = tickerDragStartScrollLeft - deltaX;
+    currentTickerScroll = tickerDragStartScrollLeft - deltaX;
 
     if (tickerHalfWidth > 0){
-      while (tickerWrap.scrollLeft < 0){
-        tickerWrap.scrollLeft += tickerHalfWidth;
+      while (currentTickerScroll < 0){
+        currentTickerScroll += tickerHalfWidth;
         tickerDragStartScrollLeft += tickerHalfWidth;
       }
 
-      while (tickerWrap.scrollLeft >= tickerHalfWidth){
-        tickerWrap.scrollLeft -= tickerHalfWidth;
+      while (currentTickerScroll >= tickerHalfWidth){
+        currentTickerScroll -= tickerHalfWidth;
         tickerDragStartScrollLeft -= tickerHalfWidth;
       }
     }
+
+    tickerWrap.scrollLeft = currentTickerScroll;
   });
 
   window.addEventListener("mouseup", () => {
