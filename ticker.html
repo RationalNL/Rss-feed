@@ -1,299 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>RSS Ticker</title>
-
-<style>
-:root{
-  color-scheme: light dark;
-
-  --bg:#ffffff;
-  --text:#37352f;
-  --muted:rgba(55,53,47,0.68);
-  --subtle:rgba(55,53,47,0.46);
-  --separator:rgba(55,53,47,0.28);
-  --border:rgba(55,53,47,0.08);
-  --hover:rgba(55,53,47,0.06);
-
-  --ticker-bg: rgba(46,170,220,0.2);
-}
-
-@media (prefers-color-scheme: dark){
-  :root{
-    --bg:#191919;
-    --text:rgba(255,255,255,0.92);
-    --muted:rgba(255,255,255,0.72);
-    --subtle:rgba(255,255,255,0.48);
-    --separator:rgba(255,255,255,0.26);
-    --border:rgba(255,255,255,0.08);
-    --hover:rgba(255,255,255,0.08);
-
-    --ticker-bg:rgba(40,69,108,1.0);
-  }
-}
-
-html, body{
-  margin:0;
-  padding:0;
-  width:100%;
-  height:100%;
-  background:var(--bg);
-  color:var(--text);
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;
-  overflow:hidden;
-}
-
-.shell{
-  box-sizing:border-box;
-  width:100%;
-  height:100vh;
-  min-height:100vh;
-  display:flex;
-  flex-direction:column;
-  justify-content:flex-start;
-  background:var(--bg);
-  padding:10px 14px 10px 14px;
-  gap:10px;
-}
-
-/* ticker */
-.ticker-wrap{
-  position:relative;
-  width:100%;
-  height:32px;
-  display:flex;
-  align-items:center;
-  overflow-x:auto;
-  overflow-y:hidden;
-  white-space:nowrap;
-  flex:0 0 auto;
-
-  background:var(--ticker-bg);
-  border-radius:0;
-
-  padding:3px 12px;
-  margin-bottom:6px;
-
-  cursor:grab;
-  scrollbar-width:none;
-  -ms-overflow-style:none;
-}
-
-.ticker-wrap::-webkit-scrollbar{
-  display:none;
-}
-
-.ticker-wrap.dragging{
-  cursor:grabbing;
-}
-
-.ticker-track{
-  display:flex;
-  align-items:center;
-  min-width:max-content;
-  will-change:scroll-position;
-}
-
-.ticker-item{
-  display:flex;
-  align-items:center;
-  flex:0 0 auto;
-}
-
-.ticker-link{
-  display:inline-flex;
-  align-items:center;
-  color:var(--text);
-  text-decoration:none;
-  font-size:13px;
-  line-height:1.2;
-  padding:2px 5px;
-  border-radius:6px;
-  transition:background-color 120ms ease;
-}
-
-.ticker-link:hover{
-  background:var(--hover);
-}
-
-.prefix{
-  color:var(--muted);
-  font-weight:400;
-}
-
-.headline{
-  color:var(--text);
-  font-weight:600;
-}
-
-.source{
-  color:var(--subtle);
-  font-weight:400;
-}
-
-.separator{
-  padding:0 12px;
-  font-size:13px;
-  color:var(--separator);
-  user-select:none;
-}
-
-/* teaser strip */
-.teaser-strip{
-  flex:1 1 auto;
-  min-height:0;
-  width:100%;
-  display:flex;
-  align-items:stretch;
-  justify-content:flex-start;
-  overflow:hidden;
-  gap:0;
-}
-
-.teaser-card{
-  flex:0 0 auto;
-  min-width:0;
-  position:relative;
-  display:flex;
-  flex-direction:column;
-  justify-content:flex-start;
-  padding-top:2px;
-}
-
-.teaser-card.with-divider::before{
-  content:"";
-  position:absolute;
-  left:calc(-1 * var(--divider-offset, 12px));
-  top:50%;
-  transform:translateY(-50%);
-  width:1px;
-  height:24px;
-  background:var(--border);
-}
-
-.teaser-link{
-  text-decoration:none;
-  color:inherit;
-  display:block;
-  border-radius:8px;
-  padding:4px 6px;
-  margin:0 -6px;
-  transition:background-color 120ms ease;
-  min-width:0;
-}
-
-.teaser-link:hover{
-  background:var(--hover);
-}
-
-.teaser-title{
-  margin:0 0 6px 0;
-  font-size:14px;
-  line-height:1.35;
-  font-weight:600;
-  color:var(--text);
-  display:-webkit-box;
-  -webkit-line-clamp:2;
-  -webkit-box-orient:vertical;
-  overflow:hidden;
-}
-
-.teaser-meta{
-  display:flex;
-  flex-wrap:wrap;
-  gap:6px;
-  font-size:12px;
-  line-height:1.3;
-  color:var(--muted);
-  min-width:0;
-}
-
-.teaser-source{
-  color:var(--subtle);
-}
-
-.teaser-card .teaser-link{
-  width:var(--card-width, auto);
-  max-width:var(--card-max-width, 420px);
-  box-sizing:border-box;
-}
-
-.measure-strip{
-  position:absolute;
-  left:-99999px;
-  top:-99999px;
-  visibility:hidden;
-  pointer-events:none;
-  display:flex;
-  gap:0;
-  overflow:hidden;
-}
-
-.measure-strip .teaser-card{
-  flex:0 0 auto;
-}
-
-.loading,
-.error{
-  font-size:13px;
-  color:var(--muted);
-}
-
-@media (max-width: 900px){
-  .shell{
-    padding:8px 10px;
-    gap:8px;
-  }
-
-  .ticker-wrap{
-    height:32px;
-  }
-
-  .ticker-link{
-    font-size:13px;
-  }
-
-  .separator{
-    padding:0 10px;
-  }
-
-  .teaser-title{
-    font-size:13px;
-  }
-}
-
-@media (max-width: 600px){
-  .shell{
-    padding:8px 8px;
-  }
-
-  .teaser-title{
-    font-size:12px;
-    -webkit-line-clamp:2;
-  }
-
-  .teaser-meta{
-    font-size:11px;
-  }
-}
-</style>
-</head>
-
-<body>
-<div class="shell">
-  <div class="ticker-wrap" id="tickerWrap">
-    <div id="ticker" class="loading">Loading…</div>
-  </div>
-
-  <div id="teasers" class="teaser-strip">
-    <div class="loading">Loading latest articles…</div>
-  </div>
-</div>
-
-<div id="measure-strip" class="measure-strip"></div>
-
 <script>
 const FEED = "./notion.xml";
 let ALL_ITEMS = [];
@@ -307,6 +11,17 @@ let tickerDragStartX = 0;
 let tickerDragStartScrollLeft = 0;
 let currentTickerScroll = 0;
 const tickerSpeedPxPerFrame = 0.7;
+
+/* refresh control */
+let lastRefreshTime = 0;
+const MIN_REFRESH_INTERVAL = 15000; // 15 sec anti-spam
+
+function safeRefresh(){
+  const now = Date.now();
+  if (now - lastRefreshTime < MIN_REFRESH_INTERVAL) return;
+  lastRefreshTime = now;
+  refreshAll();
+}
 
 function escapeHtml(str){
   return (str || "")
@@ -610,14 +325,22 @@ async function refreshAll() {
 
 /* initial setup */
 attachTickerEvents();
-
-/* initial load */
 refreshAll();
 
-/* force refresh every 5 minutes */
+/* periodic refresh */
 setInterval(() => {
-  refreshAll();
+  safeRefresh();
 }, 5 * 60 * 1000);
+
+/* refresh when tab becomes visible */
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible"){
+    safeRefresh();
+  }
+});
+
+/* refresh when window regains focus */
+window.addEventListener("focus", () => {
+  safeRefresh();
+});
 </script>
-</body>
-</html>
