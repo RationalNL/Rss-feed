@@ -1,84 +1,87 @@
 <?xml version='1.0' encoding='utf-8'?>
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
-	<channel>
-		<title>Hydrogen</title>
-		<link>https://rationalnl.github.io/Rss-feed/notion.xml</link>
-		<description>RSS feed of Hydrogen</description>
-		<pubDate>Wed, 18 Mar 2026 12:30:02 +0000</pubDate>
-		<lastBuildDate>Wed, 18 Mar 2026 12:30:02 GMT</lastBuildDate>
-		<ns0:link href="https://rationalnl.github.io/Rss-feed/notion.xml" rel="self" type="application/rss+xml" />
-				<item>
-			<title>Dutch pilot shows oil and gas well tech can safely store hydrogen underground: whitepaper - H2 View</title>
-			<link>https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOE54eE8zTDdyRTJqTGFGS1ZNVHdab3U2ckRETlZEYVdjMHlGZnNqRW5UQ3VuVC1uaU45S3UtSFNnTmpCMUJlM0VkdWw0eHNic0ZYckJYNEExZm9HY2FodlE5T3l0Z3VIRnVtcjdfNGFVQ0FhVENaWkxjSlNMMDZHMlhLZHd6Tl9vd0tDZFc4LXRUUFZGcnBXNVVLckJ0YTZmT3FzSzB1enU3X1BfNTdZZjdtNC1FVk8tV3JCVktOSHAzVnJ3NEpNSS1MM0h2bFRt?oc=5</link>
-						<description>Dutch pilot shows oil and gas well tech can safely store hydrogen underground: whitepaper H2 View</description>
-			<pubDate>Fri, 12 Sep 2025 07:00:00 +0000</pubDate>
-			<guid isPermaLink="false">1773835224964399</guid>
-		</item>
-		<item>
-			<title>Shell’s flagship hydrogen project connects to Dutch network - Enlit World</title>
-			<link>https://news.google.com/rss/articles/CBMilAFBVV95cUxQRGROV1ZDWFROX09MUmpldWxOYzRubFVmNGZpSDdvYTNQbEhTU3NVVVgzU1hqZFJtRjA5VXlwVGZtd3k3c0pJN3lvQXpuVzdMaVo1UlhOVWVEZjJuV0NHZ05USlNqZC1BaFg1WS1LRGZwT2FScHV1b2NWZlpkMVlLakthby0xMjdCY1JfbG5LRjVWWV90?oc=5</link>
-						<description>Shell’s flagship hydrogen project connects to Dutch network Enlit World</description>
-			<pubDate>Wed, 18 Mar 2026 10:38:47 +0000</pubDate>
-			<guid isPermaLink="false">1773831604277272</guid>
-		</item>
-		<item>
-			<title>Thyssengas begins conversion of cross-border pipeline between Germany and Netherlands to carry hydrogen - Hydrogen Insight</title>
-			<link>https://news.google.com/rss/articles/CBMi7wFBVV95cUxPbFJxQ0gyRUdVMS1QOXpsc00xWF9QS3haV3hzXzJscV9BUHdpb0lFMGFHTnhGVGhwWFRKU0tkOXZsS3U4VlRWSVVMNVJCb0d1a2FKdVNfOTY5S2c2WFBseGk4LXhwSDgwSGZ4VEZQbmk3SjQ3ZnFQZkdlWGREMTVLU1daWV9TT0tmWmRkc04tQnBUbEtYdzZEeDhOeDBLeGxsV1Z5a1JHUFEyUlZqVVBBN1B5aVlRWFlLRWxVdDhwSmZtdWNmY2RpbGdFWlh3TmZOMVZhTGJmUjdqemtwVFRqdXpPRUVkdm5oSEswSVp6dw?oc=5</link>
-						<description>Thyssengas begins conversion of cross-border pipeline between Germany and Netherlands to carry hydrogen Hydrogen Insight</description>
-			<pubDate>Thu, 28 Aug 2025 07:00:00 +0000</pubDate>
-			<guid isPermaLink="false">1773826223728357</guid>
-		</item>
-		<item>
-			<title>Gasunie stresses commitment to hydrogen as national network faces delays - H2 View</title>
-			<link>https://news.google.com/rss/articles/CBMiuwFBVV95cUxPV0o0SXdDVGRvS1FRSGtlSDNKZ0VOVXUzV1Nudk5wUXBTZW9sTDhTN1RqWGlnNkU5UVpJbnEwVzUzWHlvS3d5Y3piU2VpY3M0NVFvRXNDQ2xiM0N5TXB4OUdSUHBWR2lOVXdlcWg2MGRwU1lfcWRUQV9scVdDS0JVQ3lFSU1hdVRKcWs1TGM2eFRhZ0VPUVBicy0yWFBzWFJLSHViX2t2Vlh0T25aTDBqVlRhSG1UcVdvZXBz?oc=5</link>
-						<description>Gasunie stresses commitment to hydrogen as national network faces delays H2 View</description>
-			<pubDate>Mon, 21 Jul 2025 07:00:00 +0000</pubDate>
-			<guid isPermaLink="false">1773826223728356</guid>
-		</item>
-		<item>
-			<title>Most Rotterdam hydrogen terminals unlikely before 2030, consultation finds - H2 View</title>
-			<link>https://news.google.com/rss/articles/CBMivAFBVV95cUxNdjhKMWNTSjh6NXg3dDFTeEphYVJnVDJiQ19DVnZtU3JfTmVMcHFKMGtvRk1IbUFJckl1NzRYQ09COUtLdmc5d2F6dEFXVENuaG4xV3lBdDlRbmw5dVRkSFZsQ3Y5LTFjMGFMb0VheFpaQ0NBMkpKMlhhaHlIOXNGNWNCcFJScGFMbGo4LXFuSGR6TTFTbDJ3MThDZUh4akYxMEFoMXdwN1BUMlFMZ1drZDNVVThERUpvUlhYTg?oc=5</link>
-						<description>Most Rotterdam hydrogen terminals unlikely before 2030, consultation finds H2 View</description>
-			<pubDate>Wed, 18 Mar 2026 08:43:30 +0000</pubDate>
-			<guid isPermaLink="false">1773824405909417</guid>
-		</item>
-		<item>
-			<title>Most Rotterdam hydrogen terminals unlikely before 2030, consultation finds</title>
-			<link>https://www.h2-view.com/story/most-rotterdam-hydrogen-terminals-unlikely-before-2030-consultation-finds/2138533.article/?utm_source=gw&amp;utm_medium=rss_feed&amp;utm_campaign=rss</link>
-						<dc:creator>Charlie Currie</dc:creator>
-			<category>Europe/LOHC/Pipeline/Storage &amp; Transportation/Technology</category>
-			<description>The consultation conducted by the Port of Rotterdam Authority found that at least nine companies are actively developing terminal concepts. The Dutch port has long positioned itself as a major potential importer of clean hydrogen for Europe. In 2022, the authority outlined ambitions to supply up to 4.6 million tonnes of hydrogen per year to Europe by 2030. However, the consultation revealed demand uncertainty, permitting, power grid congestion, and a lack of infrastructure in wider regions were hampering plans for terminals. “The cost of such terminals quickly amounts to several hundred million euros, which is why companies want a degree of certainty that they can recover their investment,” the port authority said. Demand uncertainty has hampered Europe’s clean hydrogen plans more broadly, with industry players citing strict regulatory requirements and slow policy implementation as key challenges. With companies exploring plans to build terminals for ammonia, methanol, liquid hydrogen, and liquid organic hydrogen carriers in Rotterdam, the port said, “most companies expect that their potential terminal will not be operational until after 2030.” Outside of policy, the authority said developers saw uncertainty for permits around nitrogen deposits after cracking ammonia, power grid congestion, and limited pipeline infrastructure to transport hydrogen from Rotterdam into key demand centres such as Germany. The Delta Rhine Corridor is a 270km hydrogen and carbon dioxide pipeline network aiming to connect the Port of Rotterdam to Germany. Public consultations launched in 2025, with the network expected to be online by 2032. The Port of Rotterdam said risks mentioned by participants have been “prioritised” and are being addressed by the authority and its partners. Stay ahead with a H2 View subscription Gain access to the insights, data, and analysis trusted by hydrogen professionals worldwide. With a H2 View subscription, you get: Unlimited access to 15,000+ articles Monthly digital magazine + H2 Review Exclusive interviews, webinars and reports Expert analysis shaping the hydrogen conversation Subscribe today</description>
-			<pubDate>Wed, 18 Mar 2026 08:43:30 +0000</pubDate>
-			<guid isPermaLink="false">1773824405909416</guid>
-		</item>
-		<item>
-			<title>Netherlands – Breakthrough brings $1/kg cost green hydrogen closer - Hydrogen Central</title>
-			<link>https://news.google.com/rss/articles/CBMimAFBVV95cUxORnFaZmU0bk1OZTZxcUtzUUxXWVJVUlFNeVk5ejh1Zm9uNjdZQndFczcwUEJaTVZCNjlxb0RmT1MyY1U1YzlrX3ZhUVUyZFpWM19hYjZlSTlvMnR6R3pWM3Q0dVFpSVVGcjZ0MDl2WW83TkQ1Q1BxYU43bEhEOXQ4VmZKVDNVNnNuOTNTdDBXWDhxd2Y3SEdfTA?oc=5</link>
-						<description>Netherlands – Breakthrough brings $1/kg cost green hydrogen closer Hydrogen Central</description>
-			<pubDate>Wed, 15 Oct 2025 07:00:00 +0000</pubDate>
-			<guid isPermaLink="false">1773819005103632</guid>
-		</item>
-		<item>
-			<title>Holland Hydrogen 1 — a landmark ‘green energy’ project - Machinery Market</title>
-			<link>https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWUlkMkM2cFF6ZVVMTlZSVGFIT3lraFZ1UUkzSWZSbkZubEdhZnhTYkViOTIzVXlsZ2pob05IQUlic0lnVmo5TlFCcVRqcmRKSWk0QXBOYXZUYXVRVkdCTDFxUTdPNFU0TGo4bzBUeGZybzVsV2c4ZDFHMjdYWjhzMEVZSHhITGxTUXRoN0hfS3p3MHA2dTdGMmhpT0Y2Ql9FQ0xNeDdjTGJVUQ?oc=5</link>
-						<description>Holland Hydrogen 1 — a landmark ‘green energy’ project Machinery Market</description>
-			<pubDate>Tue, 12 Aug 2025 07:00:00 +0000</pubDate>
-			<guid isPermaLink="false">1773813605042197</guid>
-		</item>
-		<item>
-			<title>Dutch-based Battolyser and VDL Hydrogen Systems announce merger - Silicon Canals</title>
-			<link>https://news.google.com/rss/articles/CBMid0FVX3lxTE53eHZmMTZKNmhHWFAzY0tYUFdleXp0S2Y5SWg3YUtVVGFSTGlORDRtcVFtNVRZWXlNQ0ltS0ZTLXFjWllYWkRISThiZ0JuNDZrZXV2Q1JSWlMzYzdILVFsUWNnZHVkQWVwUXR5VHlmazRYal9Edm84?oc=5</link>
-						<description>Dutch-based Battolyser and VDL Hydrogen Systems announce merger Silicon Canals</description>
-			<pubDate>Fri, 18 Jul 2025 07:00:00 +0000</pubDate>
-			<guid isPermaLink="false">1773813605042196</guid>
-		</item>
-		<item>
-			<title>Equinor trekt stekker uit Nederlands waterstofproject H2M Eemshaven - Industrielinqs</title>
-			<link>https://news.google.com/rss/articles/CBMitwFBVV95cUxPNEF2WEtCY0JkLVlhVTloQkxTZzhzd0VhLXpjOHk1TGZ4UGhSU1VJNFNoVGpNd1VsdlJJOGkwb21KYWctSncwMTNfWm1WMVRZeE9TTTlhNThCSkR1MXZKOFNXVkdsV0tlbno0aGQzcHFjcktWNWtxWUdPWEk2azQ5RDhrSHpESUVwc0R4WjBJWk81SVpWZk8xSTZDaE91cldIX25RcnBtVlVWNnNNTVYzMTdyRHhPNkk?oc=5</link>
-						<description>Equinor trekt stekker uit Nederlands waterstofproject H2M Eemshaven Industrielinqs</description>
-			<pubDate>Fri, 20 Feb 2026 08:00:00 +0000</pubDate>
-			<guid isPermaLink="false">1773811805810387</guid>
-		</item>
-
-	</channel>
+  <channel>
+    <title>Hydrogen</title>
+    <link>https://rationalnl.github.io/Rss-feed/notion.xml</link>
+    <description>RSS feed of Hydrogen</description>
+    <pubDate>Wed, 18 Mar 2026 12:43:24 +0000</pubDate>
+    <lastBuildDate>Wed, 18 Mar 2026 12:43:24 GMT</lastBuildDate>
+    <ns0:link href="https://rationalnl.github.io/Rss-feed/notion.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shell’s flagship hydrogen project connects to Dutch network - Enlit World</title>
+      <link>https://news.google.com/rss/articles/CBMilAFBVV95cUxQRGROV1ZDWFROX09MUmpldWxOYzRubFVmNGZpSDdvYTNQbEhTU3NVVVgzU1hqZFJtRjA5VXlwVGZtd3k3c0pJN3lvQXpuVzdMaVo1UlhOVWVEZjJuV0NHZ05USlNqZC1BaFg1WS1LRGZwT2FScHV1b2NWZlpkMVlLakthby0xMjdCY1JfbG5LRjVWWV90?oc=5</link>
+      <description>Shell’s flagship hydrogen project connects to Dutch network Enlit World</description>
+      <pubDate>Wed, 18 Mar 2026 10:38:47 +0000</pubDate>
+      <guid isPermaLink="false">1773831604277272</guid>
+    </item>
+    <item>
+      <title>Most Rotterdam hydrogen terminals unlikely before 2030, consultation finds - H2 View</title>
+      <link>https://news.google.com/rss/articles/CBMivAFBVV95cUxNdjhKMWNTSjh6NXg3dDFTeEphYVJnVDJiQ19DVnZtU3JfTmVMcHFKMGtvRk1IbUFJckl1NzRYQ09COUtLdmc5d2F6dEFXVENuaG4xV3lBdDlRbmw5dVRkSFZsQ3Y5LTFjMGFMb0VheFpaQ0NBMkpKMlhhaHlIOXNGNWNCcFJScGFMbGo4LXFuSGR6TTFTbDJ3MThDZUh4akYxMEFoMXdwN1BUMlFMZ1drZDNVVThERUpvUlhYTg?oc=5</link>
+      <description>Most Rotterdam hydrogen terminals unlikely before 2030, consultation finds H2 View</description>
+      <pubDate>Wed, 18 Mar 2026 08:43:30 +0000</pubDate>
+      <guid isPermaLink="false">1773824405909417</guid>
+    </item>
+    <item>
+      <title>First Major Hydrogen Plant Linked to Dutch National Network | 2026 Milestone - News and Statistics - IndexBox</title>
+      <link>https://news.google.com/rss/articles/CBMimgFBVV95cUxNX3VBandXbmZTSklkd1dmSUctRFM0aDhlT2JXVWZuRmN5OVZZaDA2OC04MlBzSHpSS0J2QkwxLVhyR1NxTHV5NzFuRnJPVEZnaE04ZDRjbmtKOERJMXZmQjNPMWdYdVVFWGFtYWJlc2p5QW9nam1RVVA5M3JxSmxqSmZFWm5wd2xnTWExOUdjS0RUSDc2TGR6QWFn?oc=5</link>
+      <description>First Major Hydrogen Plant Linked to Dutch National Network | 2026 Milestone - News and Statistics IndexBox</description>
+      <pubDate>Tue, 17 Mar 2026 18:26:00 +0000</pubDate>
+      <guid isPermaLink="false">1773783007177702</guid>
+    </item>
+    <item>
+      <title>Gasunie – First major hydrogen plant connected to Dutch hydrogen network</title>
+      <link>https://hydrogen-central.com/gasunie-first-major-hydrogen-plant-connected-to-dutch-hydrogen-network/</link>
+      <dc:creator>itaizul0011</dc:creator>
+      <category>Business Development</category>
+      <description>Gasunie – First major hydrogen plant connected to Dutch hydrogen network Gasunie subsidiary Hynetwork has connected the first hydrogen plant to the Dutch hydrogen network. The customer connection’s so-called ‘golden weld’ was made between the 200 MW Holland Hydrogen 1 plant at the Rotterdam Maasvlakte and the hydrogen pipeline. The connection work was performed by contractor Hanab. This is the first time a green hydrogen producer has been connected directly to the national hydrogen infrastructure. It signifies another step in the development of the hydrogen network interconnecting Dutch industry and connecting it to industry abroad. This is a key condition for the decarbonisation of industry in the Netherlands and north-western Europe. The connection follows the successful completion of the first 32 kilometres of hydrogen pipeline earlier this year, after filling it with green hydrogen and bringing it to the correct pressure. The hydrogen pipeline was constructed by Hynetwork and largely runs parallel to the A15, inside an existing energy corridor where other key infrastructure is also clustered, including the CO 2 pipeline used for the Porthos project. Close collaboration with Porthos The development of this first hydrogen pipeline route took place in close collaboration with the Porthos project. Over a stretch of 19 kilometres, the hydrogen pipeline and the CO 2 pipeline are only 40 centimetres apart. Jan Willem Rongen, Project Manager Rotterdam Hydrogen Network (Hynetwork): We set up the projects to ensure that we stayed out of each other’s way as much as possible. ” Intensive collaboration between Hynetwork, Porthos and its construction partners HANAB and Denys enabled us to coordinate schedules, resolve problem areas and ensure safety together. This collaboration was essential to our success: it was a huge achievement from us all.” Basis for growing hydrogen network This first connection represents a significant step forwards in the development of a national hydrogen network. The infrastructure will be further expanded over the coming years by adding new producers and consumers. Our aim is to build on this first connection in the port of Rotterdam and create a national and, ultimately, an international network connecting industrial clusters in north-western Europe. READ the latest news shaping the hydrogen market at Hydrogen Central Gasunie – First major hydrogen plant connected to Dutch hydrogen network, source The post Gasunie – First major hydrogen plant connected to Dutch hydrogen network appeared first on Hydrogen Central .</description>
+      <pubDate>Tue, 17 Mar 2026 17:59:45 +0000</pubDate>
+      <guid isPermaLink="false">1773770816586524</guid>
+    </item>
+    <item>
+      <title>Gasunie connects 200-MW hydrogen project to Dutch hydrogen network - Renewables Now</title>
+      <link>https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeWJDMzZfRmpSRHlDeDNHbmtxWDNqSmVRU1dsVlppc3NIM19GaGFITWNKazZyZTNremp5eVNDYVhYcGJYZ19mT2hWbWJyVVl2S2k3bHdHWkEyaVJvNUFWMGlocDNIYUhUTFYwM2lmdWJFak5nOGhzWDNJRE9sZUZvX2s4bTV5QTVtaGhpcHFSUTNRekFiVnJXRjcteXgyekhCbkc3cWdySzJoZw?oc=5</link>
+      <description>Gasunie connects 200-MW hydrogen project to Dutch hydrogen network Renewables Now</description>
+      <pubDate>Tue, 17 Mar 2026 14:39:48 +0000</pubDate>
+      <guid isPermaLink="false">1773758708635438</guid>
+    </item>
+    <item>
+      <title>First major hydrogen plant connected to Dutch Hydrogen Network - Ocean Energy Resources</title>
+      <link>https://news.google.com/rss/articles/CBMirAFBVV95cUxOdzAwR3o1TG5oTVlwUGdaREVxd1hsZjVmNVBRRjc5bGxPOXlDZnVpOVZGM3dqTWdfQmprbFFqN2o0bHZGanRsSUg5VVU3dG5fajBfazNub05jRjREUjJzRnNyajM1b21nNzI1LXVSTjNnVkp4bkwyQ3E3VkdRLUZlVVIxS0RuVG5RaVB2ZjNacmZxaW5veVh6UU8tOGpzbkF3TmtXbTN5VGFWU0R5?oc=5</link>
+      <description>First major hydrogen plant connected to Dutch Hydrogen Network Ocean Energy Resources</description>
+      <pubDate>Tue, 17 Mar 2026 13:38:30 +0000</pubDate>
+      <guid isPermaLink="false">1773756010784069</guid>
+    </item>
+    <item>
+      <title>Kleinere blauwe-waterstoffabriek in Noord-Nederland lijkt nog in beeld - Industrielinqs</title>
+      <link>https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQ2dMWGlBTTVlQTNEWFc0RDJhRER6d3dMMm5hSVY4MjVPZGMtRmdabHZNSUFKY0xEMEZEV2F0cWJoUWZiUEpzQmpGSThGNE1lV0tJa1JCUll6T1AwRVpYN0lDcmN4dlAzRFZteHFMRTVZZFlNSnBUSTdoLTdndUxKTVFJaUdpMFk2QW5rOGp2X2lFNGlRbzRfVkYzcG42d29XazJUQ3FWb2l0MUNCUVFRdktfMGc1X0J4WS1F?oc=5</link>
+      <description>Kleinere blauwe-waterstoffabriek in Noord-Nederland lijkt nog in beeld Industrielinqs</description>
+      <pubDate>Tue, 17 Mar 2026 12:54:02 +0000</pubDate>
+      <guid isPermaLink="false">1773752410356217</guid>
+    </item>
+    <item>
+      <title>OMV Petrom receives first electrolyser for 20MW Romanian e-fuel plant</title>
+      <link>https://www.h2-view.com/story/omv-petrom-receives-first-electrolyser-for-20mw-romanian-e-fuel-plant/2138499.article/?utm_source=gw&amp;utm_medium=rss_feed&amp;utm_campaign=rss</link>
+      <dc:creator>Connor Jack</dc:creator>
+      <category>Europe/Hydrogen Production/Power/Technology</category>
+      <description>Romanian oil and gas producer OMV Petrom has received the first electrolyser module for a 20MW green hydrogen-based e-fuel production unit at its Petrobrazi refinery. The PEM module is the first of four, which will produce up to 3,000 tonnes of green hydrogen per year for 250,000 tonnes of sustainable aviation fuel (SAF) and renewable diesel by 2028. The units come from the German engineering firm Neuman &amp; Esser. Once operating, they will be partially powered by a 7MW solar farm at the Petrobrazi site, which OMV Petrom started building in February. A subsidiary of Austrian refiner OMV, OMV Petrom says the remaining three modules will follow shortly. Petrobrazi’s e-fuel program has seen €750m ($863m) in investment from OMV Petrom, which plans to invest around €11bn ($12.7bn) by 2030 to support Romania’s energy transition. In January 2024, it also received €50m ($58m) in funding for the site’s green hydrogen components from Romania’s National Recovery and Resilience Plan, supported by the European Commission. A further 35MW plant is planned for the site, bringing total green hydrogen production to 8,000 tonnes annually, and the potential for over 660,000 tonnes of e-fuel. The timeline for the second system remains undisclosed. Radu Căprău, Member of the OMV Petrom Executive Board, said the module’s delivery was a landmark for positioning the firm as a major producer of e-fuels in Southeastern Europe. The refinery’s advancement comes as players across Europe expand e-fuel and SAF production capabilities with the EU’s ReFuelEU Aviation regulation and efforts across mobility to decarbonise vehicle fleets set to drive demand. Reach the global hydrogen audience Put your brand at the heart of the hydrogen conversation. With H2 View, you can reach decision-makers and professionals across the global hydrogen value chain. Our 2026 Media Guide shows how you can: • Advertise across digital, print, and newsletters • Connect with a highly engaged hydrogen audience • Align your company with trusted industry coverage Download H2 View’s Media Guide today</description>
+      <pubDate>Tue, 17 Mar 2026 10:16:31 +0000</pubDate>
+      <guid isPermaLink="false">1773762302658721</guid>
+    </item>
+    <item>
+      <title>Hydrogen research funding included in EU-approved €4.6bn German package</title>
+      <link>https://www.h2-view.com/story/hydrogen-research-funding-included-in-eu-approved-e4-6bn-german-package/2138497.article/?utm_source=gw&amp;utm_medium=rss_feed&amp;utm_campaign=rss</link>
+      <dc:creator>Connor Jack</dc:creator>
+      <category>Europe/Policy</category>
+      <description>The European Commission approved the package, which includes funding for research projects under the country’s National Hydrogen Strategy, after it surpassed targets related to its wider green transition. Under the commission’s criteria, the funding could “help to overcome economic and technological barriers” related to hydrogen as a clean energy source. While Germany has established itself as Northwest Europe’s leading hydrogen developer , it is far behind meeting its strategy target of installing 10GW of green hydrogen capacity by 2030. Funding will also support energy efficiency measures for buildings, subsidies for electric vehicles (EVs), and the installation of EV chargers. Pending a final stage of approval from the commission’s Economic and Financial Committee (EFC), the payment would take Germany’s total NextGenerationEU’s recovery and resilience payments to €24.4bn ($28bn). The EFC has until April 10 to provide final approval. NextGenerationEU is Europe’s €750bn ($862.7bn) Covid-19 recovery instrument, aimed at funding green, digital, and resilience projects. Never miss a hydrogen headline Hydrogen moves fast – stay on top of it with our daily and weekly briefings. Daily : The top five hydrogen stories, straight to your inbox Weekly : The week’s biggest news, features, interviews and analysis North American Bulletin : Dedicated coverage of the region’s key hydrogen developments Sign up for free</description>
+      <pubDate>Tue, 17 Mar 2026 08:48:44 +0000</pubDate>
+      <guid isPermaLink="false">1773738003310313</guid>
+    </item>
+    <item>
+      <title>Eerste grote waterstoffabriek nu aangesloten op Nederlands waterstofnetwerk - - Duurzaam Actueel</title>
+      <link>https://news.google.com/rss/articles/CBMipwFBVV95cUxOTmcwcEQyN2E1aUh0ZmMwWnlhakhiWUpVQXF6THAtU2R3bDFTOGxtSmhMbzF1UV9vYkk1ZTI3d2NIdDZ5dmYxcm9SdEJHY2lPWGNjc0NEaDNJRVFQc0lYUE1EV3FaaVRSaE5YM3czaFVZOS1GanRYbUJtYl8xVVFBOFlfX3c2eFpUN1l0bDBJVksyR0dJS0J1N29SVzJncXZ2YTViX1B2VQ?oc=5</link>
+      <description>Eerste grote waterstoffabriek nu aangesloten op Nederlands waterstofnetwerk - Duurzaam Actueel</description>
+      <pubDate>Tue, 17 Mar 2026 03:02:31 +0000</pubDate>
+      <guid isPermaLink="false">1773718205610496</guid>
+    </item>
+  </channel>
 </rss>
