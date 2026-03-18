@@ -1,13 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
 	<channel>
 		<title>Hydrogen</title>
 		<link>https://rationalnl.github.io/Rss-feed/notion.xml</link>
 		<description>RSS feed of Hydrogen</description>
-		<pubDate>Wed, 18 Mar 2026 07:30:02 +0000</pubDate>
-		<lastBuildDate>Wed, 18 Mar 2026 07:30:02 GMT</lastBuildDate>
+		<pubDate>Wed, 18 Mar 2026 08:00:02 +0000</pubDate>
+		<lastBuildDate>Wed, 18 Mar 2026 08:00:02 GMT</lastBuildDate>
 		<ns0:link href="https://rationalnl.github.io/Rss-feed/notion.xml" rel="self" type="application/rss+xml" />
 				<item>
+			<title>Netherlands – Breakthrough brings $1/kg cost green hydrogen closer - Hydrogen Central</title>
+			<link>https://news.google.com/rss/articles/CBMimAFBVV95cUxORnFaZmU0bk1OZTZxcUtzUUxXWVJVUlFNeVk5ejh1Zm9uNjdZQndFczcwUEJaTVZCNjlxb0RmT1MyY1U1YzlrX3ZhUVUyZFpWM19hYjZlSTlvMnR6R3pWM3Q0dVFpSVVGcjZ0MDl2WW83TkQ1Q1BxYU43bEhEOXQ4VmZKVDNVNnNuOTNTdDBXWDhxd2Y3SEdfTA?oc=5</link>
+						<description>Netherlands – Breakthrough brings $1/kg cost green hydrogen closer Hydrogen Central</description>
+			<pubDate>Wed, 15 Oct 2025 07:00:00 +0000</pubDate>
+			<guid isPermaLink="false">1773819005103632</guid>
+		</item>
+		<item>
 			<title>Holland Hydrogen 1 — a landmark ‘green energy’ project - Machinery Market</title>
 			<link>https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWUlkMkM2cFF6ZVVMTlZSVGFIT3lraFZ1UUkzSWZSbkZubEdhZnhTYkViOTIzVXlsZ2pob05IQUlic0lnVmo5TlFCcVRqcmRKSWk0QXBOYXZUYXVRVkdCTDFxUTdPNFU0TGo4bzBUeGZybzVsV2c4ZDFHMjdYWjhzMEVZSHhITGxTUXRoN0hfS3p3MHA2dTdGMmhpT0Y2Ql9FQ0xNeDdjTGJVUQ?oc=5</link>
 						<description>Holland Hydrogen 1 — a landmark ‘green energy’ project Machinery Market</description>
@@ -69,15 +76,6 @@
 						<description>Thyssengas starts work on 52km hydrogen pipeline link on Dutch-German border H2 View</description>
 			<pubDate>Thu, 28 Aug 2025 07:00:00 +0000</pubDate>
 			<guid isPermaLink="false">1773783007177700</guid>
-		</item>
-		<item>
-			<title>Gasunie – First major hydrogen plant connected to Dutch hydrogen network</title>
-			<link>https://hydrogen-central.com/gasunie-first-major-hydrogen-plant-connected-to-dutch-hydrogen-network/</link>
-						<dc:creator>itaizul0011</dc:creator>
-			<category>Business Development</category>
-			<description>Gasunie – First major hydrogen plant connected to Dutch hydrogen network Gasunie subsidiary Hynetwork has connected the first hydrogen plant to the Dutch hydrogen network. The customer connection’s so-called ‘golden weld’ was made between the 200 MW Holland Hydrogen 1 plant at the Rotterdam Maasvlakte and the hydrogen pipeline. The connection work was performed by contractor Hanab. This is the first time a green hydrogen producer has been connected directly to the national hydrogen infrastructure. It signifies another step in the development of the hydrogen network interconnecting Dutch industry and connecting it to industry abroad. This is a key condition for the decarbonisation of industry in the Netherlands and north-western Europe. The connection follows the successful completion of the first 32 kilometres of hydrogen pipeline earlier this year, after filling it with green hydrogen and bringing it to the correct pressure. The hydrogen pipeline was constructed by Hynetwork and largely runs parallel to the A15, inside an existing energy corridor where other key infrastructure is also clustered, including the CO 2 pipeline used for the Porthos project. Close collaboration with Porthos The development of this first hydrogen pipeline route took place in close collaboration with the Porthos project. Over a stretch of 19 kilometres, the hydrogen pipeline and the CO 2 pipeline are only 40 centimetres apart. Jan Willem Rongen, Project Manager Rotterdam Hydrogen Network (Hynetwork): We set up the projects to ensure that we stayed out of each other’s way as much as possible. ” Intensive collaboration between Hynetwork, Porthos and its construction partners HANAB and Denys enabled us to coordinate schedules, resolve problem areas and ensure safety together. This collaboration was essential to our success: it was a huge achievement from us all.” Basis for growing hydrogen network This first connection represents a significant step forwards in the development of a national hydrogen network. The infrastructure will be further expanded over the coming years by adding new producers and consumers. Our aim is to build on this first connection in the port of Rotterdam and create a national and, ultimately, an international network connecting industrial clusters in north-western Europe. READ the latest news shaping the hydrogen market at Hydrogen Central Gasunie – First major hydrogen plant connected to Dutch hydrogen network, source The post Gasunie – First major hydrogen plant connected to Dutch hydrogen network appeared first on Hydrogen Central .</description>
-			<pubDate>Tue, 17 Mar 2026 17:59:45 +0000</pubDate>
-			<guid isPermaLink="false">1773770816586524</guid>
 		</item>
 
 	</channel>
