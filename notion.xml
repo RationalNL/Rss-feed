@@ -4,8 +4,8 @@
     <title>Hydrogen</title>
     <link>https://rationalnl.github.io/Rss-feed/notion.xml</link>
     <description>RSS feed of Hydrogen</description>
-    <pubDate>Fri, 20 Mar 2026 05:30:01 +0000</pubDate>
-    <lastBuildDate>Fri, 20 Mar 2026 05:30:01 GMT</lastBuildDate>
+    <pubDate>Fri, 20 Mar 2026 06:00:01 +0000</pubDate>
+    <lastBuildDate>Fri, 20 Mar 2026 06:00:01 GMT</lastBuildDate>
     <ns0:link href="https://rationalnl.github.io/Rss-feed/notion.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First major hydrogen plant connected to Dutch hydrogen pipeline - World Pipelines</title>
@@ -13,6 +13,13 @@
       <description>First major hydrogen plant connected to Dutch hydrogen pipeline World Pipelines</description>
       <pubDate>Thu, 19 Mar 2026 22:00:54 +0000</pubDate>
       <guid isPermaLink="false">1773969306448710</guid>
+    </item>
+    <item>
+      <title>Rotterdam Uses Half a Million Tonnes of Hydrogen a Year: Now its First Major Producer is Plugging in a Green - Intelligent Living</title>
+      <link>https://news.google.com/rss/articles/CBMic0FVX3lxTE9zNWRIMGsxTklFclZ5U213TWZkc2F3R2luRlVZd1owVmEybExPYWswY2VuZno4VVpUc1FHYUhFYU9BUVE1Z3gxcnBGeG11aTRWSjliNF9kMGpGbU9reThUSzJaRlZ0Y1pkM0d2MkE1X1NLUHfSAXNBVV95cUxPczVkSDBrMU5JRXJWeVNtd01mZHNhd0dpbkZVWXdaMFZhMmxMT2FrMGNlbmZ6OFVaVHNRR2FIRWFPQVFRNWd4MXJwRnhtdWk0Vko5YjRfZDBqRm1Pa3k4VEsyWkZWdGNaZDNHdjJBNV9TS1B3?oc=5</link>
+      <description>Rotterdam Uses Half a Million Tonnes of Hydrogen a Year: Now its First Major Producer is Plugging in a Green Intelligent Living</description>
+      <pubDate>Thu, 19 Mar 2026 10:15:58 +0000</pubDate>
+      <guid isPermaLink="false">1773985509878615</guid>
     </item>
     <item>
       <title>KBR wins FEED contract for Amsterdam liquid hydrogen and CO2 terminal</title>
@@ -73,13 +80,6 @@
       <description>Gasunie connects 200-MW hydrogen project to Dutch hydrogen network Renewables Now</description>
       <pubDate>Tue, 17 Mar 2026 14:39:48 +0000</pubDate>
       <guid isPermaLink="false">1773758708635438</guid>
-    </item>
-    <item>
-      <title>First major hydrogen plant connected to Dutch Hydrogen Network - Ocean Energy Resources</title>
-      <link>https://news.google.com/rss/articles/CBMirAFBVV95cUxOdzAwR3o1TG5oTVlwUGdaREVxd1hsZjVmNVBRRjc5bGxPOXlDZnVpOVZGM3dqTWdfQmprbFFqN2o0bHZGanRsSUg5VVU3dG5fajBfazNub05jRjREUjJzRnNyajM1b21nNzI1LXVSTjNnVkp4bkwyQ3E3VkdRLUZlVVIxS0RuVG5RaVB2ZjNacmZxaW5veVh6UU8tOGpzbkF3TmtXbTN5VGFWU0R5?oc=5</link>
-      <description>First major hydrogen plant connected to Dutch Hydrogen Network Ocean Energy Resources</description>
-      <pubDate>Tue, 17 Mar 2026 13:38:30 +0000</pubDate>
-      <guid isPermaLink="false">1773756010784069</guid>
     </item>
   </channel>
 </rss>
