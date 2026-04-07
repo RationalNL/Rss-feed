@@ -4,9 +4,16 @@
     <title>Hydrogen</title>
     <link>https://rationalnl.github.io/Rss-feed/notion.xml</link>
     <description>RSS feed of Hydrogen</description>
-    <pubDate>Tue, 07 Apr 2026 11:30:02 +0000</pubDate>
-    <lastBuildDate>Tue, 07 Apr 2026 11:30:02 GMT</lastBuildDate>
+    <pubDate>Tue, 07 Apr 2026 12:00:02 +0000</pubDate>
+    <lastBuildDate>Tue, 07 Apr 2026 12:00:02 GMT</lastBuildDate>
     <ns0:link href="https://rationalnl.github.io/Rss-feed/notion.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Hydrogen Stream: Dutch electrolyzer merger forms Alquion - pv magazine International</title>
+      <link>https://news.google.com/rss/articles/CBMioAFBVV95cUxOWFFyM3pxMDNOSVJIV056TlZLQVF2T2Z5MVRnT3QwanRRRllxNjZJcWllb3ZvVXhMR1NONFVnQzZrZkVnVmIzZHQxSGdjMlhrdV9QWVVpemdzbllyd0JidEhIUjcwcEROSThWWUhMdmFoSXp2TWp3UHg4aWtUR1FqUmw5dUhRR3QxQnhzTVJnVGdpaXBlZXNCa3M4NmdaZElV?oc=5</link>
+      <description>The Hydrogen Stream: Dutch electrolyzer merger forms Alquion pv magazine International</description>
+      <pubDate>Tue, 07 Apr 2026 11:00:35 +0000</pubDate>
+      <guid isPermaLink="false">1775562314795955</guid>
+    </item>
     <item>
       <title>Alstom takes over Cummins’ rail fuel cell activities after electrolyser exit</title>
       <link>https://www.h2-view.com/story/alstom-takes-over-cummins-rail-fuel-cell-activities-after-electrolyser-exit/2138986.article/?utm_source=gw&amp;utm_medium=rss_feed&amp;utm_campaign=rss</link>
@@ -77,13 +84,6 @@
       <description>Aantal volledig elektrische personenauto’s in Nederland nadert 700.000 MobilityEnergy.com</description>
       <pubDate>Thu, 02 Apr 2026 12:11:47 +0000</pubDate>
       <guid isPermaLink="false">1775140210037018</guid>
-    </item>
-    <item>
-      <title>Waterstof in het energiesysteem: toepassingen in Nederland - Gasunie</title>
-      <link>https://news.google.com/rss/articles/CBMibkFVX3lxTE5UeWpTdnBSc2JpeHVJbFBuZFRtMHRvNVQ1UjhBdVNJOXVvSW4xSkxneGFQekxEMFRfNzRmbDViekoxMjZ0aDJQVWt5d0NzemZDUFIyYjVmSy1GLUdmUnc5RFdLRzNKbWp0OEtTUVZB?oc=5</link>
-      <description>Waterstof in het energiesysteem: toepassingen in Nederland Gasunie</description>
-      <pubDate>Thu, 02 Apr 2026 11:29:18 +0000</pubDate>
-      <guid isPermaLink="false">1775152812018036</guid>
     </item>
   </channel>
 </rss>
