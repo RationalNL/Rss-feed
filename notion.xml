@@ -4,8 +4,8 @@
     <title>Hydrogen</title>
     <link>https://rationalnl.github.io/Rss-feed/notion.xml</link>
     <description>RSS feed of Hydrogen</description>
-    <pubDate>Mon, 11 May 2026 12:30:01 +0000</pubDate>
-    <lastBuildDate>Mon, 11 May 2026 12:30:01 GMT</lastBuildDate>
+    <pubDate>Mon, 11 May 2026 13:00:02 +0000</pubDate>
+    <lastBuildDate>Mon, 11 May 2026 13:00:02 GMT</lastBuildDate>
     <ns0:link href="https://rationalnl.github.io/Rss-feed/notion.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EU awards over €1 billion to European hydrogen projects to accelerate the clean transition</title>
@@ -49,13 +49,6 @@
       <guid isPermaLink="false">1777718707360844</guid>
     </item>
     <item>
-      <title>Netherlands Hydrogen Storage Materials - Market Analysis, Forecast, Size, Trends and Insights - IndexBox</title>
-      <link>https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOEpSaVdrYm14dmhiRG1XNTN1OWtaQ19nY0FTdWctN1pKZ29ENTJJVFBTcmVQU0Qxb2h3aVEtd21wSGpfMGNVWmxlalB5ZGRySi1SRDR6UWFJWUVBd2xYWnlhVG5ydE14N1BNQ2RhVzJEREJnRHByQzhUME5sUzdqaWdDSEtRYWVER1FfeUFqUnJsdE5wel8xX2Nub25zY09GSE85bE5yek5WLVhkS1RaS2FFb1oxMms3Qmpz?oc=5</link>
-      <description>Netherlands Hydrogen Storage Materials - Market Analysis, Forecast, Size, Trends and Insights IndexBox</description>
-      <pubDate>Fri, 01 May 2026 07:00:00 +0000</pubDate>
-      <guid isPermaLink="false">1778332506144739</guid>
-    </item>
-    <item>
       <title>Asia Pacific ports advance cross-sector hydrogen and e-fuel readiness</title>
       <link>https://hydrogen-central.com/asia-pacific-ports-advance-cross-sector-hydrogen-and-e-fuel-readiness/</link>
       <dc:creator>itaizul0011</dc:creator>
@@ -87,6 +80,13 @@
       <description>Spiral Hydrogen raises €2.7M to build green hydrogen pilot in Rotterdam Tech.eu</description>
       <pubDate>Thu, 30 Apr 2026 08:30:55 +0000</pubDate>
       <guid isPermaLink="false">1777538708087669</guid>
+    </item>
+    <item>
+      <title>Bouwen aan waterstof onder de grond van Rotterdam - Infrasite</title>
+      <link>https://news.google.com/rss/articles/CBMigwFBVV95cUxOczZiRm5Ed3FfQ2x2SHFydHE0cWJ2MXpRSmxwdkJKYUJUZnJDNTVwNk9iZlpGcWN0LXQwck5NR1ZWckZaYWFBWmgtcHhsYkNHWkFMQ2xaZDVON3lLeXRzWHBNWU1ZZFJ3bmdHUW1qMERrRjZndWFSeV9SX2luTmJBVDFNYw?oc=5</link>
+      <description>Bouwen aan waterstof onder de grond van Rotterdam Infrasite</description>
+      <pubDate>Thu, 30 Apr 2026 03:46:52 +0000</pubDate>
+      <guid isPermaLink="false">1778388309343323</guid>
     </item>
   </channel>
 </rss>
