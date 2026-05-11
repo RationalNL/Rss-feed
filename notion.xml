@@ -4,8 +4,8 @@
     <title>Hydrogen</title>
     <link>https://rationalnl.github.io/Rss-feed/notion.xml</link>
     <description>RSS feed of Hydrogen</description>
-    <pubDate>Mon, 11 May 2026 16:30:01 +0000</pubDate>
-    <lastBuildDate>Mon, 11 May 2026 16:30:01 GMT</lastBuildDate>
+    <pubDate>Mon, 11 May 2026 17:00:01 +0000</pubDate>
+    <lastBuildDate>Mon, 11 May 2026 17:00:01 GMT</lastBuildDate>
     <ns0:link href="https://rationalnl.github.io/Rss-feed/notion.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EU awards over €1 billion to European hydrogen projects to accelerate the clean transition</title>
@@ -31,6 +31,13 @@
       <description>Shell Nears Launch of Estimated $1.17B Holland Green Hydrogen Project Engineering News-Record (ENR)</description>
       <pubDate>Tue, 05 May 2026 18:36:00 +0000</pubDate>
       <guid isPermaLink="false">1778030109727728</guid>
+    </item>
+    <item>
+      <title>Spiral Hydrogen Raises €2.7M for Green Hydrogen Pilot in Rotterdam - energynews.pro</title>
+      <link>https://news.google.com/rss/articles/CBMilAFBVV95cUxPYU5GNDhDZkhmX1VwWm5Ua2NybTd5S0R1SnNFaGpfUzJmMWNWY25hRW9aY1JaWU1yVWphdklBRF9ra1ozbzg2aFlHWUduTjVmcGJvZW9xLWxkTTlRbk5DQUdoN056R0Z0QVR3cmRCS3VaWldiMWM0dWRpMkdqQ2hXbG1GaXA2LXRiMURMSkw4WnJjTmxx?oc=5</link>
+      <description>Spiral Hydrogen Raises €2.7M for Green Hydrogen Pilot in Rotterdam energynews.pro</description>
+      <pubDate>Mon, 04 May 2026 08:20:07 +0000</pubDate>
+      <guid isPermaLink="false">1778517910739409</guid>
     </item>
     <item>
       <title>Rotterdam The Hague Airport Trials Hydrogen Electric Pickup Truck</title>
@@ -80,13 +87,6 @@
       <description>Spiral Hydrogen raises €2.7M to build green hydrogen pilot in Rotterdam Tech.eu</description>
       <pubDate>Thu, 30 Apr 2026 08:30:55 +0000</pubDate>
       <guid isPermaLink="false">1777538708087669</guid>
-    </item>
-    <item>
-      <title>Bouwen aan waterstof onder de grond van Rotterdam - Infrasite</title>
-      <link>https://news.google.com/rss/articles/CBMigwFBVV95cUxOczZiRm5Ed3FfQ2x2SHFydHE0cWJ2MXpRSmxwdkJKYUJUZnJDNTVwNk9iZlpGcWN0LXQwck5NR1ZWckZaYWFBWmgtcHhsYkNHWkFMQ2xaZDVON3lLeXRzWHBNWU1ZZFJ3bmdHUW1qMERrRjZndWFSeV9SX2luTmJBVDFNYw?oc=5</link>
-      <description>Bouwen aan waterstof onder de grond van Rotterdam Infrasite</description>
-      <pubDate>Thu, 30 Apr 2026 03:46:52 +0000</pubDate>
-      <guid isPermaLink="false">1778388309343323</guid>
     </item>
   </channel>
 </rss>
