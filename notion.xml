@@ -4,8 +4,8 @@
     <title>Hydrogen</title>
     <link>https://rationalnl.github.io/Rss-feed/notion.xml</link>
     <description>RSS feed of Hydrogen</description>
-    <pubDate>Wed, 20 May 2026 20:30:01 +0000</pubDate>
-    <lastBuildDate>Wed, 20 May 2026 20:30:01 GMT</lastBuildDate>
+    <pubDate>Wed, 20 May 2026 21:00:02 +0000</pubDate>
+    <lastBuildDate>Wed, 20 May 2026 21:00:02 GMT</lastBuildDate>
     <ns0:link href="https://rationalnl.github.io/Rss-feed/notion.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SWISS teams up with Metafuels to further promote SAF</title>
@@ -36,6 +36,13 @@
       <description>Opening waterstofnetwerk haven Rotterdam onder toeziend oog Koning Willem-Alexander Schuttevaer.nl</description>
       <pubDate>Wed, 20 May 2026 13:26:52 +0000</pubDate>
       <guid isPermaLink="false">1779291909068714</guid>
+    </item>
+    <item>
+      <title>Rotterdam targets Europe hydrogen hub role with 32-km pipeline and Porthos CCS project - PortNews IAA</title>
+      <link>https://news.google.com/rss/articles/CBMiS0FVX3lxTE9lSnNsdHhOQmh2OWl3cmNWN3RxSTdDRV9NZU1VTjYzVldES3oyRXB3OUZqUVhrVXdyUFhTSXVDd0RzVHFCRUxqel9MNA?oc=5</link>
+      <description>Rotterdam targets Europe hydrogen hub role with 32-km pipeline and Porthos CCS project PortNews IAA</description>
+      <pubDate>Wed, 20 May 2026 10:52:00 +0000</pubDate>
+      <guid isPermaLink="false">1779309910040252</guid>
     </item>
     <item>
       <title>Hydrogen for a resilient world: Global industry leaders launch CEO-led Call-to-Action amid recurrent crises</title>
@@ -74,13 +81,6 @@
       <description>Semiconductors to green hydrogen: What's on agenda as Modi meets Dutch PM MSN</description>
       <pubDate>Wed, 20 May 2026 00:11:19 +0000</pubDate>
       <guid isPermaLink="false">1779295508026606</guid>
-    </item>
-    <item>
-      <title>WORLD HYDROGEN 2026: Market needs mandates, demand support: Port of Rotterdam CEO - Quantum Commodity Intelligence</title>
-      <link>https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVW11WFVxSjFqQkhDYzNOM2VMcVlSQjc5bC1HZU5DZWt4YlFXdV9sZmt3S2RiUTNMOTdiS29TQmhnX3o5YXBaRlZDSHE0OW80Tk1KbmtTa3d4VTlfTFFRYl9pNmV2em9Ba2VSSHBuRjFIWFNJTkxNeU5jT2oxUHZSWnNYd21qWXVadzNzTEhHeDA5aTgwcS01M082dlV2NHBGR3F5N3RGcHFvZnN0aWZ5V1hzTHJJUk80andGVTlUS3BieWRhbGZHZQ?oc=5</link>
-      <description>WORLD HYDROGEN 2026: Market needs mandates, demand support: Port of Rotterdam CEO Quantum Commodity Intelligence</description>
-      <pubDate>Tue, 19 May 2026 08:37:00 +0000</pubDate>
-      <guid isPermaLink="false">1779239717415796</guid>
     </item>
   </channel>
 </rss>
