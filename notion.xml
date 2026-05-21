@@ -1,12 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Hydrogen</title>
     <link>https://rationalnl.github.io/Rss-feed/notion.xml</link>
     <description>RSS feed of Hydrogen</description>
-    <pubDate>Thu, 21 May 2026 17:30:01 +0000</pubDate>
-    <lastBuildDate>Thu, 21 May 2026 17:30:01 GMT</lastBuildDate>
+    <pubDate>Thu, 21 May 2026 18:00:02 +0000</pubDate>
+    <lastBuildDate>Thu, 21 May 2026 18:00:02 GMT</lastBuildDate>
     <ns0:link href="https://rationalnl.github.io/Rss-feed/notion.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Port of Rotterdam – LAUNCH2 gets underway: alliance to accelerate hydrogen innovation</title>
+      <link>https://hydrogen-central.com/port-of-rotterdam-launch2-gets-underway-alliance-to-accelerate-hydrogen-innovation/</link>
+      <dc:creator>itaizul0011</dc:creator>
+      <category>Business Development</category>
+      <description>Port of Rotterdam – LAUNCH2 gets underway: alliance to accelerate hydrogen innovation The new partnership LAUNCH 2 officially commenced during the World Hydrogen Summit &amp; Exhibition 2026 in Rotterdam. The Port of Rotterdam Authority, the Municipality of Rotterdam and the Municipality of Schiedam, the Province of South Holland, InnovationQuarter, TU Delft, TNO and Smart Delta Drechtsteden have joined forces to accelerate hydrogen innovation. LAUNCH 2 brings together the efforts of public-sector parties and knowledge institutions to support the development of regional hydrogen chains in a more focused and effective manner. Companies can approach LAUNCH 2 for support in finding partners, accessing knowledge, infrastructure, and opportunities for testing and upscaling. The initiative aims to strengthen Rotterdam’s position as a European hydrogen hub. Specifically, this means that LAUNCH 2 : connects companies, public authorities and knowledge institutions; supports innovation and upscaling; shares knowledge and contacts; strengthens the regional hydrogen network. Examples of initiatives supported within this approach include the FLIE‑ SubZero Rotterdam pilot hall for industrial electrification and the development of a circular iron fuel facility by RIFT in Rotterdam. The lease agreement for the pilot hall was signed by PlatformZero and TNO on 1 April, with the Port of Rotterdam Authority involved as investor and facilitator, while the Province of South Holland provided a subsidy for the necessary infrastructure. For RIFT, InnovationQuarter contributed funding via the Rotterdam Energy Transition Fund to support the project from the pilot phase to commercial realisation. LAUNCH 2 connects existing initiatives in the region and aims to ensure greater cohesion and acceleration. READ the latest news shaping the hydrogen market at Hydrogen Central Port of Rotterdam – LAUNCH2 gets underway: alliance to accelerate hydrogen innovation, source The post Port of Rotterdam – LAUNCH2 gets underway: alliance to accelerate hydrogen innovation appeared first on Hydrogen Central .</description>
+      <pubDate>Thu, 21 May 2026 17:34:22 +0000</pubDate>
+      <guid isPermaLink="false">1779385508900757</guid>
+    </item>
     <item>
       <title>Gasunie, Open Grid Europe and Thyssengas sign an agreement to develop a hydrogen corridor between the Netherlands and Germany - Hydrogen Central</title>
       <link>https://news.google.com/rss/articles/CBMi6gFBVV95cUxPeEFISi02VFZjNERJcUl3MTVaa3RiZzZJV1hmRzUzN2ZlUTR4TnA0LVVhYjU2N1R2TnY3bExMYUZkMFhKSlZOZGZUang5dm5ZT2pidDlHQkxKcVlBeU9kVm1XVU1CREtSc0hZbkxjeU5qd3ZVQ2VkQkxub1hObXlrS2FMTjFmQjlkNTFldFRpQlhBUjB4M0xPdjY3ekJtb3dkelY5YUF5YUNWSS10T295X3Bmd2tPLU1tNENxZlpsSUhpUnJHLWdwOURfa1hUVFhkNHR6Y1dhcHRFS05fcU5qVFd0SlhhTll1Zmc?oc=5</link>
@@ -69,13 +78,6 @@
       <description>Gasunie en Duitse netbeheerders werken aan waterstofverbinding Welingelichte Kringen</description>
       <pubDate>Thu, 21 May 2026 09:12:40 +0000</pubDate>
       <guid isPermaLink="false">1779354908642937</guid>
-    </item>
-    <item>
-      <title>Gasunie, OGE and Thyssengas target 2031 start for Zevenaar-Elten hydrogen link - PortNews IAA</title>
-      <link>https://news.google.com/rss/articles/CBMiS0FVX3lxTE94bW1JTGpnMGVWMWRzZFVUZmFlcm1QX3hfRG1BTmhhVExNZWlTTkFqaVJsVkl0R3RCcVRWdHJLZXBPaGdFMk9Cd0g1RQ?oc=5</link>
-      <description>Gasunie, OGE and Thyssengas target 2031 start for Zevenaar-Elten hydrogen link PortNews IAA</description>
-      <pubDate>Thu, 21 May 2026 07:51:00 +0000</pubDate>
-      <guid isPermaLink="false">1779353109233436</guid>
     </item>
   </channel>
 </rss>
