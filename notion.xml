@@ -1,12 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Hydrogen</title>
     <link>https://rationalnl.github.io/Rss-feed/notion.xml</link>
     <description>RSS feed of Hydrogen</description>
-    <pubDate>Fri, 22 May 2026 11:30:02 +0000</pubDate>
-    <lastBuildDate>Fri, 22 May 2026 11:30:02 GMT</lastBuildDate>
+    <pubDate>Fri, 22 May 2026 12:00:01 +0000</pubDate>
+    <lastBuildDate>Fri, 22 May 2026 12:00:01 GMT</lastBuildDate>
     <ns0:link href="https://rationalnl.github.io/Rss-feed/notion.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Hydrogen Stream: Netherlands commissions 32-km hydrogen pipeline - pv magazine International</title>
+      <link>https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMW9STUZnSVFVZEpBTFh0Q212OC1jTGExdmRMTFZkMTVsRGpKbk9qSllnX0VFS0hkZTVMSE5oZEdKTk96aUsxTjBhQWw2V3oyQ2FlWEZQQkx4cHk0S1JmUUU1bnRUdG1vVUlzTHplRzVEZjFhVW00Um90TU9oRGdCNEdJRkZDUkxZazlnWlBIZXkwYVN1OUJuTDVzNzVWcDRzX3BfRnVqX0VsbE0?oc=5</link>
+      <description>The Hydrogen Stream: Netherlands commissions 32-km hydrogen pipeline pv magazine International</description>
+      <pubDate>Fri, 22 May 2026 11:39:46 +0000</pubDate>
+      <guid isPermaLink="false">1779450311061113</guid>
+    </item>
     <item>
       <title>Succesvolle taxitests met waterstofvliegtuig op Rotterdam The Hague Airport - Rotterdam The Hague Airport</title>
       <link>https://news.google.com/rss/articles/CBMixwFBVV95cUxPdURBMUViZlhMNW1RUFNqVG9qUWEzeDBRMUxPbm5sbV8yU2VjUTBpckFKYXVrTmxZaEY5TGh3RUJfakVzdW5yTGctV3BYc3plTzZTd2pYZW9GSFBSbU9GOWhSdGY3cFpRdENGeHZtU25oN3dzWllGeE9ObnJPbl9wNzN1Y284czNrVGpvWnZSalJreWd5bjM2T09Bd3JPWUhvSl8zbWdJRXhpN1ZOQlVlWU4wRXNWZ1lTbjVObmpVdmxIU2loRVVJ?oc=5</link>
@@ -69,15 +76,6 @@
       <description>The first section (32 km) of the Dutch hydrogen network officially goes into operation HydroNews</description>
       <pubDate>Thu, 21 May 2026 18:38:40 +0000</pubDate>
       <guid isPermaLink="false">1779399920343094</guid>
-    </item>
-    <item>
-      <title>EcoLog and Kawasaki Sign Strategic Alliance in Liquefied Hydrogen Midstream</title>
-      <link>https://hydrogen-central.com/ecolog-and-kawasaki-sign-strategic-alliance-in-liquefied-hydrogen-midstream/</link>
-      <dc:creator>itaizul0011</dc:creator>
-      <category>Business Development</category>
-      <description>EcoLog and Kawasaki Sign Strategic Alliance in Liquefied Hydrogen Midstream Kawasaki Heavy Industries, Ltd. (“Kawasaki”) and EcoLog have signed a strategic alliance in the midstream segment of the liquefied hydrogen supply chain — encompassing maritime transportation, terminals, and ship-to-shore interfaces — at the World Hydrogen Summit &amp; Exhibition held in Rotterdam, the Netherlands. Through this alliance, the companies will deepen their collaboration by leveraging Kawasaki’s product portfolio in maritime transportation, terminal operations, and ship-to-shore integration, as part of EcoLog’s liquefied hydrogen corridor initiative currently under development in the port of Amsterdam. Together, the companies will enable the safe and stable supply of hydrogen to demand centers across Europe, including the Netherlands, via diversified routes from origins such as Oman, Saudi Arabia, Spain, and Brazil, mitigating geopolitical risks. This collaboration will also help accelerate hydrogen adoption in the mobility sector, including heavy-duty trucks, and support the growing use of liquefied hydrogen across a wide range of industries — from digital infrastructure such as data centres, where demand is surging worldwide amid the rapid expansion of AI, to other existing and emerging applications Kawasaki will provide core equipment and operational expertise in the midstream of the liquefied hydrogen supply chain, building on its track record as the worldʼs first builder of a liquefied hydrogen carrier, together with its capabilities in the design and construction of export and import terminals and ship-to-shore interfaces. EcoLog, drawing on its expertise in cryogenic cargo transportation cultivated through LNG operations, will serve as the prospective owner and operator of liquefied hydrogen carriers and import terminals, bridging hydrogen supply and demand. By combining these respective strengths and the accrued expertise of Kawasaki and EcoLog, the companies will accelerate the realization of international liquefied hydrogen supply chains across Europe, including in the Netherlands and Germany, and ultimately in Asia, including in Japan, contributing to global decarbonization and energy security. READ the latest news shaping the hydrogen market at Hydrogen Central EcoLog and Kawasaki Sign Strategic Alliance in Liquefied Hydrogen Midstream The post EcoLog and Kawasaki Sign Strategic Alliance in Liquefied Hydrogen Midstream appeared first on Hydrogen Central .</description>
-      <pubDate>Thu, 21 May 2026 18:21:36 +0000</pubDate>
-      <guid isPermaLink="false">1779389111078196</guid>
     </item>
   </channel>
 </rss>
