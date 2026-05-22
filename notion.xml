@@ -4,8 +4,8 @@
     <title>Hydrogen</title>
     <link>https://rationalnl.github.io/Rss-feed/notion.xml</link>
     <description>RSS feed of Hydrogen</description>
-    <pubDate>Fri, 22 May 2026 12:30:01 +0000</pubDate>
-    <lastBuildDate>Fri, 22 May 2026 12:30:01 GMT</lastBuildDate>
+    <pubDate>Fri, 22 May 2026 13:00:01 +0000</pubDate>
+    <lastBuildDate>Fri, 22 May 2026 13:00:01 GMT</lastBuildDate>
     <ns0:link href="https://rationalnl.github.io/Rss-feed/notion.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Power2X takes FID on 20-MW Dutch green hydrogen project - Renewables Now</title>
@@ -43,6 +43,13 @@
       <guid isPermaLink="false">1779444907762901</guid>
     </item>
     <item>
+      <title>South Holland sets pace with hydrogen - MobilityEnergy.com</title>
+      <link>https://news.google.com/rss/articles/CBMikgFBVV95cUxNT0JIeXdOb3VJZnpYQXZBS0gxTmxYSGRmT19MVDRZSmlVODVBMnRRQ1htWEN0c2xqS2dUTy1KUFRSWElUNXUyaGtHLWt4c3MwLTNoV21Sb3pYWXlNSldKbjd2YnNYRkhvNmE2R29uSUtVRjNWXzZZVkpWR2tWSlRtenFfR0RPLWtHUnoyWHFyS1o3UQ?oc=5</link>
+      <description>South Holland sets pace with hydrogen MobilityEnergy.com</description>
+      <pubDate>Fri, 22 May 2026 09:37:13 +0000</pubDate>
+      <guid isPermaLink="false">1779453909213942</guid>
+    </item>
+    <item>
       <title>Dutch e-fuels firm takes FID on 20MW green hydrogen project - Hydrogen Europe</title>
       <link>https://news.google.com/rss/articles/CBMijwFBVV95cUxQcHlkQlpPVE00d3BvU2NQck5JbHdiTWl6cGczOWx2M19BSXlwTFNtVXhqSDZyeG1XV1E1S0xwUTBSR2QzQWx6NHlSMzR6NkJIbGhaZHhiMFRFZTlVUnVQMlROLWdLM0ZuTTBsQjViWVpEeEQ3b29GNVk4Qks3djlJZGtueGw5Wi1JbUt0T0FnQQ?oc=5</link>
       <description>Dutch e-fuels firm takes FID on 20MW green hydrogen project Hydrogen Europe</description>
@@ -69,13 +76,6 @@
       <description>Gasunie bouwt waterstofverbinding met Duitsland via bestaande aardgasleidingen TW.nl</description>
       <pubDate>Fri, 22 May 2026 05:57:51 +0000</pubDate>
       <guid isPermaLink="false">1779430527397175</guid>
-    </item>
-    <item>
-      <title>Netherlands opens first 32-kilometer hydrogen pipeline from Maasvlakte to Pernis - NL Times</title>
-      <link>https://news.google.com/rss/articles/CBMipAFBVV95cUxQR1NBTjJ6VjZFSU9KZWlHb3VpenNtS1dLSlp6Q1JheS1BbEhYcDM0UmRNdC0tSnc5N0xQSFNneTU1VEpmc2liYnA2NVFMYWpwQWpNTkxPOHNEYXprSi1UUnZzanVIb3pxd1d4SlpaY3A3ZEdSelYzVkVqdEh3cWo1M2F0YnRaMS1GMG5YUkRUZ2gzcDY0OTAtZEVpZXpGUnVtV1M4Sg?oc=5</link>
-      <description>Netherlands opens first 32-kilometer hydrogen pipeline from Maasvlakte to Pernis NL Times</description>
-      <pubDate>Thu, 21 May 2026 19:10:00 +0000</pubDate>
-      <guid isPermaLink="false">1779390910828048</guid>
     </item>
   </channel>
 </rss>
