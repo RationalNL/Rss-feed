@@ -1,12 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Hydrogen</title>
     <link>https://rationalnl.github.io/Rss-feed/notion.xml</link>
     <description>RSS feed of Hydrogen</description>
-    <pubDate>Wed, 27 May 2026 14:00:02 +0000</pubDate>
-    <lastBuildDate>Wed, 27 May 2026 14:00:02 GMT</lastBuildDate>
+    <pubDate>Wed, 27 May 2026 14:30:01 +0000</pubDate>
+    <lastBuildDate>Wed, 27 May 2026 14:30:01 GMT</lastBuildDate>
     <ns0:link href="https://rationalnl.github.io/Rss-feed/notion.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Groene waterstof: hoe Nederland een sleutelspeler kan worden - Change Inc.</title>
+      <link>https://news.google.com/rss/articles/CBMi9AFBVV95cUxOYURvQ3k2NzhidGg0a1NwUGNMNVBIamtEcUUtR3RsZU9zRzg1WHRZMVhocHRCanp6NlRTaHFKenE1b0JFc0RxdjZoa2lpSlJJR2IzZ1R4ak1uSDVVclUzYVZJLUpNM242bVVjYXc2bDVZWU5NRXFEUF9nMVk4QS16czJMRFAzbG81UDNhbkNTNGtmeUhIQ2k0MGVYUEtUSm9zRGMyLUtUTjJHcTZaU1MxaVZpUkhVWjJNdG44eW9xV2I3NFVLU2R3aDFwUnRnMXJUM29wR3B1ZXBwVmVoUTBaRnktSkVjRFZIT1NYaDg2X0xFOXMy?oc=5</link>
+      <description>Groene waterstof: hoe Nederland een sleutelspeler kan worden Change Inc.</description>
+      <pubDate>Wed, 27 May 2026 13:50:56 +0000</pubDate>
+      <guid isPermaLink="false">1779891308629480</guid>
+    </item>
     <item>
       <title>Hydrogen Corridor: Netherlands-Germany Joint Agreement - Fuel Cells Works</title>
       <link>https://news.google.com/rss/articles/CBMimgJBVV95cUxNeE44eEFDTllsNGQwRllRbUEtRUZZUEdHUzB3ZXpnWENQYTRiTEx0NW1YUF92TVQwS2dIRFBzRmZyOHRfcDA2bE4zbjdZTUJ0ZWQxWDYyOVc5WXE4eWdUM1NPVTlIdXZfcEdtTTAtb2E0djlUSWNZNU9DTW5rc3NEc1lZdDBuWHpQelRFdDJxTXZyVXNCSWZaaGdCcEdFM2xUQkkyNllaQmxfTzdobGhtc1ZHb3hQTzc5SWcxOFo2RlBoY2JHNWhpUUMtR1VVYmROTkxOeEk1WjFuQTNoY2tmM0k5bkFjc19yenFDZGc1NjhPbDQ0UGw0a1FCdlloQmw2ZlBGbFMyNVQza1Y1d1NlN1NTZ3NYYUhJeWc?oc=5</link>
@@ -69,15 +76,6 @@
       <description>First 32 km of Dutch Hydrogen Backbone Opened in Maasvlakte-Pernis Route - News and Statistics IndexBox</description>
       <pubDate>Sat, 23 May 2026 16:30:00 +0000</pubDate>
       <guid isPermaLink="false">1779569112745249</guid>
-    </item>
-    <item>
-      <title>Netherlands opens first 32-kilometer hydrogen pipeline from Maasvlakte to Pernis</title>
-      <link>https://hydrogen-central.com/netherlands-opens-first-32-kilometer-hydrogen-pipeline-from-maasvlakte-to-pernis/</link>
-      <dc:creator>itaizul0011</dc:creator>
-      <category>Business Development</category>
-      <description>Netherlands opens first 32-kilometer hydrogen pipeline from Maasvlakte to Pernis The Netherlands on Wednesday completed the first segment of its national hydrogen network, a 32-kilometer pipeline running from Maasvlakte to Pernis, an industrial hub where major refining activity is concentrated, according to Gasunie, which is building and operating the Dutch hydrogen network. The pipeline was formally opened during an event at the Schiecentrale, attended by King Willem-Alexander, climate minister Stientje van Veldhoven (D66), and Gasunie chief executive Willemien Terpstra. Commercial hydrogen flow through the initial pipeline segment will not start until late this year, when Shell brings a hydrogen production facility online. Shell will initially use the hydrogen internally for oil refining, and other companies will connect later. The full backbone is planned to expand to about 1,200 kilometers, much of it by repurposing existing natural gas infrastructure. It is designed primarily for industrial users seeking to reduce carbon emissions. Eventually, the system is expected to connect with Germany. Van Veldhoven called the project a “historical milestone,” saying it positions the Netherlands “in the heart of Europe’s clean energy system.” Despite the milestone, significant uncertainty surrounds the project’s long-term viability. The Dutch Court of Audit warned in December that large portions of the system may never be fully realized due to a “chicken-and-egg” problem: hydrogen infrastructure requires industrial demand, while industry investment depends on the infrastructure being in place. The government intends to subsidize Gasunie to cover potential losses once it builds the network. However, the Court of Audit said the subsidy was already too low, estimating that 2.5 billion euros in loss compensation may be needed—more than three times the current budget allocation. READ the latest news shaping the hydrogen market at Hydrogen Central Netherlands opens first 32-kilometer hydrogen pipeline from Maasvlakte to Pernis, source The post Netherlands opens first 32-kilometer hydrogen pipeline from Maasvlakte to Pernis appeared first on Hydrogen Central .</description>
-      <pubDate>Sat, 23 May 2026 16:12:39 +0000</pubDate>
-      <guid isPermaLink="false">1779552904586840</guid>
     </item>
   </channel>
 </rss>
