@@ -1,18 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Hydrogen</title>
     <link>https://rationalnl.github.io/Rss-feed/notion.xml</link>
     <description>RSS feed of Hydrogen</description>
-    <pubDate>Thu, 28 May 2026 09:00:01 +0000</pubDate>
-    <lastBuildDate>Thu, 28 May 2026 09:00:01 GMT</lastBuildDate>
+    <pubDate>Thu, 28 May 2026 09:30:01 +0000</pubDate>
+    <lastBuildDate>Thu, 28 May 2026 09:30:01 GMT</lastBuildDate>
     <ns0:link href="https://rationalnl.github.io/Rss-feed/notion.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First electrolysers delivered to Air Liquide’s 200MW Port of Rotterdam project - gasworld</title>
-      <link>https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQlBmNi10VWh5UXR5aFJ6NFBvMUtjYWZXc3owMkZYR2hJVXlhM01ZU3V4N3RvT1dPSmR3dGE0TDZENk92YkhSSTRlT2RjU3c4bW9NblNnTWp3SmJyUExpLWUySHBfMXNFSXZ4Q0xxSjNhdGRzZlVFdVd2bUxtckxvUFB3U2ZmN3F1Uk1ZanRQWm05M2w3cnBMM1BGU1dDaDV1aTRoNGVPWGozNjdnaWxVc0JEZnhDdS1JVUVIQmY5enRqczg?oc=5</link>
-      <description>First electrolysers delivered to Air Liquide’s 200MW Port of Rotterdam project gasworld</description>
-      <pubDate>Thu, 28 May 2026 07:35:03 +0000</pubDate>
-      <guid isPermaLink="false">1779954316732803</guid>
+      <title>First electrolysers delivered to Air Liquide’s 200MW Port of Rotterdam project</title>
+      <link>https://hydrogeneurope.eu/first-electrolysers-delivered-to-air-liquides-200mw-port-of-rotterdam-project/</link>
+      <dc:creator>Francesca Maddii</dc:creator>
+      <category>Members News</category>
+      <description>[…] The post First electrolysers delivered to Air Liquide’s 200MW Port of Rotterdam project appeared first on Hydrogen Europe .</description>
+      <pubDate>Thu, 28 May 2026 08:57:08 +0000</pubDate>
+      <guid isPermaLink="false">1779959710790834</guid>
     </item>
     <item>
       <title>Waterstof te duur, bruinkool blijft essentieel voor Duitsland en Nederland - Nieuwslens</title>
