@@ -4,8 +4,8 @@
     <title>Hydrogen</title>
     <link>https://rationalnl.github.io/Rss-feed/notion.xml</link>
     <description>RSS feed of Hydrogen</description>
-    <pubDate>Thu, 28 May 2026 13:30:02 +0000</pubDate>
-    <lastBuildDate>Thu, 28 May 2026 13:30:02 GMT</lastBuildDate>
+    <pubDate>Thu, 28 May 2026 14:00:02 +0000</pubDate>
+    <lastBuildDate>Thu, 28 May 2026 14:00:02 GMT</lastBuildDate>
     <ns0:link href="https://rationalnl.github.io/Rss-feed/notion.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Electrolysers Arrive at Air Liquide’s 200MW Rotterdam Hydrogen Project - Fuel Cells Works</title>
@@ -20,6 +20,13 @@
       <description>First electrolyser arrays arrive at 200-MW Dutch hydrogen project Renewables Now</description>
       <pubDate>Thu, 28 May 2026 12:13:39 +0000</pubDate>
       <guid isPermaLink="false">1779970506806812</guid>
+    </item>
+    <item>
+      <title>Waterstof Event Nederland 2026 richt zich op regionale opbouw van waterstofeconomie - Infrasite</title>
+      <link>https://news.google.com/rss/articles/CBMixwFBVV95cUxPZU03dGlOM2ctWTJlVUpzS2V0Y0M2Y2xKY1BsbUtGSEdsRGM5bHBlZW5OclM3dERKMVZsUUJmVHhKbk1iRWRUR0t0ODVqYUVfNGE0Y3FqNHRIa0JsM3JkZGN3X3BkYTFwQ1JZOXdUN3hIeGpaTWZxVFE0UkFla1QxTEhQd2dRbmVtdWc0ZU9vdm1lcmFSZHJaQzhLaFg3Zjlsc21ycUZuZG9RU3piakpDSUhRSE9XUG9BOFotanluMkQtSWRYM0ww?oc=5</link>
+      <description>Waterstof Event Nederland 2026 richt zich op regionale opbouw van waterstofeconomie Infrasite</description>
+      <pubDate>Thu, 28 May 2026 11:02:37 +0000</pubDate>
+      <guid isPermaLink="false">1779975909290236</guid>
     </item>
     <item>
       <title>First electrolysers delivered to Air Liquide’s 200MW Port of Rotterdam project</title>
@@ -71,13 +78,6 @@
       <description>Hydrogen plane first tested at operational Dutch airport - Manufacturing industry Maakindustrie</description>
       <pubDate>Wed, 27 May 2026 09:46:53 +0000</pubDate>
       <guid isPermaLink="false">1779900307050678</guid>
-    </item>
-    <item>
-      <title>Waterstofvliegtuig voor het eerst getest op operationele Nederlandse luchthaven - Maakindustrie</title>
-      <link>https://news.google.com/rss/articles/CBMiugFBVV95cUxQOVFWV3U0dHY1U2ZDaEdVMF9xVHdXSXhreEZ6ZDdRV29COXQwYzJ2LTJKOUxFZEl5dTBTLTVtUmdqOW9xWVZjOEU0LWpKR19nM0tGY1RxUkVWYUdXQmVLVE9rMFVRWmVjWDdmWk9TLXg0ekd3V0hwd0tzcWprUjBaWFEyT3BBY0l0bDFNN3JENEpNY0o3a1BTcW9Idk42ekhSdWxaaDcwQm5CM3lRTG1fYWVzNzh1ZmNOVmc?oc=5</link>
-      <description>Waterstofvliegtuig voor het eerst getest op operationele Nederlandse luchthaven Maakindustrie</description>
-      <pubDate>Wed, 27 May 2026 09:46:53 +0000</pubDate>
-      <guid isPermaLink="false">1779876923138571</guid>
     </item>
   </channel>
 </rss>
