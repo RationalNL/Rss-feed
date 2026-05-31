@@ -4,8 +4,8 @@
     <title>Hydrogen</title>
     <link>https://rationalnl.github.io/Rss-feed/notion.xml</link>
     <description>RSS feed of Hydrogen</description>
-    <pubDate>Sun, 31 May 2026 22:30:01 +0000</pubDate>
-    <lastBuildDate>Sun, 31 May 2026 22:30:01 GMT</lastBuildDate>
+    <pubDate>Sun, 31 May 2026 23:00:02 +0000</pubDate>
+    <lastBuildDate>Sun, 31 May 2026 23:00:02 GMT</lastBuildDate>
     <ns0:link href="https://rationalnl.github.io/Rss-feed/notion.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Waterstofvliegtuig test succesvol op Rotterdam The Hague Airport - Rijswijks Dagblad</title>
@@ -63,13 +63,6 @@
       <guid isPermaLink="false">1780029914752411</guid>
     </item>
     <item>
-      <title>Nederland mogelijk verder van stikstofslot: lobbysucces in Brussel om uitzondering regels - De Telegraaf</title>
-      <link>https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUGNKaUNqc2lickVyc3hMeGR5V1JzOU9YMEtIdzJjcjFOWmkydHNpUjdid2RuVTRndkxYQ09lakdfaVZla2cyUTNVSUtfLUlDRjdHZWVabnJleXQ3WjQ1dTFpQWRseWVEM2lBZTdaSkVlcUc5NGhidVlXbHBNU0Fxejh4QTBOWk1DanVJVFVIN292ODBfemN5YlFPWjNiSDZlR0ZJLTNLOUpVaEY1ZlpQa2NkaC1yT19ObC1SRHUxRU01TWJGVFo4MlpHYVpKWEVPcF9IejVR?oc=5</link>
-      <description>Nederland mogelijk verder van stikstofslot: lobbysucces in Brussel om uitzondering regels De Telegraaf</description>
-      <pubDate>Fri, 29 May 2026 03:01:46 +0000</pubDate>
-      <guid isPermaLink="false">1780024510345250</guid>
-    </item>
-    <item>
       <title>Successful taxi test with AeroDelft hydrogen aircraft at Rotterdam The Hague Airport</title>
       <link>https://hydrogen-central.com/successful-taxi-test-with-aerodelft-hydrogen-aircraft-at-rotterdam-the-hague-airport/</link>
       <dc:creator>itaizul0011</dc:creator>
@@ -98,6 +91,13 @@
       <description>First electrolyser arrays arrive at 200-MW Dutch hydrogen project Renewables Now</description>
       <pubDate>Thu, 28 May 2026 12:13:39 +0000</pubDate>
       <guid isPermaLink="false">1779970506806812</guid>
+    </item>
+    <item>
+      <title>Electrolyser successfully delivered and positioned at Dutch ELYgator project - Quantum Commodity Intelligence</title>
+      <link>https://news.google.com/rss/articles/CBMixwFBVV95cUxQZG5NbEZ0UWlUMXFyVUQ3cjBobmxZRk9BWGw5RlhkeUxzYUtwdklxYnd4OEhKaDFSS213c3lOUk5VbHdqNGdWWFpUZHZTRlBwYnRUOTFVTkU0VUZzVW9zMGFOVDg2dVI1ekc1WjFkSTRSUnBZZnpoUGx2S3BGTkNmdVlacXZaX0lYTXVyTmt5UEstTWxMT0VaNTd6ZHZGV3FFeFRrYThnc1M4MDk4REl2M0tWOUV2MjBMRHdJb0N4Y3F5dkxhOUFF?oc=5</link>
+      <description>Electrolyser successfully delivered and positioned at Dutch ELYgator project Quantum Commodity Intelligence</description>
+      <pubDate>Thu, 28 May 2026 09:31:00 +0000</pubDate>
+      <guid isPermaLink="false">1780010112153953</guid>
     </item>
   </channel>
 </rss>
