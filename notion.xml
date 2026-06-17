@@ -1,12 +1,39 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Hydrogen</title>
     <link>https://rationalnl.github.io/Rss-feed/notion.xml</link>
     <description>RSS feed of Hydrogen</description>
-    <pubDate>Wed, 17 Jun 2026 11:30:02 +0000</pubDate>
-    <lastBuildDate>Wed, 17 Jun 2026 11:30:02 GMT</lastBuildDate>
+    <pubDate>Wed, 17 Jun 2026 12:00:01 +0000</pubDate>
+    <lastBuildDate>Wed, 17 Jun 2026 12:00:01 GMT</lastBuildDate>
     <ns0:link href="https://rationalnl.github.io/Rss-feed/notion.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CEO-led Call-to-Action: Hydrogen for a resilient world</title>
+      <link>https://hydrogencouncil.com/en/ceo-led-call-to-action-hydrogen-for-a-resilient-world/</link>
+      <dc:creator>Marion Therage</dc:creator>
+      <category>Category</category>
+      <category>Decarbonization</category>
+      <category>Electrolyzers</category>
+      <category>Energy Transition</category>
+      <category>Events</category>
+      <category>Format</category>
+      <category>Fuel Cells</category>
+      <category>Hydrogen in Action</category>
+      <category>Industry</category>
+      <category>Market Overview</category>
+      <category>Members</category>
+      <category>Production</category>
+      <category>Refueling</category>
+      <category>Social Content</category>
+      <category>Subject Matter</category>
+      <category>Technology</category>
+      <category>Thought Leadership</category>
+      <category>Transport</category>
+      <category>Video</category>
+      <description>Last month, at the World Hydrogen Summit in Rotterdam, we launched ‘Hydrogen for a Resilient World’ – a CEO-led Call-to-Action urging governments to accelerate hydrogen deployment as a cornerstone of energy resilience, security and decarbonisation. In o ur latest video , Hydrogen Council member CEOs and senior leaders explain why hydrogen is a strategic choice for achieving deep electrification and enduring resilience in a rapidly changing world . Filmed at the World Hydrogen Summit, the message is very clear: Capital is committed, with more than $110bn committed across 510+ projects globally. Technologies are proven at industrial scale and infrastructure is being built. The next wave of investment requires policy certainty. Key growth markets around the world are showing how key challenges can be addressed, whether it’s cost or offtake agreements. 2026 can be a breakthrough year for clean hydrogen if supply, demand and policy align. The Call-to-Action sets out three priorities for governments: 1️ ⃣ Act now – embed hydrogen in emergency crisis response measures 2️ ⃣ Activate demand creation tools 3️ ⃣ Boost critical infrastructure investment As a global industry, we stand ready to work with governments, lead through this pivotal moment of change, build up hydrogen as a strategic system enabler, and together deliver a more resilient world. Watch the video below –and read the full Call-to-Action here With thanks to François Jackow, Co-Chair, Hydrogen Council and CEO, Air Liquide; Linda Dempsey, VP Public Affairs, CF Industries; Ivo Bols, President EMEA, Air Products; Boudewijn Siemons , CEO, Port of Rotterdam; Mark Freymueller, CEO, Hyundai Energy &amp; Hydrogen Europe, Hyundai Motor Group; Pierre-Etienne Franc, Co-founder and CEO, Hy24. The post CEO-led Call-to-Action: Hydrogen for a resilient world appeared first on Hydrogen Council .</description>
+      <pubDate>Wed, 17 Jun 2026 10:53:07 +0000</pubDate>
+      <guid isPermaLink="false">1781695814617288</guid>
+    </item>
     <item>
       <title>Dutch hydrogen-powered barge company Future Proof Shipping goes under - Hydrogen Insight</title>
       <link>https://news.google.com/rss/articles/CBMiwAFBVV95cUxPejNTdHN4UXRYYmFiUlVvQ0p5ZlVOZnh3TWU2bGRLZFJuQ3o4ZmF4ZlY2Uk8xQnFSLVhzRk9kY2RPdDk3d3hRUmRyRmNrcUc2TlJ6X19PbHEtR2FrYThfZXJCdFgwZzZOUkJyZ2QzajQ0a0NXT3JSVS1BcGdVWHFTd2R2Mk8xc2V4aHdlYVV5Nkw0Y29MRGFtYWRuWHBPRWFMSTE2cXNrbjgycGZlUlRLT2VkdXpld0dYWnl6R3pjWk8?oc=5</link>
@@ -69,13 +96,6 @@
       <description>Weg met de dieselbus: kustbus in de Noordkop gaat toch op waterstof rijden Noordhollands Dagblad</description>
       <pubDate>Sat, 06 Jun 2026 08:00:00 +0000</pubDate>
       <guid isPermaLink="false">1781586011123913</guid>
-    </item>
-    <item>
-      <title>Gasunie backs Oman and Europe hydrogen corridor - Oman Observer</title>
-      <link>https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSHdtMzJOaExBNUt4cU1GMzN2Y0p1X0dLbURuNnlxdHc5RmUyczdRcHlqZmQybDBGX0RJcHRjaXBHVExNeklxd2N3YXFSV0JnbFB0UzNHc0gtZHJEMWdjRjhUM0ZQSzY3MU4xSHFLT05SOWZSX0VYTmdJNXhuZXY3X3FRaUtmMFBYekN4M3VJVEwydFVXWEc3S0tWTUZlUWFkaGdfTFQxNTdTalXSAVpBVV95cUxNTjFIajFYTUotTXh2MURaNE82cUU0Vm9ObkhlbXFDYk92d2FRbDU1UXRRc2hqTkJtbWRvalp1Y29xMUgxM3FyRUpZcWZaVVdONEJnNTUyMXctUEE?oc=5</link>
-      <description>Gasunie backs Oman and Europe hydrogen corridor Oman Observer</description>
-      <pubDate>Sat, 06 Jun 2026 07:00:00 +0000</pubDate>
-      <guid isPermaLink="false">1781690416442868</guid>
     </item>
   </channel>
 </rss>
