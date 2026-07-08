@@ -1,12 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Hydrogen</title>
     <link>https://rationalnl.github.io/Rss-feed/notion.xml</link>
     <description>RSS feed of Hydrogen</description>
-    <pubDate>Wed, 08 Jul 2026 06:00:02 +0000</pubDate>
-    <lastBuildDate>Wed, 08 Jul 2026 06:00:02 GMT</lastBuildDate>
+    <pubDate>Wed, 08 Jul 2026 06:30:01 +0000</pubDate>
+    <lastBuildDate>Wed, 08 Jul 2026 06:30:01 GMT</lastBuildDate>
     <ns0:link href="https://rationalnl.github.io/Rss-feed/notion.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zonder waterstof geen smeuïge pot: wordt Oosterhout de pindakaashoofdstad van Nederland? - BN DeStem</title>
+      <link>https://news.google.com/rss/articles/CBMiywFBVV95cUxOdV9lZVhFYWFyaHNlQ3duM3RxNFpGOVFJWjBMQkZhb29Rb1ZjaVFjd0FLSWs2ZTFqR04xazVuVFVTU1doR3p4RjUzR015empXaW1UaHp1Vm9COEFvcEZkYzItalBpUXNVNGtQdGhpMGp1bThkd1hhZDZWeXpFZGNCejJnRHVZLWZ3Sy15b0tOS1QzeWZjdHFESUpXclN1c3dYdlNhX0s3d29zYjU5RTZHeFZOcjJGLW43aWxoMmt3X2dlQ2IwUkF4SlhVUQ?oc=5</link>
+      <description>Zonder waterstof geen smeuïge pot: wordt Oosterhout de pindakaashoofdstad van Nederland? BN DeStem</description>
+      <pubDate>Tue, 07 Jul 2026 19:24:00 +0000</pubDate>
+      <guid isPermaLink="false">1783490412935850</guid>
+    </item>
     <item>
       <title>Gasunie-dochter kan aan de slag met waterstofopslag in zoutkoepels. ’Gas, waterstof, kerncentrales: dump het maar hier’ - DVHN</title>
       <link>https://news.google.com/rss/articles/CBMi7wFBVV95cUxNR2ZtZ3hhTk84eE9kOXpvdVA3YXZiNVRRRFdxVWhnbGcyUTdvWmpvM3lTMXlnUUEtTEtqS3I0bGU4c05FUnBOdnNTRHNYdHQ2cWx5XzA2ZjVPam9CVklnc0R6aE9hT0RXcU9PWlFST2R4T09sZnRjWm9URUtoNEpBb183MTJjaTMtMEFqZUJrZy1idzc4S29IWTlZYzFZVjZPdnk1VHdBMDFCZnlkTjVJaktPM1Q1WHk5N3gzLU5fZG1OMXF4a2ZOc1FaalR0aEZYYWw4YjhpeHZ3cW9LNjBKd2Z0dHZUWk5TT1Q5QXo3QQ?oc=5</link>
@@ -69,16 +76,6 @@
       <description>First green hydrogen flows from 5MW Dutch project as construction continues gasworld</description>
       <pubDate>Mon, 06 Jul 2026 07:27:23 +0000</pubDate>
       <guid isPermaLink="false">1783324809856692</guid>
-    </item>
-    <item>
-      <title>First 25 kilos of green hydrogen produced at H2 Hollandia</title>
-      <link>https://hydrogen-central.com/first-25-kilos-of-green-hydrogen-produced-at-h2-hollandia/</link>
-      <dc:creator>itaizul0011</dc:creator>
-      <category>Green H2</category>
-      <category>Green Hydrogen</category>
-      <description>First 25 kilos of green hydrogen produced at H2 Hollandia A special milestone for the energy transition in the Netherlands: the first 25 kilos of green hydrogen have been produced at H2 Hollandia in Drenthe. Although the entire installation is not yet in place, this first production demonstrates that the system works. The compressor will follow, as will the refueling infrastructure that will soon enable local industry and heavy transport to be supplied with green hydrogen. From sustainable generation to application in the region H2 Hollandia is a special project for the Netherlands. At this location, large-scale generation of sustainable energy, smart conversion to hydrogen, and concrete application in the region come together. That is exactly what the energy transition calls for. Not only generating sustainable energy, but also ensuring that this energy becomes available at the right time, in the right place, and in the right form. For some applications, green electricity is immediately the best solution. For other applications, green hydrogen can play an important role. That is precisely why this first production is more than a technical test. It is a concrete step towards a new sustainable energy infrastructure. Important step for H2 Hollandia The fact that the first green hydrogen has now been successfully produced is an important step in the further development of H2 Hollandia. The project is unique in the Netherlands due to its scale, ambition, and impact. In the coming period, work will continue on the installation and infrastructure needed to make green hydrogen available to local industry and heavy transport. Together with partners This milestone has been reached thanks to the efforts of all partners contributing to H2 Hollandia. In particular, Avitec, the Municipality of Borger-Odoorn, and the Province of Drenthe for their involvement and support. The first green hydrogen has been produced. And that is just the beginning. READ the latest news shaping the hydrogen market at Hydrogen Central First 25 kilos of green hydrogen produced at H2 Hollandia, source The post First 25 kilos of green hydrogen produced at H2 Hollandia appeared first on Hydrogen Central .</description>
-      <pubDate>Sun, 05 Jul 2026 17:10:46 +0000</pubDate>
-      <guid isPermaLink="false">1783272608011944</guid>
     </item>
   </channel>
 </rss>
