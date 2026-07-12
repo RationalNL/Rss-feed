@@ -1,12 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Hydrogen</title>
     <link>https://rationalnl.github.io/Rss-feed/notion.xml</link>
     <description>RSS feed of Hydrogen</description>
-    <pubDate>Sun, 12 Jul 2026 06:00:01 +0000</pubDate>
-    <lastBuildDate>Sun, 12 Jul 2026 06:00:01 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 06:30:02 +0000</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 06:30:02 GMT</lastBuildDate>
     <ns0:link href="https://rationalnl.github.io/Rss-feed/notion.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dutch cabinet pledges $513m for underground hydrogen storage project - MSN</title>
+      <link>https://news.google.com/rss/articles/CBMiygFBVV95cUxQZG1BTmlJaTFsdXJ3SHluSHJGdlRjcTRERktJaHdtNXpCR3pUVG5ZVl90LWpIcEhRSGxlWE5hS0VPT1NIUWQzYjhkQTY0ZW1Qb1IzcWExRjRwbGl1aG05Wk1pazhvbG1kalJJalA1aU5WcGhucFQ0M0tsaGRwMTFGOWdrZjZtOGFHTlJPWVpFcC13b3pET1Rya2s4RUo3Rjc4NHhOY2g3eWVScjZZRmhIamJYNkU1UWZJYXhpa2xsQmd6bGw5aDQyS0NB?oc=5</link>
+      <description>Dutch cabinet pledges $513m for underground hydrogen storage project MSN</description>
+      <pubDate>Sat, 11 Jul 2026 20:59:12 +0000</pubDate>
+      <guid isPermaLink="false">1783836006994511</guid>
+    </item>
     <item>
       <title>Oman, Dutch partners step up green hydrogen corridor initiative - Oman Observer</title>
       <link>https://news.google.com/rss/articles/CBMiWkFVX3lxTFBScTVZYkh3bXJFTmFwY1g0ZkdWYUdJU2JPYmFkVzctWEd4dDNnVWtxT2JDQmtMZEFOM2cweVhmNk91b3lWbUc1Mmx3UXFueWEtV0xUQnJnWllhd9IBWkFVX3lxTFBScTVZYkh3bXJFTmFwY1g0ZkdWYUdJU2JPYmFkVzctWEd4dDNnVWtxT2JDQmtMZEFOM2cweVhmNk91b3lWbUc1Mmx3UXFueWEtV0xUQnJnWllhdw?oc=5</link>
@@ -69,15 +76,6 @@
       <description>Netherlands Invests EUR450M in HyStock Hydrogen Storage Project at Zuidwending - News and Statistics IndexBox</description>
       <pubDate>Thu, 09 Jul 2026 08:22:00 +0000</pubDate>
       <guid isPermaLink="false">1783589418115833</guid>
-    </item>
-    <item>
-      <title>Dutch cabinet pledges $513m for underground hydrogen storage project</title>
-      <link>https://hydrogen-central.com/dutch-cabinet-pledges-513m-for-underground-hydrogen-storage-project/</link>
-      <dc:creator>itaizul0011</dc:creator>
-      <category>Business Development</category>
-      <description>Dutch cabinet pledges $513m for underground hydrogen storage project The Dutch cabinet has announced plans to allocate €450m ($513m) to Gasunie, the state-owned gas network operator, to support the development of a large-scale underground hydrogen storage facility in Zuidwending. The funding is subject to approval by the House of Representatives. It is intended for Project HyStock and is aimed at enhancing the Netherlands’ hydrogen infrastructure as part of the country’s broader energy transition strategy. Project HyStock involves the construction of four underground salt caverns, designed to store up to 200,000 tonnes (t) of hydrogen. This facility is expected to operate alongside existing natural gas storage and would connect to the national hydrogen network planned for the Netherlands. According to the Dutch cabinet, the storage capacity is seen as essential for balancing hydrogen supply and demand, particularly as the country aims to develop a “well-functioning hydrogen chain”. Gasunie has already conducted initial studies and feasibility tests at the Zuidwending site. The company anticipates that the first cavern could be operational around 2031. However, Gasunie has not yet reached a final investment decision regarding the site. Dutch Climate and Green Growth Minister Van Veldhoven has formally communicated the cabinet’s decision to the House of Representatives. The Dutch Cabinet stated: With this investment, the Cabinet prevents storage from becoming the weak link in the chain. ”It is a concrete step to increase the security of energy supply and prepare the Netherlands for a future with sustainable hydrogen.” The government’s financial contribution is intended to address risks that private investors may be reluctant to take on at this stage of the hydrogen market’s development. These include uncertainty over the price of pillow gas, the risk of insufficient storage volumes in the initial years, and possible permitting delays. However, the cabinet clarified that the funding does not provide protection against unexpected construction costs or cover standard business risks, and the responsibility for successful delivery remains with the HyStock project. The Zuidwending location was selected due to previous experience with underground gas storage and favourable connections to existing infrastructure. Plans call for installations to manage hydrogen transfer into and out of the storage caverns. The project is expected to take between ten to 15 years from planning to commissioning, reflecting the early-stage nature of the Dutch hydrogen market. “Dutch cabinet pledges $513m for underground hydrogen storage project” was originally created and published by Energy Monitor , a GlobalData owned brand. READ the latest news shaping the hydrogen market at Hydrogen Central Dutch cabinet pledges $513m for underground hydrogen storage project, source The post Dutch cabinet pledges $513m for underground hydrogen storage project appeared first on Hydrogen Central .</description>
-      <pubDate>Thu, 09 Jul 2026 08:14:23 +0000</pubDate>
-      <guid isPermaLink="false">1783585812800573</guid>
     </item>
   </channel>
 </rss>
