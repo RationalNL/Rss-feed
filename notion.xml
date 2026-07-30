@@ -1,12 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Hydrogen</title>
     <link>https://rationalnl.github.io/Rss-feed/notion.xml</link>
     <description>RSS feed of Hydrogen</description>
-    <pubDate>Thu, 30 Jul 2026 16:30:01 +0000</pubDate>
-    <lastBuildDate>Thu, 30 Jul 2026 16:30:01 GMT</lastBuildDate>
+    <pubDate>Thu, 30 Jul 2026 17:00:01 +0000</pubDate>
+    <lastBuildDate>Thu, 30 Jul 2026 17:00:01 GMT</lastBuildDate>
     <ns0:link href="https://rationalnl.github.io/Rss-feed/notion.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EC approves Dutch state aid for ships running on green methanol, hydrogen</title>
+      <link>https://hydrogeneurope.eu/ec-approves-dutch-state-aid-for-ships-running-on-green-methanol-hydrogen/</link>
+      <dc:creator>Francesca Maddii</dc:creator>
+      <category>Other media</category>
+      <description>[…] The post EC approves Dutch state aid for ships running on green methanol, hydrogen appeared first on Hydrogen Europe .</description>
+      <pubDate>Thu, 30 Jul 2026 16:39:41 +0000</pubDate>
+      <guid isPermaLink="false">1785429907005676</guid>
+    </item>
     <item>
       <title>PosHYdon begins green hydrogen production on Dutch North Sea platform - Offshore Magazine</title>
       <link>https://news.google.com/rss/articles/CBMiygFBVV95cUxOaHZOSUxoOWpobVVkQzhkSUc5MW5xZjRTZ1diSHdNTzZmMXd1QW41c1JscTJjb01lUEZNUWp3aThxZTVUQmJBczFvWmhIM1NXVzBDei12OGt1RzJ6ekFPUVBtZTNQckUwd1owVnR0VXVFcHRyc3RvM2ZDQ3p5aU9RQ2JzNW8yNjZlOUItNXIxMHR2azVMQXVDMjdBZWlCWml1ZjBZbUVCdXJOWEtTb0tqekNjOG10Q1A3N095MGtFdE9mOUZFZVZkRWhn?oc=5</link>
@@ -55,13 +64,6 @@
       <description>Eni platform produces first offshore hydrogen in Dutch North Sea Upstream Online</description>
       <pubDate>Tue, 28 Jul 2026 06:27:36 +0000</pubDate>
       <guid isPermaLink="false">1785221107279659</guid>
-    </item>
-    <item>
-      <title>EC approves Dutch state aid for ships running on green methanol, hydrogen - S&amp;P Global</title>
-      <link>https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZ29MZXJSMDd3TDctLXR5QTRPdlZKS3VnRlBIVjV4M0tmUjMyVmJZU0hUci1aQ2wtYnR3WENGd2xtbWpzTjkzcDFMMm9KTEI5WEpvSHBuTXI2RklZMUU3c2h5dFFKZ2JaMHNHQXkwaS1mRGF2NmRMX2Zwbk5STURBaHFNdFhhVXd3LUdybkFEcXcydngxZEpKQ0w0Y3djVHktQTR1UkpqQy1ObnpnQ0NBbjY3SmpOM2p6M3NjMTJJRjdPYVFXNmJjUmJWZDRfbmtOa2tMNTNGblRlLWlqLVVNdTFhNA?oc=5</link>
-      <description>EC approves Dutch state aid for ships running on green methanol, hydrogen S&amp;amp;P Global</description>
-      <pubDate>Mon, 27 Jul 2026 17:20:18 +0000</pubDate>
-      <guid isPermaLink="false">1785213908467916</guid>
     </item>
     <item>
       <title>Struggling Dutch hydrogen company at risk of bankruptcy as it secures court protection from creditors - Hydrogen Insight</title>
