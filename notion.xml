@@ -1,12 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Hydrogen</title>
     <link>https://rationalnl.github.io/Rss-feed/notion.xml</link>
     <description>RSS feed of Hydrogen</description>
-    <pubDate>Thu, 13 Aug 2026 16:30:01 +0000</pubDate>
-    <lastBuildDate>Thu, 13 Aug 2026 16:30:01 GMT</lastBuildDate>
+    <pubDate>Thu, 13 Aug 2026 17:00:01 +0000</pubDate>
+    <lastBuildDate>Thu, 13 Aug 2026 17:00:01 GMT</lastBuildDate>
     <ns0:link href="https://rationalnl.github.io/Rss-feed/notion.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Netherlands PM highlights hydrogen investment during Rotterdam port visit - Quantum Commodity Intelligence</title>
+      <link>https://news.google.com/rss/articles/CBMiwwFBVV95cUxNY09Jb1hjazJybFFXUlltbEF6QV9LanJRaW1RWmllTXFDcjBKNmRqS3JHRVFlZXRhR3RQOXBIT0trUUI3ZnY4cDZUM3NYVEpVNXdIWW96T21vSWlhdzdtS0lnSm9rQmg2MmNJaTQ4SnpvMGllZ3VNOVV6ejZFWjlzVjhqRWxHc2Q2VVZvQmgyMnJsLTRERUs5VEkxVDdaN3NBNWViaEFNdTdWOHJjMUp4UTc0MEJrZ3lSTFNDdFZmRklIRFU?oc=5</link>
+      <description>Netherlands PM highlights hydrogen investment during Rotterdam port visit Quantum Commodity Intelligence</description>
+      <pubDate>Thu, 13 Aug 2026 12:02:50 +0000</pubDate>
+      <guid isPermaLink="false">1786639510052466</guid>
+    </item>
     <item>
       <title>Rob Jetten tours Rotterdam Port's logistics and hydrogen facilities - Data Portuaria</title>
       <link>https://news.google.com/rss/articles/CBMirgFBVV95cUxPWGwyZ1MyVXZpaFM3NmJuQkJKZGhRR1hrVlBSMzdTcFpab2NOQXQzRkZWXzd1SFhUVTFhMmlZNFY3aTBZVU1fQzQxWmtoSUNtYjhKZ2hQTWdRYkFPX3JsODRNWGdfeHVGTTh4a1Z5NGxjRVJSNXFQNHJOTzZna3NwaXBBZW45WkVOV1hFOE5OTnZ4RXg3SERFQko1ZEx4UUplRGp5N1BiTkwzRGRGR0E?oc=5</link>
@@ -69,15 +76,6 @@
       <description>Hydrogen - EU backs €103m Dutch aid for greener vessels amid shipping emission concerns Hydrogen Central</description>
       <pubDate>Sun, 09 Aug 2026 09:26:01 +0000</pubDate>
       <guid isPermaLink="false">1786268707547877</guid>
-    </item>
-    <item>
-      <title>Resato Hydrogen Technology BV Files for Suspension of Payments</title>
-      <link>https://hydrogen-central.com/resato-hydrogen-technology-bv-files-for-suspension-of-payments/</link>
-      <dc:creator>itaizul0011</dc:creator>
-      <category>Business Development</category>
-      <description>Resato Hydrogen Technology BV Files for Suspension of Payments On July 21, an application for suspension of payments was filed on behalf of Resato Hydrogen Technology. This is unfortunate news that creates uncertainty for employees, customers, suppliers, and partners. After funding became uncertain, every effort was made to secure new financing in time for the next phase of Resato Hydrogen Technology (RHT). On Monday, July 20, it was concluded that while there is significant support and interest, there is not yet sufficient financing available for the immediate short term. As a result, the company cannot continue as is, making a stay of payments unavoidable. RHT is a well-known company based in Assen that manufactures hydrogen refueling stations and has rapidly grown to become a European technology leader and market leader in hydrogen mobility. Administrator Jeroen Sprangers (REIN) was appointed by the court on July 22 and immediately began his duties at RHT. With the administrator on board, the next steps are being determined. RHT, in collaboration with the administrator, is handling external communications with all stakeholders: customers, suppliers, and others. In recent weeks, as the financing issues have come to the fore, there have been many expressions of support and positive offers of assistance from politicians, industry organizations, and public and private entities in the Netherlands and Europe. Building on these positive developments, RHT hopes that a relaunch will be possible with one or more new short- and long-term financiers. Discussions are underway regarding several concrete leads, and RHT is open to serious candidates, preferably those with strategic synergies. Resato Hydrogen Technology is grateful to its customers, suppliers, and partners and proud of its employees. Together, they have made it possible for Resato Hydrogen Technology to complete the journey it has undertaken so far. We at RHT are fully committed to ensuring that we can still embark on the next phase. READ the latest news shaping the hydrogen market at Hydrogen Central Resato Hydrogen Technology BV Files for Suspension of Payments, source The post Resato Hydrogen Technology BV Files for Suspension of Payments appeared first on Hydrogen Central .</description>
-      <pubDate>Sat, 08 Aug 2026 18:19:51 +0000</pubDate>
-      <guid isPermaLink="false">1786214706236192</guid>
     </item>
   </channel>
 </rss>
